@@ -20,8 +20,25 @@ public class LightManager : MonoBehaviour
         
     }
 
-    public void ChangeLight(Color color) {
+    public void AddLight(Color color) {
 
-        LightSource.color = color;
+        LightSource.color = CombineColors(LightSource.color, color);
+    }
+
+    public void RemoveLight(Color color)
+    {
+
+        LightSource.color -= color;
+    }
+
+    public static Color CombineColors(params Color[] aColors)
+    {
+        Color result = new Color(0, 0, 0, 0);
+        foreach (Color c in aColors)
+        {
+            result += c;
+        }
+        result /= aColors.Length;
+        return result;
     }
 }
