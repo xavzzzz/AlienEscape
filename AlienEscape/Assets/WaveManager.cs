@@ -38,4 +38,15 @@ public class WaveManager : MonoBehaviour
     public void FixedUpdate() {
         Draw();
     }
+
+    public void EditAmpli(float newAmp) {
+
+        amplitude = newAmp;
+    }
+
+    public void EditFrequency(float newFreq)
+    {
+
+        frequency = newFreq;
+    }
 }
