@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 396981640454937640}
   - component: {fileID: 4027725270652531711}
   - component: {fileID: 3272744475128237083}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ColorZoneBack
   m_TagString: Slot
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: -0.03, y: 0.08, z: 0.02}
+  m_Size: {x: 0.03, y: 0.08, z: 0.02}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3272744475128237083
 MonoBehaviour:
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 2322161789843314290}
   - component: {fileID: 8509766180076319505}
   - component: {fileID: 7101117037829758327}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ColorZoneFront (1)
   m_TagString: Slot
   m_Icon: {fileID: 0}
@@ -311,7 +311,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: -0.03, y: 0.08, z: 0.02}
+  m_Size: {x: 0.03, y: 0.08, z: 0.02}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7101117037829758327
 MonoBehaviour:
@@ -379,7 +379,7 @@ GameObject:
   - component: {fileID: 984290125948053696}
   - component: {fileID: 3162746193934161192}
   - component: {fileID: 5079312523339231027}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ColorZoneBack (1)
   m_TagString: Slot
   m_Icon: {fileID: 0}
@@ -412,7 +412,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: -0.03, y: 0.08, z: 0.02}
+  m_Size: {x: 0.03, y: 0.08, z: 0.02}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5079312523339231027
 MonoBehaviour:
@@ -786,7 +786,7 @@ GameObject:
   - component: {fileID: 3680585737988802818}
   - component: {fileID: 7829200984503600900}
   - component: {fileID: 1690973502445775237}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ColorZoneFront
   m_TagString: Slot
   m_Icon: {fileID: 0}
@@ -819,7 +819,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: -0.03, y: 0.08, z: 0.02}
+  m_Size: {x: 0.03, y: 0.08, z: 0.02}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1690973502445775237
 MonoBehaviour:

@@ -116,6 +116,7 @@ Library: C:\Users\xavie\Documents\GitHub\FFS\AlienEscape\AlienEscape\Temp\Stagin
 --compilation-defines=ENABLE_INPUT_SYSTEM
 --compilation-defines=ENABLE_LEGACY_INPUT_MANAGER
 --compilation-defines=TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+--compilation-defines=USE_INPUT_SYSTEM_POSE_CONTROL
 --compilation-defines=PACKAGE_PHYSICS
 --compilation-defines=PACKAGE_PHYSICS2D
 --compilation-defines=PACKAGE_TILEMAP
@@ -153,8 +154,9 @@ Library: C:\Users\xavie\Documents\GitHub\FFS\AlienEscape\AlienEscape\Temp\Stagin
 --compilation-defines=INCLUDE_UGUI
 --compilation-defines=INCLUDE_INPUT_SYSTEM
 --compilation-defines=INCLUDE_LEGACY_INPUT_HELPERS
---compilation-defines=TIMELINE_FRAMEACCURATE
 --compilation-defines=UNITY_ANALYTICS
+--compilation-defines=INPUT_SYSTEM_POSE_VALID
+--compilation-defines=TIMELINE_FRAMEACCURATE
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\xavie\Documents\GitHub\FFS\AlienEscape\AlienEscape\Temp\Burst
 --debug=Full

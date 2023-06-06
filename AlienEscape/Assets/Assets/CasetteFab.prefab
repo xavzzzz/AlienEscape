@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 4160625252721698096}
   - component: {fileID: 5238643322186399927}
   - component: {fileID: 3663075743178412268}
+  - component: {fileID: 837512336574305340}
   m_Layer: 0
   m_Name: cassette
   m_TagString: Untagged
@@ -147,7 +148,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 3663075743178412268}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -282,3 +284,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0010400836, y: 0.0006326224, z: 0.00011710524}
   m_Center: {x: 0, y: 0.000018043775, z: 0}
+--- !u!114 &837512336574305340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7738960198582467719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6660ea2a01f41974eaafa789ab134e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioFile: {fileID: 8300000, guid: 5e704bdb837d6421f83465bf6b5ed283, type: 3}

@@ -4,17 +4,28 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    public AudioSource CurrentCassetteTrack;
+    
 
     public void PlayCasette() {
-        
 
+        this.GetComponent<AudioSource>().Play();
     }
 
-    public void GetCasetteAudio()
+    public void PauseCasette()
     {
 
+        this.GetComponent<AudioSource>().Pause();
+    }
 
+    public void RewindCasette()
+    {
+
+        this.GetComponent<AudioSource>().Stop();
+    }
+
+    public void ChangeCasette(AudioClip newTape)
+    {
+        this.GetComponent<AudioSource>().clip = newTape;
     }
 
 

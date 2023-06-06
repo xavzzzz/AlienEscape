@@ -17,16 +17,17 @@ public class LightReticle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (inSlot) TorchLight.AddLight(ReticleColor);
+        
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Slot") inSlot = true;
+        if (other.tag == "Slot")  TorchLight.AddLight(ReticleColor);
     }
 
     void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Slot") inSlot = false; TorchLight.RemoveLight(ReticleColor);
+        //change remove light because can be called multiple times but should only be added once
+        if (other.tag == "Slot") inSlot = false; TorchLight.RemoveLight(ReticleColor); 
     }
 }
