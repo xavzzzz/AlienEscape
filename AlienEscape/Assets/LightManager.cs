@@ -23,12 +23,13 @@ public class LightManager : MonoBehaviour
     public void AddLight(Color color) {
 
         LightSource.color = CombineColors(LightSource.color, color);
+        Debug.Log("AddLight");
     }
 
     public void RemoveLight(Color color)
-    {
-
+    { 
         LightSource.color -= color;
+        Debug.Log("RemoveLight");
     }
 
     public static Color CombineColors(params Color[] aColors)
