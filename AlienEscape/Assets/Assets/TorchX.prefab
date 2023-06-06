@@ -147,9 +147,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LightSlots:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8509766180076319505}
+  - {fileID: 3162746193934161192}
+  - {fileID: 7829200984503600900}
+  - {fileID: 4027725270652531711}
   LightSource: {fileID: 2648118468477837352}
 --- !u!1 &2075554770816094255
 GameObject:
