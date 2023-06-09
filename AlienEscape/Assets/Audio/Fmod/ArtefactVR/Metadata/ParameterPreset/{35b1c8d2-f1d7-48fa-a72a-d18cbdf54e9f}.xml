@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{35b1c8d2-f1d7-48fa-a72a-d18cbdf54e9f}">
+		<property name="name">
+			<value>Result</value>
+		</property>
+		<relationship name="folder">
+			<destination>{dd2a58f7-53a3-4a4a-99ed-a1c1598ae3a8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{01c4bc03-15cf-4bcc-aee5-597201f8f9a3}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{01c4bc03-15cf-4bcc-aee5-597201f8f9a3}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.34000000357627869</value>
+		</property>
+		<property name="seekSpeedDescending">
+			<value>1</value>
+		</property>
+		<property name="seekSpeedAsymmetric">
+			<value>true</value>
+		</property>
+		<relationship name="automators">
+			<destination>{d007b8bc-b3ff-4815-b937-b7feb5fe4deb}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{d007b8bc-b3ff-4815-b937-b7feb5fe4deb}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>
