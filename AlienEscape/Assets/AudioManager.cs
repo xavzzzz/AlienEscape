@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    
+    [SerializeField] public bool opened;
+    private bool paused;
+    public Animator PlayerAnimator;
+
+    public void Awake()
+    {
+        paused = false;
+    }
 
     public void PlayCasette() {
 
@@ -13,8 +20,16 @@ public class AudioManager : MonoBehaviour
 
     public void PauseCasette()
     {
-
-        this.GetComponent<AudioSource>().Pause();
+        Debug.Log("pause");
+        if(!paused)
+        { 
+            this.GetComponent<AudioSource>().Pause(); paused = true;
+            
+        }
+        else
+        {
+            this.GetComponent<AudioSource>().UnPause(); paused = false;
+        }
     }
 
     public void RewindCasette()
@@ -26,6 +41,16 @@ public class AudioManager : MonoBehaviour
     public void ChangeCasette(AudioClip newTape)
     {
         this.GetComponent<AudioSource>().clip = newTape;
+    }
+
+    public void CloseCasette()
+    {
+        PlayerAnimator.SetBool("Show", false);
+    }
+
+    public void OpenCasette()
+    {
+        PlayerAnimator.SetBool("Show", true);
     }
 
 
