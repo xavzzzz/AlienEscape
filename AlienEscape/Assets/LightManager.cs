@@ -6,7 +6,7 @@ public class LightManager : MonoBehaviour
 {
     public List<Collider> LightSlots;
     public Light LightSource;
-
+    public LightReticle Manipulated;
 
     // Start is called before the first frame update
     void Start()
@@ -20,15 +20,15 @@ public class LightManager : MonoBehaviour
         
     }
 
-    public void AddLight(Color color) {
+    public void AddLight() {
 
-        LightSource.color = CombineColors(LightSource.color, color);
-        Debug.Log("AddLight");
+        LightSource.color = CombineColors(LightSource.color, Manipulated.ReticleColor);
+        Debug.Log(Manipulated.ReticleColor);
     }
 
-    public void RemoveLight(Color color)
+    public void RemoveLight()
     { 
-        LightSource.color -= color;
+        LightSource.color -= Manipulated.ReticleColor;
         Debug.Log("RemoveLight");
     }
 

@@ -1144,22 +1144,22 @@ PrefabInstance:
     - target: {fileID: 4134505312059479865, guid: 61217aa2e1063c74282c682514a8f0ed,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.070565484
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 61217aa2e1063c74282c682514a8f0ed,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 61217aa2e1063c74282c682514a8f0ed,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.99750715
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 61217aa2e1063c74282c682514a8f0ed,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 61217aa2e1063c74282c682514a8f0ed,
         type: 3}
@@ -1169,7 +1169,7 @@ PrefabInstance:
     - target: {fileID: 4134505312059479865, guid: 61217aa2e1063c74282c682514a8f0ed,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 188.093
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 61217aa2e1063c74282c682514a8f0ed,
         type: 3}
@@ -3420,6 +3420,21 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2648118468477837352, guid: 710b715190a021b4f8be7a308bcc210d,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2648118468477837352, guid: 710b715190a021b4f8be7a308bcc210d,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2648118468477837352, guid: 710b715190a021b4f8be7a308bcc210d,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3501456122489168262, guid: 710b715190a021b4f8be7a308bcc210d,
         type: 3}
       propertyPath: m_IsTrigger
@@ -3440,10 +3455,25 @@ PrefabInstance:
       propertyPath: m_UseGravity
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5079312523339231027, guid: 710b715190a021b4f8be7a308bcc210d,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5079312523339231027, guid: 710b715190a021b4f8be7a308bcc210d,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5079312523339231027, guid: 710b715190a021b4f8be7a308bcc210d,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5302877594092220783, guid: 710b715190a021b4f8be7a308bcc210d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -25.395
+      value: -25.333
       objectReference: {fileID: 0}
     - target: {fileID: 7669298098482934884, guid: 710b715190a021b4f8be7a308bcc210d,
         type: 3}
@@ -10121,19 +10151,7 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -10334,11 +10352,51 @@ PrefabInstance:
       propertyPath: m_InteractionLayers.m_Bits
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6534185589067765814, guid: ada3af550df52944795327721fba4946,
+        type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6534185589067765814, guid: ada3af550df52944795327721fba4946,
+        type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6534185589067765814, guid: ada3af550df52944795327721fba4946,
+        type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6534185589067765814, guid: ada3af550df52944795327721fba4946,
+        type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6534185589067765814, guid: ada3af550df52944795327721fba4946,
+        type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6534185589067765814, guid: ada3af550df52944795327721fba4946,
+        type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6534185589067765814, guid: ada3af550df52944795327721fba4946,
+        type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7803681112361898518, guid: ada3af550df52944795327721fba4946,
         type: 3}
       propertyPath: TorchLight
       value: 
       objectReference: {fileID: 1657690118}
+    - target: {fileID: 7803681112361898518, guid: ada3af550df52944795327721fba4946,
+        type: 3}
+      propertyPath: ReticleColor.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7803681112361898518, guid: ada3af550df52944795327721fba4946,
         type: 3}
       propertyPath: ReticleColor.b

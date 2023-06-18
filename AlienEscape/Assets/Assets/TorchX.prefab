@@ -153,6 +153,7 @@ MonoBehaviour:
   - {fileID: 7829200984503600900}
   - {fileID: 4027725270652531711}
   LightSource: {fileID: 2648118468477837352}
+  Manipulated: {fileID: 0}
 --- !u!1 &2075554770816094255
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,10 +376,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 345680484462760736}
+        m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
+        m_MethodName: AddLight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 345680484462760736}
+        m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
+        m_MethodName: RemoveLight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_OnHoverEntered:
