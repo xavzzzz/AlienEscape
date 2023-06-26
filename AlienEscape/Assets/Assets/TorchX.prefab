@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156782863404084292}
   m_LocalRotation: {x: -0, y: -0, z: 0.35546538, w: 0.93468946}
-  m_LocalPosition: {x: -0.10390091, y: 0.09929997, z: 0.0763}
+  m_LocalPosition: {x: -0.10390091, y: 0.09929997, z: 0.0353}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -77,10 +77,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 345680484462760736}
+        m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
+        m_MethodName: AddLight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 345680484462760736}
+        m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
+        m_MethodName: RemoveLight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_OnHoverEntered:
@@ -130,8 +154,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3927926911096893775}
-  - {fileID: 3941588692684981297}
   - {fileID: 5302877594092220783}
   - {fileID: 6947785776246312633}
   m_Father: {fileID: 0}
@@ -156,6 +178,7 @@ MonoBehaviour:
   - {fileID: 4027725270652531711}
   LightSource: {fileID: 2648118468477837352}
   Manipulated: {fileID: 0}
+  LightReticles: []
 --- !u!1 &2075554770816094255
 GameObject:
   m_ObjectHideFlags: 0
@@ -184,12 +207,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075554770816094255}
   m_LocalRotation: {x: 0.006154456, y: -0, z: -0, w: 0.9999811}
-  m_LocalPosition: {x: -25.377079, y: -0.026000023, z: 0.20599997}
+  m_LocalPosition: {x: 0.0002002716, y: -0.002300024, z: 0.20599997}
   m_LocalScale: {x: 0.22213523, y: 0.20714267, z: 0.22346212}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7669298098482934884}
-  m_RootOrder: 1
+  m_Father: {fileID: 6947785776246312633}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0.705, y: 0, z: 0}
 --- !u!108 &2648118468477837352
 Light:
@@ -202,7 +225,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: NaN, g: NaN, b: NaN, a: Infinity}
   m_Intensity: 82.63
   m_Range: 30.704454
   m_SpotAngle: 30
@@ -452,7 +475,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2658186421877421441}
   m_LocalRotation: {x: -0, y: -0, z: 0.9559415, w: 0.29355738}
-  m_LocalPosition: {x: -0.127, y: 0.0832, z: 0.076299906}
+  m_LocalPosition: {x: -0.127, y: 0.0832, z: 0.035300016}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -503,10 +526,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 345680484462760736}
+        m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
+        m_MethodName: AddLight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 345680484462760736}
+        m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
+        m_MethodName: RemoveLight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_OnHoverEntered:
@@ -558,7 +605,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6947785776246312633}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6442325374157959711
 MeshFilter:
@@ -588,7 +635,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e4caf52aeed36854a8800d852920c3d0, type: 2}
+  - {fileID: 2100000, guid: 2848d5d36bcf1104aad157eb20eeb067, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -641,7 +688,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6947785776246312633}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5825098351257228778
 MeshFilter:
@@ -671,7 +718,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e4caf52aeed36854a8800d852920c3d0, type: 2}
+  - {fileID: 2100000, guid: 44b7f0383173c3b419fbcd069176e578, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -693,59 +740,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3709704662618512446
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3927926911096893775}
-  - component: {fileID: 1440882200621763699}
-  m_Layer: 0
-  m_Name: GrabSpot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3927926911096893775
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3709704662618512446}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25.405, y: 0.169, z: -0.256}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7669298098482934884}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1440882200621763699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3709704662618512446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0a1302d0d134fa8a2a5b3bf4aec3c20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PermittedDisplacementAxes: 7
-  m_ConstrainedAxisDisplacementMode: 1
-  m_TwoHandedRotationMode: 1
-  m_AllowTwoHandedScaling: 0
-  m_ThresholdMoveRatioForScale: 0.1
-  m_ClampScaling: 1
-  m_MinimumScaleRatio: 0.25
-  m_MaximumScaleRatio: 2
-  m_ScaleMultiplier: 0.25
 --- !u!1 &4795054665781561936
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,7 +771,7 @@ Transform:
   - {fileID: 3680585737988802818}
   - {fileID: 396981640454937640}
   m_Father: {fileID: 6947785776246312633}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4817808989008882645
 GameObject:
@@ -811,7 +805,7 @@ Transform:
   m_Children:
   - {fileID: 7930637499617193631}
   m_Father: {fileID: 7669298098482934884}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &857566521881329789
 Rigidbody:
@@ -920,7 +914,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_AttachTransform: {fileID: 3927926911096893775}
+  m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
@@ -964,9 +958,9 @@ MonoBehaviour:
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
   m_StartingSingleGrabTransformers:
-  - {fileID: 1440882200621763699}
+  - {fileID: 0}
   m_StartingMultipleGrabTransformers:
-  - {fileID: 1440882200621763699}
+  - {fileID: 0}
   m_AddDefaultGrabTransformers: 1
 --- !u!1 &4916833452336360214
 GameObject:
@@ -1000,7 +994,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6947785776246312633}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7236110237694968299
 MeshFilter:
@@ -1226,10 +1220,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 345680484462760736}
+        m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
+        m_MethodName: AddLight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 345680484462760736}
+        m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
+        m_MethodName: RemoveLight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_OnHoverEntered:
@@ -1281,7 +1299,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6947785776246312633}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1885250049731247650
 MeshFilter:
@@ -1311,7 +1329,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e4caf52aeed36854a8800d852920c3d0, type: 2}
+  - {fileID: 2100000, guid: 9f092070deb69f44f808e6f57df9a94e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1364,7 +1382,7 @@ Transform:
   - {fileID: 2322161789843314290}
   - {fileID: 984290125948053696}
   m_Father: {fileID: 6947785776246312633}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7719362136557491203
 GameObject:
@@ -1396,6 +1414,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 3941588692684981297}
   - {fileID: 8403873278546891650}
   - {fileID: 8282430552941273387}
   - {fileID: 61064737077423903}
@@ -1403,7 +1422,7 @@ Transform:
   - {fileID: 5642050931782555070}
   - {fileID: 4428583805668210508}
   m_Father: {fileID: 7669298098482934884}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &7297650581018821719
 Rigidbody:
@@ -1511,7 +1530,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_AttachTransform: {fileID: 3927926911096893775}
+  m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
@@ -1555,9 +1574,9 @@ MonoBehaviour:
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
   m_StartingSingleGrabTransformers:
-  - {fileID: 1440882200621763699}
+  - {fileID: 0}
   m_StartingMultipleGrabTransformers:
-  - {fileID: 1440882200621763699}
+  - {fileID: 0}
   m_AddDefaultGrabTransformers: 1
 --- !u!1 &7908598779611632832
 GameObject:

@@ -7,6 +7,7 @@ public class RuneManager : MonoBehaviour
     public Material RuneLook;
     public Material DefaultLook;
 
+
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Rune") other.GetComponent<Renderer>().material = RuneLook;
