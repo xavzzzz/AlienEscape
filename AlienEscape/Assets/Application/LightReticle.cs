@@ -21,4 +21,9 @@ public class LightReticle : MonoBehaviour
     public void NewManipulate() { TorchLight.Manipulated = this; Debug.Log("selected"); }
 
     public void RemoveManipulate() {  Debug.Log("null"); }
+
+    public void Awake()
+    {
+        this.gameObject.GetComponent<Renderer>().material.color = Color;
+    }
 }
