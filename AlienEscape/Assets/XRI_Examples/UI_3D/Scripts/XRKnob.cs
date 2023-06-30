@@ -10,6 +10,7 @@ namespace UnityEngine.XR.Content.Interaction
     public class XRKnob : XRBaseInteractable
     {
         const float k_ModeSwitchDeadZone = 0.1f; // Prevents rapid switching between the different rotation tracking modes
+        public GameObject soundUpdate;
 
         /// <summary>
         /// Helper class used to track rotations that can go beyond 180 degrees while minimizing accumulation error
@@ -45,6 +46,7 @@ namespace UnityEngine.XR.Content.Interaction
                 m_CurrentOffset = 0.0f;
                 m_AccumulatedAngle = 0.0f;
             }
+
 
             /// <summary>
             /// Sets a new anchor rotation while maintaining any previously accumulated offset
@@ -356,7 +358,11 @@ namespace UnityEngine.XR.Content.Interaction
 
             m_Value = value;
             m_OnValueChange.Invoke(m_Value);
+
+            
+
         }
+     
 
         float ValueToRotation()
         {
