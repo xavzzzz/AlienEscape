@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{5650a010-cf49-4ed4-aa03-3a5ffd9603f9}">
 		<property name="name">
-			<value>Oscillo_st1</value>
+			<value>Oscillo_st 1</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
@@ -59,6 +59,12 @@
 	<object class="EventAutomatableProperties" id="{f7fa0e6a-fc4a-4f94-9600-d013f1bbe2ac}">
 		<property name="isPersistent">
 			<value>true</value>
+		</property>
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>2</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{e1dc3aa7-2351-4236-bed9-32e56d9406b1}" />
@@ -218,7 +224,6 @@
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -227,7 +232,6 @@
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -263,7 +267,6 @@
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>

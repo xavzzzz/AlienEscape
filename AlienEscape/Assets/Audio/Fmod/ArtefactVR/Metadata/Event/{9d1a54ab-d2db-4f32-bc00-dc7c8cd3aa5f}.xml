@@ -9,7 +9,7 @@ De 2 min30 a 5 min</value>
 			<value>Oscilloscope Binaural + Incrémentation</value>
 		</property>
 		<property name="outputFormat">
-			<value>6</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{4db8b75b-1ca6-4c38-bc0d-7550acf6caf7}</destination>
@@ -808,6 +808,8 @@ De 2 min30 a 5 min</value>
 			<destination>{d5abab28-2e4e-4d54-96a9-73146c15090c}</destination>
 			<destination>{19722f74-3a26-4ee9-ae99-3a13ade7293c}</destination>
 			<destination>{c03d3be2-e0fb-4cf5-a24c-5b35e3ddd510}</destination>
+			<destination>{08a5a14d-d11d-4f5f-915d-700f5e8bd743}</destination>
+			<destination>{b64fc1f1-745e-4382-a207-ff28ac752c14}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7b866c2c-dce0-4f47-a5d9-be42a6c75055}">
@@ -841,6 +843,8 @@ De 2 min30 a 5 min</value>
 		<relationship name="effects">
 			<destination>{f8441ac4-8c66-4cf8-9eb6-b7341ccd3f6a}</destination>
 			<destination>{1c3e4f4d-33d3-42af-8b0c-175f50eabe83}</destination>
+			<destination>{5e063f7a-defb-4ebc-a102-14c75a6526f4}</destination>
+			<destination>{a4409a11-3088-4de9-b4ae-d428a7c1ec51}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{914b291c-8d37-4e4e-a0f9-4e7637aa3c9b}">
@@ -1225,12 +1229,25 @@ De 2 min30 a 5 min</value>
 		</property>
 	</object>
 	<object class="PannerEffect" id="{c03d3be2-e0fb-4cf5-a24c-5b35e3ddd510}">
-		<property name="overridingOutputFormat">
-			<value>6</value>
-		</property>
 		<relationship name="automators">
 			<destination>{d517927f-ce6d-4950-b9d8-711edc56bbbe}</destination>
 		</relationship>
+	</object>
+	<object class="TransceiverEffect" id="{08a5a14d-d11d-4f5f-915d-700f5e8bd743}">
+		<property name="transmitMode">
+			<value>true</value>
+		</property>
+		<property name="channel">
+			<value>2</value>
+		</property>
+	</object>
+	<object class="ChannelMixEffect" id="{b64fc1f1-745e-4382-a207-ff28ac752c14}">
+		<property name="gain00">
+			<value>-80</value>
+		</property>
+		<property name="gain01">
+			<value>-80</value>
+		</property>
 	</object>
 	<object class="Automator" id="{3c8e5f81-077d-4532-89b6-520bd7995669}">
 		<property name="nameOfPropertyBeingAutomated">
@@ -1332,12 +1349,25 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="MixerBusFader" id="{f8441ac4-8c66-4cf8-9eb6-b7341ccd3f6a}" />
 	<object class="PannerEffect" id="{1c3e4f4d-33d3-42af-8b0c-175f50eabe83}">
-		<property name="overridingOutputFormat">
-			<value>6</value>
-		</property>
 		<relationship name="automators">
 			<destination>{46f3f3e8-2534-4826-89c6-e2bb3459c56a}</destination>
 		</relationship>
+	</object>
+	<object class="TransceiverEffect" id="{5e063f7a-defb-4ebc-a102-14c75a6526f4}">
+		<property name="transmitMode">
+			<value>true</value>
+		</property>
+		<property name="channel">
+			<value>3</value>
+		</property>
+	</object>
+	<object class="ChannelMixEffect" id="{a4409a11-3088-4de9-b4ae-d428a7c1ec51}">
+		<property name="gain00">
+			<value>-80</value>
+		</property>
+		<property name="gain01">
+			<value>-80</value>
+		</property>
 	</object>
 	<object class="Automator" id="{ab8a0a10-9dd9-4baa-8dad-be224d8117d9}">
 		<property name="nameOfPropertyBeingAutomated">

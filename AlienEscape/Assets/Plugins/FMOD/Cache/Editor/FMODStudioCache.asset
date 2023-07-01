@@ -218,10 +218,10 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638238177172010370
+  lastModified: 638238246555846408
   FileSizes:
   - Name: Desktop
-    Value: 1920
+    Value: 2044
   Exists: 1
 --- !u!114 &-5837845724197223447
 MonoBehaviour:
@@ -273,7 +273,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 57386
+  Length: 52846
 --- !u!114 &-4674542218956439244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -299,6 +299,33 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-4655224275132200788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Incr\xE9mentationTry/Oscillo_st 2"
+  m_EditorClassIdentifier: 
+  Path: "event:/Incr\xE9mentationTry/Oscillo_st 2"
+  Guid:
+    Data1: 1388278749
+    Data2: 1266992432
+    Data3: -641341045
+    Data4: 2012527493
+  Banks:
+  - {fileID: 7212438779820523129}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 2
+  Length: 0
 --- !u!114 &-4629315506157194508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -471,6 +498,33 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-3393768582643620940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Incr\xE9mentationTry/Oscillo_st 1"
+  m_EditorClassIdentifier: 
+  Path: "event:/Incr\xE9mentationTry/Oscillo_st 1"
+  Guid:
+    Data1: 1448124432
+    Data2: 1322569545
+    Data3: 1597637546
+    Data4: -117205251
+  Banks:
+  - {fileID: 7212438779820523129}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 2
+  Length: 0
 --- !u!114 &-3377125825507592439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -521,7 +575,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 57386
+  Length: 52846
 --- !u!114 &-2949412713105960785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -576,7 +630,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 57386
+  Length: 52846
 --- !u!114 &-2384931142424740411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -851,6 +905,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &-641612092658178754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Incr\xE9mentationTry/Oscillo_st 3"
+  m_EditorClassIdentifier: 
+  Path: "event:/Incr\xE9mentationTry/Oscillo_st 3"
+  Guid:
+    Data1: -1554849865
+    Data2: 1267275873
+    Data3: 1331727273
+    Data4: -596801422
+  Banks:
+  - {fileID: 7212438779820523129}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 2
+  Length: 0
 --- !u!114 &-286018437255523251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -910,6 +991,9 @@ MonoBehaviour:
   - {fileID: 5131552286848635716}
   - {fileID: -2114765907152874909}
   - {fileID: 1013437139614645974}
+  - {fileID: -3393768582643620940}
+  - {fileID: -641612092658178754}
+  - {fileID: -4655224275132200788}
   EditorParameters:
   - {fileID: 5089127523427264626}
   - {fileID: 1489778025824343292}
@@ -918,7 +1002,7 @@ MonoBehaviour:
   - {fileID: 7212438779820523129}
   StringsBanks:
   - {fileID: -5925986163448373950}
-  cacheTime: 638238177172010370
+  cacheTime: 638238246555846408
   cacheVersion: 131603
 --- !u!114 &287916413971475204
 MonoBehaviour:
@@ -1473,10 +1557,10 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638238177171956929
+  lastModified: 638238246555806509
   FileSizes:
   - Name: Desktop
-    Value: 2820640
+    Value: 3561696
   Exists: 1
 --- !u!114 &7382459656031427674
 MonoBehaviour:
