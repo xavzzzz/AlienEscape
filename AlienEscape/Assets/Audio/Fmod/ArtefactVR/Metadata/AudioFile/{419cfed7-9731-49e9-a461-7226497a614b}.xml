@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{419cfed7-9731-49e9-a461-7226497a614b}">
+		<property name="assetPath">
+			<value>Scifi, Retro, Theremin, Spaceship, UFO, Single Notes, C Major Scale, Non Vib To Vibrato, Reverb, Various SND73128 1.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>14.959802083333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{03c61ffe-918f-47d6-be36-06aeed82eae1}</destination>
+		</relationship>
+	</object>
+</objects>

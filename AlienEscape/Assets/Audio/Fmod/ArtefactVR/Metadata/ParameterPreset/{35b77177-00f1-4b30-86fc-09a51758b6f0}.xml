@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{35b77177-00f1-4b30-86fc-09a51758b6f0}">
+		<property name="name">
+			<value>potentiomètre 3</value>
+		</property>
+		<relationship name="folder">
+			<destination>{dd2a58f7-53a3-4a4a-99ed-a1c1598ae3a8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{19b7db5b-4027-4feb-886f-cb90ff860c7b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{19b7db5b-4027-4feb-886f-cb90ff860c7b}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0.5</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

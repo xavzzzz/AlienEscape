@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="SandboxScene" id="{9824c5ad-7aba-4c39-8159-3b916c4868e4}">
+		<property name="name">
+			<value>Osciloscope</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1e2f4265-b7d4-4857-a9e8-8a1bb839b5d3}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{b124c402-8c9c-4fd1-836a-e55db15ab36b}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{5fa10646-fc63-40c0-96bc-b3bbb9675cd3}</destination>
+		</relationship>
+		<relationship name="sandboxParameters">
+			<destination>{a0339e62-e58f-4d21-b7a2-8db208895b0a}</destination>
+		</relationship>
+		<relationship name="emitters">
+			<destination>{31a80563-adf8-4a98-a953-70786ac30fee}</destination>
+		</relationship>
+	</object>
+	<object class="MarkerTrack" id="{b124c402-8c9c-4fd1-836a-e55db15ab36b}" />
+	<object class="Timeline" id="{5fa10646-fc63-40c0-96bc-b3bbb9675cd3}" />
+	<object class="SandboxParameter" id="{a0339e62-e58f-4d21-b7a2-8db208895b0a}">
+		<property name="parameterValue">
+			<value>0.5</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{25a80258-fa9e-4479-9ab7-41332e2adc7b}</destination>
+		</relationship>
+	</object>
+	<object class="SandboxEmitter" id="{31a80563-adf8-4a98-a953-70786ac30fee}">
+		<property name="positionX">
+			<value>-2.67500019</value>
+		</property>
+		<property name="positionZ">
+			<value>3.625</value>
+		</property>
+		<property name="rotationY">
+			<value>115.919685</value>
+		</property>
+		<relationship name="event">
+			<destination>{befe3d7a-1ccf-45ee-adae-cd1f7fafa10a}</destination>
+		</relationship>
+	</object>
+</objects>
