@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="EventFolder" id="{4db8b75b-1ca6-4c38-bc0d-7550acf6caf7}">
+	<object class="EventFolder" id="{879fb673-aa00-4aef-aecb-ae271ccaf68f}">
 		<property name="name">
-			<value>IncrémentationTry</value>
+			<value>Cassetes</value>
 		</property>
 		<relationship name="folder">
-			<destination>{2602594e-85d6-4352-adb6-5f4b9468c98a}</destination>
+			<destination>{0579747a-99e8-4adc-8475-a4c9a289c0ad}</destination>
 		</relationship>
 	</object>
 </objects>

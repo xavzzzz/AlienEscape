@@ -12,7 +12,7 @@ De 2 min30 a 4 min</value>
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{0579747a-99e8-4adc-8475-a4c9a289c0ad}</destination>
+			<destination>{2602594e-85d6-4352-adb6-5f4b9468c98a}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{fd810cdc-361c-489e-a7be-cce339fc9a8d}</destination>

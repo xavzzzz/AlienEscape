@@ -1,6 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8558799383463634611
+--- !u!114 &-9198195767610025918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Puzzle Sonore/Incr\xE9mentationTry/StaticsSoundsAdd/Static 3/Static
+    3-3"
+  m_EditorClassIdentifier: 
+  Path: "event:/Puzzle Sonore/Incr\xE9mentationTry/StaticsSoundsAdd/Static 3/Static
+    3-3"
+  Guid:
+    Data1: 2048585528
+    Data2: 1082203225
+    Data3: 1876809149
+    Data4: 434669150
+  Banks:
+  - {fileID: 7212438779820523129}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 52846
+--- !u!114 &-8940847432566869711
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,7 +39,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/Oscilloscope Binaural + Incr\xE9mentation/Result"
+  m_Name: "parameter:/Oscilloscope Binaural + Incr\xE9mentation/Static 3"
+  m_EditorClassIdentifier: 
+  Name: Static 3
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2217703928
+    data2: 3935366572
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-8231774044503984819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Oscilloscope 2/Result
   m_EditorClassIdentifier: 
   Name: Result
   StudioPath: 
@@ -48,34 +101,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-7617644373037456565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/Incr\xE9mentationTry/StaticsSoundsAdd/Static 2/Static 2-1"
-  m_EditorClassIdentifier: 
-  Path: "event:/Incr\xE9mentationTry/StaticsSoundsAdd/Static 2/Static 2-1"
-  Guid:
-    Data1: 390974223
-    Data2: 1198677099
-    Data3: -256108399
-    Data4: -347442241
-  Banks:
-  - {fileID: 7212438779820523129}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 152951
---- !u!114 &-7604065354006901328
+--- !u!114 &-7742855983183791081
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -85,7 +111,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Oscilloscope 3/Result
+  m_Name: parameter:/Oscilloscope Binaural/Result
+  m_EditorClassIdentifier: 
+  Name: Result
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3759552677
+    data2: 1791603992
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-7555610719760856588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: "parameter:/Oscilloscope Binaural + Incr\xE9mentation/Result"
   m_EditorClassIdentifier: 
   Name: Result
   StudioPath: 
@@ -123,7 +173,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-7134336031321980664
+--- !u!114 &-7189657588526544688
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -132,22 +182,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/Oscilloscope Binaural + Incr\xE9mentation/potentiom\xE8tre
-    1"
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Puzzle Sonore/Incr\xE9mentationTry/StaticsSoundsAdd/Static 1/Static
+    1-1"
   m_EditorClassIdentifier: 
-  Name: "potentiom\xE8tre 1"
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0.5
-  ID:
-    data1: 1429207417
-    data2: 1576179953
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
+  Path: "event:/Puzzle Sonore/Incr\xE9mentationTry/StaticsSoundsAdd/Static 1/Static
+    1-1"
+  Guid:
+    Data1: -1420264853
+    Data2: 1327354790
+    Data3: 2103668644
+    Data4: 1082186542
+  Banks:
+  - {fileID: 7212438779820523129}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4979
 --- !u!114 &-6536605720847870889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,7 +230,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
---- !u!114 &-6199568348118782549
+--- !u!114 &-6396649525713224752
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -186,23 +240,54 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/Incr\xE9mentationTry/StaticsSoundsAdd/Static 2/Static 2-3"
+  m_Name: "event:/Puzzle Sonore/Incr\xE9mentationTry/Oscilloscope Binaural + Incr\xE9mentation"
   m_EditorClassIdentifier: 
-  Path: "event:/Incr\xE9mentationTry/StaticsSoundsAdd/Static 2/Static 2-3"
+  Path: "event:/Puzzle Sonore/Incr\xE9mentationTry/Oscilloscope Binaural + Incr\xE9mentation"
   Guid:
-    Data1: -514625441
-    Data2: 1090659571
-    Data3: 1793783942
-    Data4: 1964888096
+    Data1: -1659218773
+    Data2: 1328730843
+    Data3: 2094792892
+    Data4: 1605030796
   Banks:
   - {fileID: 7212438779820523129}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: -6006972762456030093}
+  - {fileID: 1804408860841237808}
+  - {fileID: -4101238786698072455}
+  - {fileID: -7555610719760856588}
+  - {fileID: -8940847432566869711}
+  - {fileID: 3285156795707056774}
+  - {fileID: 2708965446083617973}
   MinDistance: 1
   MaxDistance: 20
-  Length: 150951
+  Length: 52846
+--- !u!114 &-6006972762456030093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: "parameter:/Oscilloscope Binaural + Incr\xE9mentation/Static 1"
+  m_EditorClassIdentifier: 
+  Name: Static 1
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2311494309
+    data2: 2626879032
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-5925986163448373950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -218,12 +303,12 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638238402021354487
+  lastModified: 638241842087074245
   FileSizes:
   - Name: Desktop
-    Value: 2044
+    Value: 2070
   Exists: 1
---- !u!114 &-5837845724197223447
+--- !u!114 &-5001194756271002574
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -233,7 +318,55 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/Oscilloscope 2/potentiom\xE8tre 3"
+  m_Name: parameter:/Oscilloscope Binaural/Static 2
+  m_EditorClassIdentifier: 
+  Name: Static 2
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1721470295
+    data2: 1891983794
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-4677130644552615715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Oscilloscope 2/Static 1
+  m_EditorClassIdentifier: 
+  Name: Static 1
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2311494309
+    data2: 2626879032
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-4582416088551327786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: "parameter:/Oscilloscope/potentiom\xE8tre 3"
   m_EditorClassIdentifier: 
   Name: "potentiom\xE8tre 3"
   StudioPath: 
@@ -243,133 +376,6 @@ MonoBehaviour:
   ID:
     data1: 2221251132
     data2: 2506805322
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &-4924151277793385207
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/Incr\xE9mentationTry/StaticsSoundsAdd/Static 3/Static 3-1"
-  m_EditorClassIdentifier: 
-  Path: "event:/Incr\xE9mentationTry/StaticsSoundsAdd/Static 3/Static 3-1"
-  Guid:
-    Data1: 1855818822
-    Data2: 1247363680
-    Data3: -1111932026
-    Data4: 795939362
-  Banks:
-  - {fileID: 7212438779820523129}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 52846
---- !u!114 &-4674542218956439244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/Oscilloscope Binaural + Incr\xE9mentation/potentiom\xE8tre
-    3"
-  m_EditorClassIdentifier: 
-  Name: "potentiom\xE8tre 3"
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0.5
-  ID:
-    data1: 2221251132
-    data2: 2506805322
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &-4655224275132200788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/Incr\xE9mentationTry/Oscillo_st 2"
-  m_EditorClassIdentifier: 
-  Path: "event:/Incr\xE9mentationTry/Oscillo_st 2"
-  Guid:
-    Data1: 1388278749
-    Data2: 1266992432
-    Data3: -641341045
-    Data4: 2012527493
-  Banks:
-  - {fileID: 7212438779820523129}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 2
-  Length: 0
---- !u!114 &-4629315506157194508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/Oscilloscope 2/potentiom\xE8tre 1"
-  m_EditorClassIdentifier: 
-  Name: "potentiom\xE8tre 1"
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0.5
-  ID:
-    data1: 1429207417
-    data2: 1576179953
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &-4549383875943533764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/Oscilloscope Binaural/potentiom\xE8tre 1"
-  m_EditorClassIdentifier: 
-  Name: "potentiom\xE8tre 1"
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0.5
-  ID:
-    data1: 1429207417
-    data2: 1576179953
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -426,7 +432,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-3782397379656395653
+--- !u!114 &-4235197944123258450
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -436,21 +442,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/Oscilloscope Binaural + Incr\xE9mentation/Static 2"
+  m_Name: "parameter:/Oscilloscope 3/potentiom\xE8tre 3"
   m_EditorClassIdentifier: 
-  Name: Static 2
+  Name: "potentiom\xE8tre 3"
   StudioPath: 
   Min: 0
   Max: 1
-  Default: 0
+  Default: 0.5
   ID:
-    data1: 1721470295
-    data2: 1891983794
+    data1: 2221251132
+    data2: 2506805322
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-3615095097840441725
+--- !u!114 &-4101238786698072455
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -460,31 +466,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Oscilloscope Binaural/Result
-  m_EditorClassIdentifier: 
-  Name: Result
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3759552677
-    data2: 1791603992
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &-3492797530087648779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/Oscilloscope Binaural/potentiom\xE8tre 2"
+  m_Name: "parameter:/Oscilloscope Binaural + Incr\xE9mentation/potentiom\xE8tre
+    2"
   m_EditorClassIdentifier: 
   Name: "potentiom\xE8tre 2"
   StudioPath: 
@@ -498,7 +481,31 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-3393768582643620940
+--- !u!114 &-4093816111145401552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: "parameter:/Oscilloscope Binaural/potentiom\xE8tre 3"
+  m_EditorClassIdentifier: 
+  Name: "potentiom\xE8tre 3"
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.5
+  ID:
+    data1: 2221251132
+    data2: 2506805322
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3777790308553034930
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -508,74 +515,49 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/Incr\xE9mentationTry/Oscillo_st 1"
+  m_Name: "event:/Puzzle Sonore/Incr\xE9mentationTry/StaticsSoundsAdd/Static 1/Static
+    1-2"
   m_EditorClassIdentifier: 
-  Path: "event:/Incr\xE9mentationTry/Oscillo_st 1"
+  Path: "event:/Puzzle Sonore/Incr\xE9mentationTry/StaticsSoundsAdd/Static 1/Static
+    1-2"
   Guid:
-    Data1: 1448124432
-    Data2: 1322569545
-    Data3: 1597637546
-    Data4: -117205251
+    Data1: 1922333060
+    Data2: 1219060137
+    Data3: 934230168
+    Data4: -257957595
   Banks:
   - {fileID: 7212438779820523129}
   IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 2
-  Length: 0
---- !u!114 &-3377125825507592439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/Oscilloscope 3/potentiom\xE8tre 2"
-  m_EditorClassIdentifier: 
-  Name: "potentiom\xE8tre 2"
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0.5
-  ID:
-    data1: 2580897495
-    data2: 4113290865
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &-3185811810434957512
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/Incr\xE9mentationTry/StaticsSoundsAdd/Static 3/Static 3-3"
-  m_EditorClassIdentifier: 
-  Path: "event:/Incr\xE9mentationTry/StaticsSoundsAdd/Static 3/Static 3-3"
-  Guid:
-    Data1: 2048585528
-    Data2: 1082203225
-    Data3: 1876809149
-    Data4: 434669150
-  Banks:
-  - {fileID: 7212438779820523129}
-  IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 52846
+  Length: 4979
+--- !u!114 &-3647120797548215541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: "parameter:/Oscilloscope 2/potentiom\xE8tre 1"
+  m_EditorClassIdentifier: 
+  Name: "potentiom\xE8tre 1"
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.5
+  ID:
+    data1: 1429207417
+    data2: 1576179953
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-2949412713105960785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -604,7 +586,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
---- !u!114 &-2676301075451997774
+--- !u!114 &-2847341345422929814
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -614,9 +596,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/Incr\xE9mentationTry/StaticsSoundsAdd/Static 3/Static 3-2"
+  m_Name: "event:/Puzzle Sonore/Incr\xE9mentationTry/StaticsSoundsAdd/Static 3/Static
+    3-2"
   m_EditorClassIdentifier: 
-  Path: "event:/Incr\xE9mentationTry/StaticsSoundsAdd/Static 3/Static 3-2"
+  Path: "event:/Puzzle Sonore/Incr\xE9mentationTry/StaticsSoundsAdd/Static 3/Static
+    3-2"
   Guid:
     Data1: 2001973349
     Data2: 1137812317
@@ -631,7 +615,31 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 52846
---- !u!114 &-2384931142424740411
+--- !u!114 &-2296958787698755123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Oscilloscope 3/Static 1
+  m_EditorClassIdentifier: 
+  Name: Static 1
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2311494309
+    data2: 2626879032
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-2120075650856683859
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -641,65 +649,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Oscilloscope Binaural
+  m_Name: "event:/Puzzle Sonore/Incr\xE9mentationTry/StaticsSoundsAdd/Static 2/Static
+    2-1"
   m_EditorClassIdentifier: 
-  Path: event:/Oscilloscope Binaural
+  Path: "event:/Puzzle Sonore/Incr\xE9mentationTry/StaticsSoundsAdd/Static 2/Static
+    2-1"
   Guid:
-    Data1: -1816832505
-    Data2: 1201779304
-    Data3: 1817314201
-    Data4: 855451580
+    Data1: 390974223
+    Data2: 1198677099
+    Data3: -256108399
+    Data4: -347442241
   Banks:
   - {fileID: 7212438779820523129}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
-  Parameters:
-  - {fileID: -3492797530087648779}
-  - {fileID: -3615095097840441725}
-  - {fileID: 4829915825384678412}
-  - {fileID: 7384304345463942176}
-  - {fileID: -4549383875943533764}
-  - {fileID: 8433783559460812803}
-  - {fileID: 3900008077162323673}
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 74951
---- !u!114 &-2198798876341075887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Oscilloscope 3
-  m_EditorClassIdentifier: 
-  Path: event:/Oscilloscope 3
-  Guid:
-    Data1: -1090634374
-    Data2: 1173232847
-    Data3: 533573293
-    Data4: 178368383
-  Banks:
-  - {fileID: 7212438779820523129}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -1558287009461921109}
-  - {fileID: 333689174707590517}
-  - {fileID: 1835600565989529625}
-  - {fileID: 7518262184269203726}
-  - {fileID: -3377125825507592439}
-  - {fileID: -7604065354006901328}
-  - {fileID: -1674005516143122497}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 74951
---- !u!114 &-2138669741691705714
+  Length: 152951
+--- !u!114 &-1882118212360513343
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -723,40 +692,6 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-2114765907152874909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/Incr\xE9mentationTry/Oscilloscope Binaural + Incr\xE9mentation"
-  m_EditorClassIdentifier: 
-  Path: "event:/Incr\xE9mentationTry/Oscilloscope Binaural + Incr\xE9mentation"
-  Guid:
-    Data1: -1659218773
-    Data2: 1328730843
-    Data3: 2094792892
-    Data4: 1605030796
-  Banks:
-  - {fileID: 7212438779820523129}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -286018437255523251}
-  - {fileID: -3782397379656395653}
-  - {fileID: 1008403002808612351}
-  - {fileID: -8558799383463634611}
-  - {fileID: 7685304699060234058}
-  - {fileID: -4674542218956439244}
-  - {fileID: -7134336031321980664}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 52846
 --- !u!114 &-1687255184968308419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -778,30 +713,6 @@ MonoBehaviour:
     data1: 528603281
     data2: 3640525284
   Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &-1674005516143122497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Oscilloscope 3/Static 1
-  m_EditorClassIdentifier: 
-  Name: Static 1
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 2311494309
-    data2: 2626879032
-  Type: 0
   IsGlobal: 0
   Labels: []
   Exists: 1
@@ -829,7 +740,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-1558287009461921109
+--- !u!114 &-1236587619681652833
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -839,7 +750,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Oscilloscope 3/Static 3
+  m_Name: "parameter:/Oscilloscope 2/potentiom\xE8tre 3"
+  m_EditorClassIdentifier: 
+  Name: "potentiom\xE8tre 3"
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.5
+  ID:
+    data1: 2221251132
+    data2: 2506805322
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-977961621691575402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Oscilloscope 2/Static 3
   m_EditorClassIdentifier: 
   Name: Static 3
   StudioPath: 
@@ -849,30 +784,6 @@ MonoBehaviour:
   ID:
     data1: 2217703928
     data2: 3935366572
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &-1455799126678745358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Oscilloscope 2/Static 1
-  m_EditorClassIdentifier: 
-  Name: Static 1
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 2311494309
-    data2: 2626879032
   Type: 0
   IsGlobal: 0
   Labels: []
@@ -905,7 +816,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
---- !u!114 &-641612092658178754
+--- !u!114 &-698252295701431252
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -915,24 +826,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/Incr\xE9mentationTry/Oscillo_st 3"
+  m_Name: "event:/Puzzle Sonore/Incr\xE9mentationTry/StaticsSoundsAdd/Static 2/Static
+    2-3"
   m_EditorClassIdentifier: 
-  Path: "event:/Incr\xE9mentationTry/Oscillo_st 3"
+  Path: "event:/Puzzle Sonore/Incr\xE9mentationTry/StaticsSoundsAdd/Static 2/Static
+    2-3"
   Guid:
-    Data1: -1554849865
-    Data2: 1267275873
-    Data3: 1331727273
-    Data4: -596801422
+    Data1: -514625441
+    Data2: 1090659571
+    Data3: 1793783942
+    Data4: 1964888096
   Banks:
   - {fileID: 7212438779820523129}
-  IsStream: 0
-  Is3D: 1
+  IsStream: 1
+  Is3D: 0
   IsOneShot: 0
   Parameters: []
-  MinDistance: 0
-  MaxDistance: 2
-  Length: 0
---- !u!114 &-286018437255523251
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 150951
+--- !u!114 &-529944556610669047
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -942,20 +855,49 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/Oscilloscope Binaural + Incr\xE9mentation/Static 1"
+  m_Name: "parameter:/Oscilloscope Binaural/potentiom\xE8tre 2"
   m_EditorClassIdentifier: 
-  Name: Static 1
+  Name: "potentiom\xE8tre 2"
   StudioPath: 
   Min: 0
   Max: 1
-  Default: 0
+  Default: 0.5
   ID:
-    data1: 2311494309
-    data2: 2626879032
+    data1: 2580897495
+    data2: 4113290865
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-267579542088003564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Puzzle Sonore/Incr\xE9mentationTry/StaticsSoundsAdd/Static 1/Static
+    1-3"
+  m_EditorClassIdentifier: 
+  Path: "event:/Puzzle Sonore/Incr\xE9mentationTry/StaticsSoundsAdd/Static 1/Static
+    1-3"
+  Guid:
+    Data1: 441469860
+    Data2: 1273778086
+    Data3: 927986318
+    Data4: 1436479359
+  Banks:
+  - {fileID: 7212438779820523129}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4979
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -972,28 +914,28 @@ MonoBehaviour:
   - {fileID: -5925986163448373950}
   - {fileID: 7212438779820523129}
   EditorEvents:
-  - {fileID: -2384931142424740411}
   - {fileID: -4343298261956762108}
   - {fileID: -6536605720847870889}
-  - {fileID: -2198798876341075887}
   - {fileID: -911707138253888384}
-  - {fileID: 5464078107290942205}
-  - {fileID: 2417174572568546717}
   - {fileID: 4989044592015122885}
   - {fileID: -2949412713105960785}
-  - {fileID: -7617644373037456565}
-  - {fileID: -3185811810434957512}
-  - {fileID: -4924151277793385207}
-  - {fileID: -6199568348118782549}
-  - {fileID: -2676301075451997774}
-  - {fileID: 2520571939189918326}
-  - {fileID: 4615067746736334010}
-  - {fileID: 5131552286848635716}
-  - {fileID: -2114765907152874909}
-  - {fileID: 1013437139614645974}
-  - {fileID: -3393768582643620940}
-  - {fileID: -641612092658178754}
-  - {fileID: -4655224275132200788}
+  - {fileID: 2004554790632040348}
+  - {fileID: -2120075650856683859}
+  - {fileID: 6020820797792618813}
+  - {fileID: -9198195767610025918}
+  - {fileID: 7031266199941102193}
+  - {fileID: -698252295701431252}
+  - {fileID: -2847341345422929814}
+  - {fileID: -7189657588526544688}
+  - {fileID: 264034961756381363}
+  - {fileID: -3777790308553034930}
+  - {fileID: 774492289012914195}
+  - {fileID: 5906805286562676321}
+  - {fileID: -267579542088003564}
+  - {fileID: -6396649525713224752}
+  - {fileID: 3967151153563359594}
+  - {fileID: 1914961533150080597}
+  - {fileID: 6125191224352321719}
   EditorParameters:
   - {fileID: 5089127523427264626}
   - {fileID: 1489778025824343292}
@@ -1002,9 +944,9 @@ MonoBehaviour:
   - {fileID: 7212438779820523129}
   StringsBanks:
   - {fileID: -5925986163448373950}
-  cacheTime: 638238402021354487
+  cacheTime: 638241842087074245
   cacheVersion: 131603
---- !u!114 &287916413971475204
+--- !u!114 &264034961756381363
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1013,22 +955,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Oscilloscope 2/Static 2
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Puzzle Sonore/Oscilloscope 3
   m_EditorClassIdentifier: 
-  Name: Static 2
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 1721470295
-    data2: 1891983794
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &333689174707590517
+  Path: event:/Puzzle Sonore/Oscilloscope 3
+  Guid:
+    Data1: -1090634374
+    Data2: 1173232847
+    Data3: 533573293
+    Data4: 178368383
+  Banks:
+  - {fileID: 7212438779820523129}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4707979173422290759}
+  - {fileID: -4235197944123258450}
+  - {fileID: 3922121361591362465}
+  - {fileID: 1243209147599646472}
+  - {fileID: 8516910947443416407}
+  - {fileID: 8006360278633737452}
+  - {fileID: -2296958787698755123}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 74951
+--- !u!114 &428905683666313416
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1038,56 +990,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/Oscilloscope 3/potentiom\xE8tre 3"
-  m_EditorClassIdentifier: 
-  Name: "potentiom\xE8tre 3"
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0.5
-  ID:
-    data1: 2221251132
-    data2: 2506805322
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &438464924660581858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Oscilloscope 2/Static 3
-  m_EditorClassIdentifier: 
-  Name: Static 3
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 2217703928
-    data2: 3935366572
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &1008403002808612351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/Oscilloscope Binaural + Incr\xE9mentation/potentiom\xE8tre
-    2"
+  m_Name: "parameter:/Oscilloscope/potentiom\xE8tre 2"
   m_EditorClassIdentifier: 
   Name: "potentiom\xE8tre 2"
   StudioPath: 
@@ -1101,7 +1004,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &1013437139614645974
+--- !u!114 &774492289012914195
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1111,23 +1014,78 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/Incr\xE9mentationTry/StaticsSoundsAdd/Static 2/Static 2-2"
+  m_Name: event:/Puzzle Sonore/Oscilloscope 2
   m_EditorClassIdentifier: 
-  Path: "event:/Incr\xE9mentationTry/StaticsSoundsAdd/Static 2/Static 2-2"
+  Path: event:/Puzzle Sonore/Oscilloscope 2
   Guid:
-    Data1: -885942069
-    Data2: 1105177783
-    Data3: 39100845
-    Data4: 1612712736
+    Data1: 1503379077
+    Data2: 1084258813
+    Data3: -2086755959
+    Data4: 1666350788
   Banks:
   - {fileID: 7212438779820523129}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: -4677130644552615715}
+  - {fileID: -8231774044503984819}
+  - {fileID: 4605981734228581180}
+  - {fileID: 2585375340934494933}
+  - {fileID: -3647120797548215541}
+  - {fileID: -1236587619681652833}
+  - {fileID: -977961621691575402}
   MinDistance: 1
   MaxDistance: 20
-  Length: 150951
+  Length: 74951
+--- !u!114 &1110322681308072813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Oscilloscope Binaural/Static 1
+  m_EditorClassIdentifier: 
+  Name: Static 1
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2311494309
+    data2: 2626879032
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &1243209147599646472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Oscilloscope 3/Static 2
+  m_EditorClassIdentifier: 
+  Name: Static 2
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1721470295
+    data2: 1891983794
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &1489778025824343292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1152,7 +1110,216 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &1835600565989529625
+--- !u!114 &1804408860841237808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: "parameter:/Oscilloscope Binaural + Incr\xE9mentation/Static 2"
+  m_EditorClassIdentifier: 
+  Name: Static 2
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1721470295
+    data2: 1891983794
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &1914961533150080597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Puzzle Sonore/Incr\xE9mentationTry/StaticsSoundsAdd/Static 2/Static
+    2-2"
+  m_EditorClassIdentifier: 
+  Path: "event:/Puzzle Sonore/Incr\xE9mentationTry/StaticsSoundsAdd/Static 2/Static
+    2-2"
+  Guid:
+    Data1: -885942069
+    Data2: 1105177783
+    Data3: 39100845
+    Data4: 1612712736
+  Banks:
+  - {fileID: 7212438779820523129}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 150951
+--- !u!114 &2004554790632040348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Puzzle Sonore/Oscilloscope Binaural
+  m_EditorClassIdentifier: 
+  Path: event:/Puzzle Sonore/Oscilloscope Binaural
+  Guid:
+    Data1: -1816832505
+    Data2: 1201779304
+    Data3: 1817314201
+    Data4: 855451580
+  Banks:
+  - {fileID: 7212438779820523129}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -529944556610669047}
+  - {fileID: -7742855983183791081}
+  - {fileID: -5001194756271002574}
+  - {fileID: -4093816111145401552}
+  - {fileID: 2380670836525203407}
+  - {fileID: 8749204275265860454}
+  - {fileID: 1110322681308072813}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 74951
+--- !u!114 &2380670836525203407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: "parameter:/Oscilloscope Binaural/potentiom\xE8tre 1"
+  m_EditorClassIdentifier: 
+  Name: "potentiom\xE8tre 1"
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.5
+  ID:
+    data1: 1429207417
+    data2: 1576179953
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2585375340934494933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Oscilloscope 2/Static 2
+  m_EditorClassIdentifier: 
+  Name: Static 2
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1721470295
+    data2: 1891983794
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &2708965446083617973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: "parameter:/Oscilloscope Binaural + Incr\xE9mentation/potentiom\xE8tre
+    1"
+  m_EditorClassIdentifier: 
+  Name: "potentiom\xE8tre 1"
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.5
+  ID:
+    data1: 1429207417
+    data2: 1576179953
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3285156795707056774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: "parameter:/Oscilloscope Binaural + Incr\xE9mentation/potentiom\xE8tre
+    3"
+  m_EditorClassIdentifier: 
+  Name: "potentiom\xE8tre 3"
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.5
+  ID:
+    data1: 2221251132
+    data2: 2506805322
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3769745949500043368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Oscilloscope/Result
+  m_EditorClassIdentifier: 
+  Name: Result
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3759552677
+    data2: 1791603992
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &3922121361591362465
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1176,7 +1343,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &2417174572568546717
+--- !u!114 &3967151153563359594
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1186,55 +1353,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Oscilloscope
+  m_Name: "event:/Puzzle Sonore/Incr\xE9mentationTry/Oscillo_st 3"
   m_EditorClassIdentifier: 
-  Path: event:/Oscilloscope
+  Path: "event:/Puzzle Sonore/Incr\xE9mentationTry/Oscillo_st 3"
   Guid:
-    Data1: 1962888347
-    Data2: 1249345340
-    Data3: -626478156
-    Data4: 1002243746
-  Banks:
-  - {fileID: 7212438779820523129}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 3123095191253424876}
-  - {fileID: 7382459656031427674}
-  - {fileID: 3100069101868842972}
-  - {fileID: -2138669741691705714}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 75187
---- !u!114 &2520571939189918326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/Incr\xE9mentationTry/StaticsSoundsAdd/Static 1/Static 1-1"
-  m_EditorClassIdentifier: 
-  Path: "event:/Incr\xE9mentationTry/StaticsSoundsAdd/Static 1/Static 1-1"
-  Guid:
-    Data1: -1420264853
-    Data2: 1327354790
-    Data3: 2103668644
-    Data4: 1082186542
+    Data1: -1554849865
+    Data2: 1267275873
+    Data3: 1331727273
+    Data4: -596801422
   Banks:
   - {fileID: 7212438779820523129}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 4979
---- !u!114 &3100069101868842972
+  MinDistance: 0
+  MaxDistance: 3
+  Length: 0
+--- !u!114 &4605981734228581180
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1244,31 +1380,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/Oscilloscope/potentiom\xE8tre 3"
-  m_EditorClassIdentifier: 
-  Name: "potentiom\xE8tre 3"
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0.5
-  ID:
-    data1: 2221251132
-    data2: 2506805322
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &3123095191253424876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/Oscilloscope/potentiom\xE8tre 2"
+  m_Name: "parameter:/Oscilloscope 2/potentiom\xE8tre 2"
   m_EditorClassIdentifier: 
   Name: "potentiom\xE8tre 2"
   StudioPath: 
@@ -1282,7 +1394,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &3900008077162323673
+--- !u!114 &4707979173422290759
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1292,91 +1404,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Oscilloscope Binaural/Static 1
+  m_Name: parameter:/Oscilloscope 3/Static 3
   m_EditorClassIdentifier: 
-  Name: Static 1
+  Name: Static 3
   StudioPath: 
   Min: 0
   Max: 1
   Default: 0
   ID:
-    data1: 2311494309
-    data2: 2626879032
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &4615067746736334010
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/Incr\xE9mentationTry/StaticsSoundsAdd/Static 1/Static 1-2"
-  m_EditorClassIdentifier: 
-  Path: "event:/Incr\xE9mentationTry/StaticsSoundsAdd/Static 1/Static 1-2"
-  Guid:
-    Data1: 1922333060
-    Data2: 1219060137
-    Data3: 934230168
-    Data4: -257957595
-  Banks:
-  - {fileID: 7212438779820523129}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 4979
---- !u!114 &4829915825384678412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Oscilloscope Binaural/Static 2
-  m_EditorClassIdentifier: 
-  Name: Static 2
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 1721470295
-    data2: 1891983794
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &4892699929831815754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Oscilloscope 2/Result
-  m_EditorClassIdentifier: 
-  Name: Result
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3759552677
-    data2: 1791603992
+    data1: 2217703928
+    data2: 3935366572
   Type: 0
   IsGlobal: 0
   Labels: []
@@ -1433,7 +1470,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &5131552286848635716
+--- !u!114 &5906805286562676321
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1443,57 +1480,81 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/Incr\xE9mentationTry/StaticsSoundsAdd/Static 1/Static 1-3"
+  m_Name: event:/Puzzle Sonore/Oscilloscope
   m_EditorClassIdentifier: 
-  Path: "event:/Incr\xE9mentationTry/StaticsSoundsAdd/Static 1/Static 1-3"
+  Path: event:/Puzzle Sonore/Oscilloscope
   Guid:
-    Data1: 441469860
-    Data2: 1273778086
-    Data3: 927986318
-    Data4: 1436479359
-  Banks:
-  - {fileID: 7212438779820523129}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 4979
---- !u!114 &5464078107290942205
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Oscilloscope 2
-  m_EditorClassIdentifier: 
-  Path: event:/Oscilloscope 2
-  Guid:
-    Data1: 1503379077
-    Data2: 1084258813
-    Data3: -2086755959
-    Data4: 1666350788
+    Data1: 1962888347
+    Data2: 1249345340
+    Data3: -626478156
+    Data4: 1002243746
   Banks:
   - {fileID: 7212438779820523129}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -1455799126678745358}
-  - {fileID: 4892699929831815754}
-  - {fileID: 6792741208949237444}
-  - {fileID: 287916413971475204}
-  - {fileID: -4629315506157194508}
-  - {fileID: -5837845724197223447}
-  - {fileID: 438464924660581858}
+  - {fileID: 428905683666313416}
+  - {fileID: 3769745949500043368}
+  - {fileID: -4582416088551327786}
+  - {fileID: -1882118212360513343}
   MinDistance: 1
   MaxDistance: 20
-  Length: 74951
+  Length: 75187
+--- !u!114 &6020820797792618813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Puzzle Sonore/Incr\xE9mentationTry/Oscillo_st 1"
+  m_EditorClassIdentifier: 
+  Path: "event:/Puzzle Sonore/Incr\xE9mentationTry/Oscillo_st 1"
+  Guid:
+    Data1: 1448124432
+    Data2: 1322569545
+    Data3: 1597637546
+    Data4: -117205251
+  Banks:
+  - {fileID: 7212438779820523129}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 3
+  Length: 0
+--- !u!114 &6125191224352321719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Puzzle Sonore/Incr\xE9mentationTry/Oscillo_st 2"
+  m_EditorClassIdentifier: 
+  Path: "event:/Puzzle Sonore/Incr\xE9mentationTry/Oscillo_st 2"
+  Guid:
+    Data1: 1388278749
+    Data2: 1266992432
+    Data3: -641341045
+    Data4: 2012527493
+  Banks:
+  - {fileID: 7212438779820523129}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 3
+  Length: 0
 --- !u!114 &6178083584702499547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1518,7 +1579,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &6792741208949237444
+--- !u!114 &7031266199941102193
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1527,21 +1588,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/Oscilloscope 2/potentiom\xE8tre 2"
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Puzzle Sonore/Incr\xE9mentationTry/StaticsSoundsAdd/Static 3/Static
+    3-1"
   m_EditorClassIdentifier: 
-  Name: "potentiom\xE8tre 2"
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0.5
-  ID:
-    data1: 2580897495
-    data2: 4113290865
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
+  Path: "event:/Puzzle Sonore/Incr\xE9mentationTry/StaticsSoundsAdd/Static 3/Static
+    3-1"
+  Guid:
+    Data1: 1855818822
+    Data2: 1247363680
+    Data3: -1111932026
+    Data4: 795939362
+  Banks:
+  - {fileID: 7212438779820523129}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 52846
 --- !u!114 &7212438779820523129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1557,12 +1623,12 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638238402021304480
+  lastModified: 638241842087028890
   FileSizes:
   - Name: Desktop
     Value: 3592544
   Exists: 1
---- !u!114 &7382459656031427674
+--- !u!114 &8006360278633737452
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1572,7 +1638,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Oscilloscope/Result
+  m_Name: parameter:/Oscilloscope 3/Result
   m_EditorClassIdentifier: 
   Name: Result
   StudioPath: 
@@ -1586,7 +1652,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &7384304345463942176
+--- !u!114 &8516910947443416407
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1596,69 +1662,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/Oscilloscope Binaural/potentiom\xE8tre 3"
+  m_Name: "parameter:/Oscilloscope 3/potentiom\xE8tre 2"
   m_EditorClassIdentifier: 
-  Name: "potentiom\xE8tre 3"
+  Name: "potentiom\xE8tre 2"
   StudioPath: 
   Min: 0
   Max: 1
   Default: 0.5
   ID:
-    data1: 2221251132
-    data2: 2506805322
+    data1: 2580897495
+    data2: 4113290865
   Type: 0
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &7518262184269203726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Oscilloscope 3/Static 2
-  m_EditorClassIdentifier: 
-  Name: Static 2
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 1721470295
-    data2: 1891983794
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &7685304699060234058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/Oscilloscope Binaural + Incr\xE9mentation/Static 3"
-  m_EditorClassIdentifier: 
-  Name: Static 3
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 2217703928
-    data2: 3935366572
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &8433783559460812803
+--- !u!114 &8749204275265860454
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
