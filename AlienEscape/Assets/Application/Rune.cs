@@ -4,6 +4,5 @@ using UnityEngine;
 
 public class Rune : MonoBehaviour
 {
-    public bool IsValid;
     public int OrderInSequence;
 }

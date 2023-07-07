@@ -27,7 +27,7 @@ public class LightManager : MonoBehaviour
 
     public void UpdateLight()
     {
-        var NewColor = Color.white;
+        var NewColor = Color.clear;
         foreach(LightReticle x in LightReticles)
         {
             NewColor = CombineColors(NewColor, x.Color);   

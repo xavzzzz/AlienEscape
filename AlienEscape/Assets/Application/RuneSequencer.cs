@@ -28,7 +28,7 @@ public class RuneSequencer : MonoBehaviour
         }
         else
         {
-            Debug.Log("T UN GROS NUL"); counter = 0;
+                 counter = 0;
         }
     }
 }
