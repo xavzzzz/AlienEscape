@@ -44,9 +44,9 @@ GameObject:
   - component: {fileID: 8663195764149839746}
   - component: {fileID: 6907727896027140936}
   - component: {fileID: 3254449815878879711}
-  - component: {fileID: 5858938206241742318}
   - component: {fileID: 6534185589067765814}
   - component: {fileID: 7803681112361898518}
+  - component: {fileID: 6733557159154252704}
   m_Layer: 0
   m_Name: Lentille_no_unwrap
   m_TagString: Untagged
@@ -135,20 +135,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &5858938206241742318
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4962352832401289885}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5136029849848790381, guid: e953ca0705b8bd347be45430ddbe5ed1, type: 3}
 --- !u!114 &6534185589067765814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -324,3 +310,17 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   Color: {r: 0, g: 0, b: 0, a: 0}
+  CurrentSide: {fileID: 0}
+--- !u!65 &6733557159154252704
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4962352832401289885}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0006183872, y: 0.0014028337, z: 0.00021182111}
+  m_Center: {x: 0.000000019965228, y: -0.00042118868, z: -4.365574e-11}

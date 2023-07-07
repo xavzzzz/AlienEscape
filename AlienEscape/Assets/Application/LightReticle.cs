@@ -8,15 +8,13 @@ public class LightReticle : MonoBehaviour
     public Color Color;
     public LightManager CurrentSide;
 
-    public void NewManipulate() { 
-        
-        foreach (LightManager x in Sidelights)
-        {
-            x.ClearManipulated(); x.Manipulated = this;
+    public void NewManipulate() {
+       
         }
-        Debug.Log("selected"); }
 
-    public void RemoveManipulate() { CurrentSide.LightReticles.Remove(this); }
+    public void RemoveManipulate() { 
+
+    }
 
     public void Awake()
     {

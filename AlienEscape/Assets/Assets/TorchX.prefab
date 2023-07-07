@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 396981640454937640}
   - component: {fileID: 4027725270652531711}
   - component: {fileID: 3272744475128237083}
+  - component: {fileID: 589327393824061796}
   m_Layer: 3
   m_Name: ColorZoneBack
   m_TagString: Slot
@@ -78,10 +79,10 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2612711635827667792}
-        m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
-        m_MethodName: AddLight
-        m_Mode: 1
+      - m_Target: {fileID: 589327393824061796}
+        m_TargetAssemblyTypeName: LightSlot, Assembly-CSharp
+        m_MethodName: OnSelectEntered
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -93,10 +94,10 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2612711635827667792}
-        m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
-        m_MethodName: RemoveLight
-        m_Mode: 1
+      - m_Target: {fileID: 589327393824061796}
+        m_TargetAssemblyTypeName: LightSlot, Assembly-CSharp
+        m_MethodName: OnSelectExited
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -125,6 +126,20 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
+--- !u!114 &589327393824061796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156782863404084292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80590fcf1dad9b459615fe1492c032a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Interactor: {fileID: 0}
+  Manager: {fileID: 2612711635827667792}
 --- !u!1 &1197604595780666971
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,6 +329,7 @@ GameObject:
   - component: {fileID: 2322161789843314290}
   - component: {fileID: 8509766180076319505}
   - component: {fileID: 7101117037829758327}
+  - component: {fileID: 5050028545936584213}
   m_Layer: 3
   m_Name: ColorZoneFront (1)
   m_TagString: Slot
@@ -381,10 +397,10 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2023888135990421349}
-        m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
-        m_MethodName: AddLight
-        m_Mode: 1
+      - m_Target: {fileID: 5050028545936584213}
+        m_TargetAssemblyTypeName: LightSlot, Assembly-CSharp
+        m_MethodName: OnSelectEntered
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -396,10 +412,10 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2023888135990421349}
-        m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
-        m_MethodName: RemoveLight
-        m_Mode: 1
+      - m_Target: {fileID: 5050028545936584213}
+        m_TargetAssemblyTypeName: LightSlot, Assembly-CSharp
+        m_MethodName: OnSelectExited
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -428,6 +444,20 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
+--- !u!114 &5050028545936584213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142358788730624474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80590fcf1dad9b459615fe1492c032a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Interactor: {fileID: 0}
+  Manager: {fileID: 2023888135990421349}
 --- !u!1 &2658186421877421441
 GameObject:
   m_ObjectHideFlags: 0
@@ -439,6 +469,7 @@ GameObject:
   - component: {fileID: 984290125948053696}
   - component: {fileID: 3162746193934161192}
   - component: {fileID: 5079312523339231027}
+  - component: {fileID: 5657373205970369578}
   m_Layer: 3
   m_Name: ColorZoneBack (1)
   m_TagString: Slot
@@ -506,10 +537,10 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2023888135990421349}
-        m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
-        m_MethodName: AddLight
-        m_Mode: 1
+      - m_Target: {fileID: 5657373205970369578}
+        m_TargetAssemblyTypeName: LightSlot, Assembly-CSharp
+        m_MethodName: OnSelectEntered
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -521,10 +552,10 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2023888135990421349}
-        m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
-        m_MethodName: RemoveLight
-        m_Mode: 1
+      - m_Target: {fileID: 5657373205970369578}
+        m_TargetAssemblyTypeName: LightSlot, Assembly-CSharp
+        m_MethodName: OnSelectExited
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -553,6 +584,20 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
+--- !u!114 &5657373205970369578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2658186421877421441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80590fcf1dad9b459615fe1492c032a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Interactor: {fileID: 0}
+  Manager: {fileID: 2023888135990421349}
 --- !u!1 &3043779038164973901
 GameObject:
   m_ObjectHideFlags: 0
@@ -1169,6 +1214,7 @@ GameObject:
   - component: {fileID: 3680585737988802818}
   - component: {fileID: 7829200984503600900}
   - component: {fileID: 1690973502445775237}
+  - component: {fileID: 5871030439478869678}
   m_Layer: 3
   m_Name: ColorZoneFront
   m_TagString: Slot
@@ -1236,10 +1282,10 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2612711635827667792}
-        m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
-        m_MethodName: AddLight
-        m_Mode: 1
+      - m_Target: {fileID: 5871030439478869678}
+        m_TargetAssemblyTypeName: LightSlot, Assembly-CSharp
+        m_MethodName: OnSelectEntered
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1251,10 +1297,10 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2612711635827667792}
-        m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
-        m_MethodName: RemoveLight
-        m_Mode: 1
+      - m_Target: {fileID: 5871030439478869678}
+        m_TargetAssemblyTypeName: LightSlot, Assembly-CSharp
+        m_MethodName: OnSelectExited
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1283,6 +1329,20 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
+--- !u!114 &5871030439478869678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6672875478356438469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80590fcf1dad9b459615fe1492c032a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Interactor: {fileID: 0}
+  Manager: {fileID: 2612711635827667792}
 --- !u!1 &7142709550121816108
 GameObject:
   m_ObjectHideFlags: 0
@@ -1495,7 +1555,7 @@ MonoBehaviour:
   m_InteractionLayers:
     m_Bits: 1
   m_DistanceCalculationMode: 0
-  m_SelectMode: 1
+  m_SelectMode: 0
   m_CustomReticle: {fileID: 0}
   m_AllowGazeInteraction: 0
   m_AllowGazeSelect: 0
