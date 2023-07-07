@@ -3152,7 +3152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Right: {fileID: 1325593391}
   Left: {fileID: 2035832815}
-  RuneUnlock: {r: 0.7490196, g: 0.6, b: 0.7254902, a: 0.7490196}
+  RuneUnlock: {r: 0.5411765, g: 0.28235295, b: 0.5019608, a: 0}
 --- !u!1 &967567311
 GameObject:
   m_ObjectHideFlags: 0
