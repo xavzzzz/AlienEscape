@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156782863404084292}
   m_LocalRotation: {x: -0, y: -0, z: 0.35546538, w: 0.93468946}
-  m_LocalPosition: {x: -0.10390091, y: 0.09929997, z: 0.0353}
+  m_LocalPosition: {x: -0.1237, y: 0.0817, z: 0.0409}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -78,7 +78,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 345680484462760736}
+      - m_Target: {fileID: 2612711635827667792}
         m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
         m_MethodName: AddLight
         m_Mode: 1
@@ -93,7 +93,7 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 345680484462760736}
+      - m_Target: {fileID: 2612711635827667792}
         m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
         m_MethodName: RemoveLight
         m_Mode: 1
@@ -134,7 +134,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7669298098482934884}
-  - component: {fileID: 345680484462760736}
   m_Layer: 0
   m_Name: TorchX
   m_TagString: Untagged
@@ -159,26 +158,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &345680484462760736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1197604595780666971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0456d3ecf1adae41864d2a253c5a98d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LightSlots:
-  - {fileID: 8509766180076319505}
-  - {fileID: 3162746193934161192}
-  - {fileID: 7829200984503600900}
-  - {fileID: 4027725270652531711}
-  LightSource: {fileID: 2648118468477837352}
-  Manipulated: {fileID: 0}
-  LightReticles: []
 --- !u!1 &2075554770816094255
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,7 +381,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 345680484462760736}
+      - m_Target: {fileID: 2023888135990421349}
         m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
         m_MethodName: AddLight
         m_Mode: 1
@@ -417,7 +396,7 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 345680484462760736}
+      - m_Target: {fileID: 2023888135990421349}
         m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
         m_MethodName: RemoveLight
         m_Mode: 1
@@ -527,7 +506,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 345680484462760736}
+      - m_Target: {fileID: 2023888135990421349}
         m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
         m_MethodName: AddLight
         m_Mode: 1
@@ -542,7 +521,7 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 345680484462760736}
+      - m_Target: {fileID: 2023888135990421349}
         m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
         m_MethodName: RemoveLight
         m_Mode: 1
@@ -683,12 +662,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3122998676509509489}
   m_LocalRotation: {x: 1, y: -1.1102233e-16, z: 1.110223e-16, w: 0.0000000754979}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.19280052, y: 0.02130127, z: 0.093238115}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6947785776246312633}
-  m_RootOrder: 3
+  m_Father: {fileID: 3972354073684535260}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5825098351257228778
 MeshFilter:
@@ -718,7 +697,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 44b7f0383173c3b419fbcd069176e578, type: 2}
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -749,6 +728,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3972354073684535260}
+  - component: {fileID: 2612711635827667792}
   m_Layer: 0
   m_Name: RightReticles
   m_TagString: Untagged
@@ -770,9 +750,29 @@ Transform:
   m_Children:
   - {fileID: 3680585737988802818}
   - {fileID: 396981640454937640}
+  - {fileID: 61064737077423903}
   m_Father: {fileID: 6947785776246312633}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2612711635827667792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4795054665781561936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0456d3ecf1adae41864d2a253c5a98d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSlots:
+  - {fileID: 7829200984503600900}
+  - {fileID: 4027725270652531711}
+  Bulb: {fileID: 3122998676509509489}
+  LightSource: {fileID: 2648118468477837352}
+  Manipulated: {fileID: 0}
+  LightReticles: []
 --- !u!1 &4817808989008882645
 GameObject:
   m_ObjectHideFlags: 0
@@ -974,6 +974,7 @@ GameObject:
   - component: {fileID: 7236110237694968299}
   - component: {fileID: 3315518236756466382}
   - component: {fileID: 3214295078680532397}
+  - component: {fileID: 912174493711459110}
   m_Layer: 0
   m_Name: Corp lamp
   m_TagString: Untagged
@@ -1055,11 +1056,25 @@ CapsuleCollider:
   m_GameObject: {fileID: 4916833452336360214}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.001
   m_Height: 0.0045
   m_Direction: 2
   m_Center: {x: 0.000000009313226, y: -0.000014819147, z: 2.1059274e-19}
+--- !u!64 &912174493711459110
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4916833452336360214}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 482839523588931362, guid: 2834fa9236155414f8437b361e002bfe, type: 3}
 --- !u!1 &6210730266434365975
 GameObject:
   m_ObjectHideFlags: 0
@@ -1169,7 +1184,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6672875478356438469}
   m_LocalRotation: {x: -0, y: -0, z: 0.35546538, w: 0.93468946}
-  m_LocalPosition: {x: -0.10390091, y: 0.09929997, z: 0.11409998}
+  m_LocalPosition: {x: -0.12369919, y: 0.0817, z: 0.11969998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1221,7 +1236,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 345680484462760736}
+      - m_Target: {fileID: 2612711635827667792}
         m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
         m_MethodName: AddLight
         m_Mode: 1
@@ -1236,7 +1251,7 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 345680484462760736}
+      - m_Target: {fileID: 2612711635827667792}
         m_TargetAssemblyTypeName: LightManager, Assembly-CSharp
         m_MethodName: RemoveLight
         m_Mode: 1
@@ -1294,12 +1309,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7142709550121816108}
   m_LocalRotation: {x: 1, y: -1.1102233e-16, z: 1.110223e-16, w: 0.0000000754979}
-  m_LocalPosition: {x: -0, y: 0.0008, z: 0}
+  m_LocalPosition: {x: -0.047857285, y: 0.022101283, z: 0.093238115}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6947785776246312633}
-  m_RootOrder: 5
+  m_Father: {fileID: 4428583805668210508}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1885250049731247650
 MeshFilter:
@@ -1329,7 +1344,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9f092070deb69f44f808e6f57df9a94e, type: 2}
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1360,6 +1375,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4428583805668210508}
+  - component: {fileID: 2023888135990421349}
   m_Layer: 0
   m_Name: LeftReticles
   m_TagString: Untagged
@@ -1381,9 +1397,29 @@ Transform:
   m_Children:
   - {fileID: 2322161789843314290}
   - {fileID: 984290125948053696}
+  - {fileID: 5642050931782555070}
   m_Father: {fileID: 6947785776246312633}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2023888135990421349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7209175943188920672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0456d3ecf1adae41864d2a253c5a98d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSlots:
+  - {fileID: 8509766180076319505}
+  - {fileID: 3162746193934161192}
+  Bulb: {fileID: 7142709550121816108}
+  LightSource: {fileID: 2648118468477837352}
+  Manipulated: {fileID: 0}
+  LightReticles: []
 --- !u!1 &7719362136557491203
 GameObject:
   m_ObjectHideFlags: 0
@@ -1417,9 +1453,7 @@ Transform:
   - {fileID: 3941588692684981297}
   - {fileID: 8403873278546891650}
   - {fileID: 8282430552941273387}
-  - {fileID: 61064737077423903}
   - {fileID: 3972354073684535260}
-  - {fileID: 5642050931782555070}
   - {fileID: 4428583805668210508}
   m_Father: {fileID: 7669298098482934884}
   m_RootOrder: 1

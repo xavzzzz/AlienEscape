@@ -4,23 +4,19 @@ using UnityEngine;
 
 public class LightReticle : MonoBehaviour
 {
-    public LightManager TorchLight;
+    public List<LightManager> Sidelights;
     public Color Color;
+    public LightManager CurrentSide;
 
-
-    void OnTriggerEnter(Collider other)
-    {
+    public void NewManipulate() { 
         
-    }
+        foreach (LightManager x in Sidelights)
+        {
+            x.ClearManipulated(); x.Manipulated = this;
+        }
+        Debug.Log("selected"); }
 
-    void OnTriggerExit(Collider other)
-    {
-        
-    }
-
-    public void NewManipulate() { TorchLight.Manipulated = this; Debug.Log("selected"); }
-
-    public void RemoveManipulate() {  Debug.Log("null"); }
+    public void RemoveManipulate() { CurrentSide.LightReticles.Remove(this); }
 
     public void Awake()
     {

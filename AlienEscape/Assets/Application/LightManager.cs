@@ -1,19 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Hardware;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class LightManager : MonoBehaviour
 {
+    
     public List<Collider> LightSlots;
-    public Light LightSource;
+    public GameObject Bulb;
+    public LightOutput LightSource;
     public LightReticle Manipulated;
     public List<LightReticle> LightReticles;
+
+
     private Color originalColor;
+
+    private XRSocketInteractor Interactor;
 
     private void Awake()
     {
-        originalColor = Color.clear;
-        LightSource.color = originalColor;
+        LightSource.GetComponent<Light>().color = Color.clear;
 
     }
 
@@ -21,65 +28,54 @@ public class LightManager : MonoBehaviour
     {
         if (Manipulated != null)
         {
-            this.GetComponent<LightManager>().LightReticles.Add(Manipulated);
+            LightReticles.Add(Manipulated);
+            Manipulated.CurrentSide = this;
 
-            LightSource.color = CombineColors(LightSource.color, Manipulated.Color);
-            Debug.Log(Manipulated.Color);
-
-            Manipulated = null;
+            var output = CombineColors(Bulb.GetComponent<Renderer>().material.color, Manipulated.Color);
+            Bulb.GetComponent<Renderer>().material.color = output;
+            LightSource.UpdateColorOut();
         }
     }
+
+    public void ClearManipulated() { Manipulated = null; }
 
     public void RemoveLight()
     {
         if (Manipulated != null)
         {
-            this.GetComponent<LightManager>().LightReticles.Remove(Manipulated);
-
             new WaitForSeconds(1f);
-            LightSource.color = originalColor;
-            Color[] colors = new Color[LightReticles.Count + 1];
+            var output = LightReticles[^1].Color;
+            Bulb.GetComponent<Renderer>().material.color = output;
+            LightSource.UpdateColorOut();
+        }
+    }
+        public static Color GetComplementaryColor(Color color)
+        {
+            Color.RGBToHSV(color, out float h, out float s, out float v);
+            h = (h + 0.5f) % 1f;
+            return Color.HSVToRGB(h, s, v);
+        }
 
-            int x = 0;
-            foreach (LightReticle i in LightReticles)
+        public static Color CombineColors(params Color[] aColors)
+        {
+            Color result = new Color(0, 0, 0, 0);
+            foreach (Color c in aColors)
             {
-                colors.SetValue(i.Color, x);
-                x++;
-                Debug.Log("For");
+                result += c;
             }
-
-            colors.SetValue(LightSource.color, x);
-            LightSource.color = CombineColors(colors);
+            result /= aColors.Length;
+            return result;
         }
 
-    }
-
-    public static Color GetComplementaryColor(Color color)
-    {
-        Color.RGBToHSV(color, out float h, out float s, out float v);
-        h = (h + 0.5f) % 1f;
-        return Color.HSVToRGB(h, s, v);
-    }
-
-    public static Color CombineColors(params Color[] aColors)
-    {
-        Color result = new Color(0, 0, 0, 0);
-        foreach (Color c in aColors)
+        public static Color RemoveColors(params Color[] aColors)
         {
-            result += c;
+            Color result = new Color(0, 0, 0, 0);
+            foreach (Color c in aColors)
+            {
+                result -= c;
+            }
+            result /= aColors.Length;
+            return result;
         }
-        result /= aColors.Length;
-        return result;
-    }
-
-    public static Color RemoveColors(params Color[] aColors)
-    {
-        Color result = new Color(0, 0, 0, 0);
-        foreach (Color c in aColors)
-        {
-            result -= c;
-        }
-        result /= aColors.Length;
-        return result;
-    }
+    
 }

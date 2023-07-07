@@ -320,5 +320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f267ae14972cc1d4b9faf6a52a130095, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TorchLight: {fileID: 0}
+  Sidelights:
+  - {fileID: 0}
+  - {fileID: 0}
   Color: {r: 0, g: 0, b: 0, a: 0}
