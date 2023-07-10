@@ -7,15 +7,22 @@ public class RuneManager : MonoBehaviour
     public Material RuneLook;
     public Material DefaultLook;
 
+    public bool Unlocked;
+
+    private void Awake()
+    {
+        Unlocked = false;
+    }
+
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Rune") other.GetComponent<Renderer>().material = RuneLook;
+        if (other.tag == "Rune" && Unlocked) other.GetComponent<Renderer>().material = RuneLook;
     }
 
     void OnTriggerExit(Collider other)
         {
-        if (other.tag == "Rune") other.GetComponent<Renderer>().material = DefaultLook;
+        if (other.tag == "Rune" && Unlocked) other.GetComponent<Renderer>().material = DefaultLook;
         }
     
 }

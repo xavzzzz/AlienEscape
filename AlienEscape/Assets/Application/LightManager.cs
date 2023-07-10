@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Hardware;
@@ -24,18 +25,26 @@ public class LightManager : MonoBehaviour
 
     }
 
-    public void AddLight()
+    public void UpdateLight()
     {
-        if (Manipulated != null)
+        var NewColor = Color.clear;
+        foreach(LightReticle x in LightReticles)
         {
-            LightReticles.Add(Manipulated);
-            Manipulated.CurrentSide = this;
-
-            var output = CombineColors(Bulb.GetComponent<Renderer>().material.color, Manipulated.Color);
-            Bulb.GetComponent<Renderer>().material.color = output;
-            LightSource.UpdateColorOut();
+            NewColor = CombineColors(NewColor, x.Color);   
         }
+
+        Bulb.GetComponent<Renderer>().material.color = NewColor;
+        LightSource.UpdateColorOut();
     }
+
+
+    private void OnSelectEntered(SelectEnterEventArgs args)
+    {
+        // Store the attached GameObject when an Interactable is grabbed
+        Debug.Log(args.interactorObject);
+    }
+
+
 
     public void ClearManipulated() { Manipulated = null; }
 
@@ -43,8 +52,10 @@ public class LightManager : MonoBehaviour
     {
         if (Manipulated != null)
         {
-            new WaitForSeconds(1f);
-            var output = LightReticles[^1].Color;
+            var output = Color.grey;
+            Debug.Log("2");
+            if (LightReticles[0].Color != null) { output = LightReticles[0].Color; }
+                
             Bulb.GetComponent<Renderer>().material.color = output;
             LightSource.UpdateColorOut();
         }
