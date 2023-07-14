@@ -159,6 +159,9 @@
 		<property name="length">
 			<value>39.263628117913832</value>
 		</property>
+		<property name="pitch">
+			<value>-24</value>
+		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
@@ -190,6 +193,9 @@
 		<property name="length">
 			<value>39.263628117913832</value>
 		</property>
+		<property name="pitch">
+			<value>-24</value>
+		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
@@ -198,9 +204,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{088e3408-1190-4b92-ab1e-0e6f8069fbe5}">
-		<property name="volume">
-			<value>-10</value>
-		</property>
 		<property name="name">
 			<value>Audio 3</value>
 		</property>
@@ -306,6 +309,9 @@
 	</object>
 	<object class="MixerBusFader" id="{fc0d3c11-6777-4b6e-a7c2-b3deb32f0e1b}" />
 	<object class="MultibandEqEffect" id="{30d7d547-4d4b-4df4-b1ed-a6a59873cebd}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="frequencyA">
 			<value>3441.75269</value>
 		</property>
@@ -405,7 +411,6 @@
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -414,7 +419,6 @@
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -450,7 +454,6 @@
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>

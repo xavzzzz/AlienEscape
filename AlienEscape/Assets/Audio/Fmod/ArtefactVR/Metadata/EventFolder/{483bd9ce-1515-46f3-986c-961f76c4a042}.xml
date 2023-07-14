@@ -5,7 +5,7 @@
 			<value>Clavier</value>
 		</property>
 		<relationship name="folder">
-			<destination>{0579747a-99e8-4adc-8475-a4c9a289c0ad}</destination>
+			<destination>{91b35dea-ccd5-4073-b56e-bfc0afb5f553}</destination>
 		</relationship>
 	</object>
 </objects>
