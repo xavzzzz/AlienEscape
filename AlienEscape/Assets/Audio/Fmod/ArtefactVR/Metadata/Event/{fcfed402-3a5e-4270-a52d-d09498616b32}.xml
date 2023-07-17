@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{fcfed402-3a5e-4270-a52d-d09498616b32}">
 		<property name="color">
-			<value>Yellow</value>
+			<value>Green</value>
 		</property>
 		<property name="name">
 			<value>Artefact_BackgroundNoise</value>
@@ -67,7 +67,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximumDistance">
-			<value>1.60000002</value>
+			<value>3</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{b1514728-119c-4cb5-a18a-07a2948ffbc9}" />
@@ -115,6 +115,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{b672df14-9e09-42f1-a657-674f9e741662}">
+		<property name="volume">
+			<value>-10</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{5407f47a-5e8e-4cbe-a17f-f86cf5d52382}</destination>
 		</relationship>
@@ -271,9 +274,9 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{5407f47a-5e8e-4cbe-a17f-f86cf5d52382}">
 		<relationship name="effects">
+			<destination>{1854f831-8ffd-4556-97ef-399b07d3a54e}</destination>
 			<destination>{2d9fa933-850f-4dc7-940c-cdf3a792872b}</destination>
 			<destination>{07e2a12e-3a03-4732-9b3e-f6f6cf80edad}</destination>
-			<destination>{1854f831-8ffd-4556-97ef-399b07d3a54e}</destination>
 			<destination>{f4d42798-3050-4b62-9459-a880e42fad59}</destination>
 		</relationship>
 	</object>
@@ -308,6 +311,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1b659b18-98e6-420a-9865-fe0b1b0e9eaf}" />
+	<object class="MixerBusFader" id="{1854f831-8ffd-4556-97ef-399b07d3a54e}" />
 	<object class="CompressorEffect" id="{2d9fa933-850f-4dc7-940c-cdf3a792872b}">
 		<property name="threshold">
 			<value>-24</value>
@@ -317,7 +321,6 @@
 		</property>
 	</object>
 	<object class="LoudnessMeter" id="{07e2a12e-3a03-4732-9b3e-f6f6cf80edad}" />
-	<object class="MixerBusFader" id="{1854f831-8ffd-4556-97ef-399b07d3a54e}" />
 	<object class="PluginEffect" id="{f4d42798-3050-4b62-9459-a880e42fad59}">
 		<relationship name="plugin">
 			<destination>{a5c58095-0d43-495c-a439-d400ca5d7334}</destination>

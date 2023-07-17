@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9ad6fae8-cad1-4828-adbd-ae925d87babd}">
 		<property name="color">
-			<value>Yellow</value>
+			<value>Green</value>
 		</property>
 		<property name="name">
 			<value>Room_Ambiance</value>
@@ -35,6 +35,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{e22dc4f2-798d-41f6-aad4-d56a7204a481}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{e54ffbe8-5678-421b-85d4-582682ff92f0}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{b8743ee7-b466-4a84-9aa5-9d45281a12c8}">
@@ -95,9 +98,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{80e84ca5-1f26-447a-82b7-1ef73f613472}">
-		<property name="volume">
-			<value>-3</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{486340ca-cced-4d38-a74c-35fd04e858df}</destination>
 		</relationship>
@@ -130,7 +130,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{e485ef63-826a-47f7-8e5d-f38e345f42fe}">
 		<property name="volume">
-			<value>-30</value>
+			<value>-29.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -189,7 +189,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{b95da60b-e545-4a62-a9f1-bbc544db1018}">
 		<property name="volume">
-			<value>-10</value>
+			<value>-3</value>
 		</property>
 		<property name="name">
 			<value>Audio 3</value>

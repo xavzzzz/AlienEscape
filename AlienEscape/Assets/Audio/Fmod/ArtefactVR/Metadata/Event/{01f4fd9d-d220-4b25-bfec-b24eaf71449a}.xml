@@ -40,6 +40,9 @@
 		<relationship name="parameters">
 			<destination>{990824ed-efcc-45ec-8d6b-1fa1116f3478}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{e54ffbe8-5678-421b-85d4-582682ff92f0}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{cc562724-a8f7-4238-aafa-d92658c4f248}">
 		<relationship name="masterBus">
@@ -158,6 +161,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{02bb1f44-cfdf-4492-8b91-15dea11553d5}">
+		<property name="volume">
+			<value>5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -187,7 +193,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{82150257-22a7-4c14-9354-301f9e0863bb}">
 		<property name="volume">
-			<value>-9</value>
+			<value>-8</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -218,7 +224,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{71b56b36-687c-470d-ba7b-30c96aed70f0}">
 		<property name="volume">
-			<value>-14</value>
+			<value>-11</value>
 		</property>
 		<property name="name">
 			<value>Audio 3</value>
@@ -249,7 +255,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{279a929e-e506-4d4f-8d00-c48fdfe9493e}">
 		<property name="volume">
-			<value>-13.5</value>
+			<value>-10.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 4</value>
@@ -316,7 +322,6 @@
 		<relationship name="effects">
 			<destination>{02327acf-45c1-408f-a95d-15d618898153}</destination>
 			<destination>{8693aa60-06aa-460e-a791-23f96e815e46}</destination>
-			<destination>{107d1515-5a8a-4c41-8285-6f3b9bb04924}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c8bfe93e-0a4c-4cf5-b93e-aa96d1de2069}" />
@@ -341,6 +346,9 @@
 		<property name="ratio">
 			<value>50</value>
 		</property>
+		<property name="gain">
+			<value>10</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{c795b057-68fa-4034-8e78-2fd5ba9ee7e5}" />
 	<object class="LoudnessMeter" id="{2378035c-aba1-42f8-91e2-a2dab48c90d9}" />
@@ -360,14 +368,6 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{8693aa60-06aa-460e-a791-23f96e815e46}" />
-	<object class="HighpassEffect" id="{107d1515-5a8a-4c41-8285-6f3b9bb04924}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
-		<property name="cutoff">
-			<value>6000</value>
-		</property>
-	</object>
 	<object class="LowpassEffect" id="{667be734-4bc9-45db-858e-b18891ee40bc}">
 		<property name="cutoff">
 			<value>1000</value>
