@@ -91,6 +91,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{d6852ea0-ac69-4124-8514-c70bd48547a0}">
+		<property name="volume">
+			<value>-4</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{e5aa962d-ed42-45c5-9cd9-f98182418b7c}</destination>
 		</relationship>
@@ -167,6 +170,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{5b37ee7d-a502-4069-a58b-56826c2a2e0c}">
+		<relationship name="modulators">
+			<destination>{d719e18a-f52e-491b-953d-3620441ef390}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{aa31af3e-2537-4446-ba13-ea2bd140c114}</destination>
 		</relationship>
@@ -183,6 +189,14 @@
 		<relationship name="plugin">
 			<destination>{fd32a553-1080-4acb-b155-ecc24bb1568a}</destination>
 		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{d719e18a-f52e-491b-953d-3620441ef390}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>11.5</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{a446a85f-9af8-4e98-9a15-d822bb7fa071}" />
 	<object class="CompressorEffect" id="{32c5b656-d214-41e8-8fe4-b010cceb8679}">
@@ -285,7 +299,6 @@
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -294,7 +307,6 @@
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -330,7 +342,6 @@
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>

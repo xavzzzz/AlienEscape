@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9a03e75a-e3f9-48cd-9251-73eb9f43ca47}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>LaserCutter_Cutting</value>
 		</property>
