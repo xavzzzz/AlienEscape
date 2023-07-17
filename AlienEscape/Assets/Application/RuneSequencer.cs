@@ -13,6 +13,7 @@ public class RuneSequencer : MonoBehaviour
 
     public void Awake()
     {
+       
         counter = 0;
     }
 
