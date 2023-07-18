@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9a03e75a-e3f9-48cd-9251-73eb9f43ca47}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>LaserCutter_Cutting</value>
 		</property>
@@ -30,6 +33,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{cabf0aba-838d-4d6c-81f7-34290f9d491c}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{e54ffbe8-5678-421b-85d4-582682ff92f0}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{c8217df0-99f6-4f77-a044-ecdefe53afbe}">

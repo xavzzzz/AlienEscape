@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-using static UnityEditor.Rendering.CameraUI;
 
 public class LightOutput : MonoBehaviour
 {
@@ -18,6 +17,12 @@ public class LightOutput : MonoBehaviour
        if (ColorToHex(combined) == ColorToHex(RuneUnlock))  this.gameObject.GetComponent<RuneManager>().Unlocked = true;
 
         
+    }
+
+    public void Update()
+    {
+        UpdateColorOut();
+
     }
 
     string ColorToHex(Color color)
