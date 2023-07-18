@@ -6991,6 +6991,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2718765886000080454, guid: 113e7e9f971d52b4cb07aabe52031b19,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2718765886000080454, guid: 113e7e9f971d52b4cb07aabe52031b19,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2718765886000080454, guid: 113e7e9f971d52b4cb07aabe52031b19,
+        type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4519928865813137299, guid: 113e7e9f971d52b4cb07aabe52031b19,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7060,6 +7075,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -17.475
+      objectReference: {fileID: 0}
+    - target: {fileID: 7631640217211530465, guid: 113e7e9f971d52b4cb07aabe52031b19,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8280417841976823092, guid: 113e7e9f971d52b4cb07aabe52031b19,
         type: 3}
