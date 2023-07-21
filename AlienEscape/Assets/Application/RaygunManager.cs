@@ -52,14 +52,23 @@ public class RaygunManager : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(rayOrigin, laserLine.gameObject.transform.forward, out hit, gunRange))
             {
-                this.GetComponent<DecalPainter>().PaintDecal(hit.point, hit.normal, hit.collider);
+                var hitObj = hit.collider.gameObject;
+                
 
 
                 laserLine.SetPosition(1, hit.point);
-                if (hit.collider.gameObject.CompareTag("LightLink"))
+                if (hitObj.CompareTag("LightLink"))
                 {
-                    hit.collider.gameObject.GetComponent<Renderer>().material.color = Color.red;
+                    var lightRune = hitObj.GetComponent<Rune>();
+
+                    if(!lightRune.locked)hitObj.GetComponentInParent<RuneSequencer>().TrySequence(lightRune);
+                    lightRune.locked = true;
+
+                    hitObj.GetComponent<Renderer>().material.color = Color.green;
                 }
+                
+                    this.GetComponent<DecalPainter>().PaintDecal(hit.point, hit.normal, hit.collider);
+                
             }
             else
             {
