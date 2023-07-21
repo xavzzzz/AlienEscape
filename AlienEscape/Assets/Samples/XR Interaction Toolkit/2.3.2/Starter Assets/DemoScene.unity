@@ -1199,7 +1199,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: LaserGun
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5704557977916250233, guid: a13817150b32a9a47a5990bba574ef2d, type: 3}
+    - {fileID: 6520195172510550328, guid: a13817150b32a9a47a5990bba574ef2d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a13817150b32a9a47a5990bba574ef2d, type: 3}
 --- !u!1001 &311804791
 PrefabInstance:
@@ -1440,6 +1442,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 336426667}
   m_CullTransparentMesh: 1
+--- !u!114 &347038848 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4746888837867215494, guid: fd28f23af44f73f4a95e33435872ad15,
+    type: 3}
+  m_PrefabInstance: {fileID: 876656115}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &359446569 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1833322463771964652, guid: 1bb6c3ca6872eb740a1d296520e7a48c,
@@ -1984,6 +1998,40 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 564796391}
   m_CullTransparentMesh: 1
+--- !u!1 &600465678 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4192814479783945644, guid: a13817150b32a9a47a5990bba574ef2d,
+    type: 3}
+  m_PrefabInstance: {fileID: 285535448}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &600465682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600465678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebcfd83b00a6d69469600433f03f866a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  decalData:
+  - sprite: {fileID: 21300000, guid: 8d5c75e41e834f54996ab57e5ab0d2e1, type: 3}
+    size: {x: 0.05, y: 0.05, z: 0.05}
+  decalPorjectorPrefab: {fileID: 582456153674801920, guid: a2a143710f797e64b8f38944f76240f3,
+    type: 3}
+  selectedDecalIndex: 0
+  decalImage: {fileID: 347038848}
+  decalSwitchAction:
+    m_Name: Decal Switch
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: c801c7d5-d13c-4583-a1fc-c0ceed66f891
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
 --- !u!1 &633886873
 GameObject:
   m_ObjectHideFlags: 0
@@ -11772,6 +11820,75 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &582456153035340585
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 582456153674801920, guid: a2a143710f797e64b8f38944f76240f3,
+        type: 3}
+      propertyPath: m_Name
+      value: Decal Projector
+      objectReference: {fileID: 0}
+    - target: {fileID: 582456153674801922, guid: a2a143710f797e64b8f38944f76240f3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 582456153674801922, guid: a2a143710f797e64b8f38944f76240f3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.663
+      objectReference: {fileID: 0}
+    - target: {fileID: 582456153674801922, guid: a2a143710f797e64b8f38944f76240f3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.811
+      objectReference: {fileID: 0}
+    - target: {fileID: 582456153674801922, guid: a2a143710f797e64b8f38944f76240f3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 582456153674801922, guid: a2a143710f797e64b8f38944f76240f3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 582456153674801922, guid: a2a143710f797e64b8f38944f76240f3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 582456153674801922, guid: a2a143710f797e64b8f38944f76240f3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 582456153674801922, guid: a2a143710f797e64b8f38944f76240f3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 582456153674801922, guid: a2a143710f797e64b8f38944f76240f3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 582456153674801922, guid: a2a143710f797e64b8f38944f76240f3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 582456153674801922, guid: a2a143710f797e64b8f38944f76240f3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a2a143710f797e64b8f38944f76240f3, type: 3}
 --- !u!1 &604367606304239376
 GameObject:
   m_ObjectHideFlags: 0

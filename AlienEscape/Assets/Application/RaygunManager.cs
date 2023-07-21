@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class RaygunManager : MonoBehaviour
 {
@@ -26,8 +27,9 @@ public class RaygunManager : MonoBehaviour
     }
 
 
-    public void Shoot() {
-        
+    public void Shoot()
+    {
+
         shooting = true;
     }
 
@@ -50,10 +52,13 @@ public class RaygunManager : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(rayOrigin, laserLine.gameObject.transform.forward, out hit, gunRange))
             {
+                this.GetComponent<DecalPainter>().PaintDecal(hit.point, hit.normal, hit.collider);
+
+
                 laserLine.SetPosition(1, hit.point);
-                if (hit.collider.gameObject.CompareTag("LightLink")) 
+                if (hit.collider.gameObject.CompareTag("LightLink"))
                 {
-                    hit.collider.gameObject.GetComponent<Renderer>().material.color = Color.red;    
+                    hit.collider.gameObject.GetComponent<Renderer>().material.color = Color.red;
                 }
             }
             else
@@ -70,6 +75,7 @@ public class RaygunManager : MonoBehaviour
         yield return new WaitForSeconds(laserDuration);
     }
 }
+
 
 
 
