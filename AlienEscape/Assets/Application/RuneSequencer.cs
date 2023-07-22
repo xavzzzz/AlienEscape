@@ -9,27 +9,32 @@ public class RuneSequencer : MonoBehaviour
 
 
     private int counter;
+    private int tries;
 
 
     public void Awake()
     {
-       
-        counter = 0;
+
+        counter = 1;
     }
 
     public void TrySequence(Rune a)
     {
-        
-        if (a.OrderInSequence-1 == counter){
+        tries++;
 
-            if(counter+1 == MaxSequence) { Debug.Log("T TRO FORT SALE RACISTE"); counter = 0; return;  }
+        if (tries >= MaxSequence) { Debug.Log("Loser let's reset"); }
 
+
+        if (a.OrderInSequence == counter || a.OrderInSequence == MaxSequence-counter+1)
+        {
+
+            if (counter == MaxSequence) { Debug.Log("T TRO FORT SALE RACISTE"); return; } 
             Debug.Log("Can continue");
             counter++;
         }
         else
         {
-                 counter = 0;
+            Debug.Log("Already Lost");
         }
     }
 }
