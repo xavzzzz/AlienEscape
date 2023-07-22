@@ -975,6 +975,7 @@ GameObject:
   - component: {fileID: 4385989560437573481}
   - component: {fileID: 5295238825339309034}
   - component: {fileID: 8133181027050855283}
+  - component: {fileID: 8917129021187715816}
   m_Layer: 0
   m_Name: 2
   m_TagString: Untagged
@@ -1063,6 +1064,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 8133181027050855283}
           m_ObjectArgumentAssemblyTypeName: Rune, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8917129021187715816}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1179,6 +1192,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OrderInSequence: 2
   locked: 0
+--- !u!114 &8917129021187715816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461027711832806509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 813927009
+      Data2: 1151000942
+      Data3: -716363890
+      Data4: -647435674
+    Path: event:/Artefact/Artefact_RunePushed
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 3
 --- !u!1 &1817175673596270810
 GameObject:
   m_ObjectHideFlags: 0
@@ -2766,6 +2810,7 @@ GameObject:
   - component: {fileID: 1369844792807927602}
   - component: {fileID: 3918826756658109012}
   - component: {fileID: 1744939344269094045}
+  - component: {fileID: 5666905112466237395}
   m_Layer: 0
   m_Name: 0
   m_TagString: Untagged
@@ -2854,6 +2899,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 1744939344269094045}
           m_ObjectArgumentAssemblyTypeName: Rune, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5666905112466237395}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2970,6 +3027,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OrderInSequence: 0
   locked: 0
+--- !u!114 &5666905112466237395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4725068561946485402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 813927009
+      Data2: 1151000942
+      Data3: -716363890
+      Data4: -647435674
+    Path: event:/Artefact/Artefact_RunePushed
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 3
 --- !u!1 &4733899305752865063
 GameObject:
   m_ObjectHideFlags: 0
@@ -5155,6 +5243,7 @@ GameObject:
   - component: {fileID: 6491524178053926107}
   - component: {fileID: 6491524178053926100}
   - component: {fileID: 6491524178053926101}
+  - component: {fileID: 6139577505465886579}
   m_Layer: 0
   m_Name: 5
   m_TagString: Untagged
@@ -5243,6 +5332,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 6491524178053926101}
           m_ObjectArgumentAssemblyTypeName: Rune, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6139577505465886579}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5359,6 +5460,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OrderInSequence: 5
   locked: 0
+--- !u!114 &6139577505465886579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6491524178053926096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 813927009
+      Data2: 1151000942
+      Data3: -716363890
+      Data4: -647435674
+    Path: event:/Artefact/Artefact_RunePushed
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 3
 --- !u!1 &6491524178068848027
 GameObject:
   m_ObjectHideFlags: 0
@@ -5373,6 +5505,7 @@ GameObject:
   - component: {fileID: 6491524178068848030}
   - component: {fileID: 6491524178068848031}
   - component: {fileID: 6491524178068848024}
+  - component: {fileID: 9000733118676341016}
   m_Layer: 0
   m_Name: 6
   m_TagString: Untagged
@@ -5461,6 +5594,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 6491524178068848024}
           m_ObjectArgumentAssemblyTypeName: Rune, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 9000733118676341016}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5577,6 +5722,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OrderInSequence: 6
   locked: 0
+--- !u!114 &9000733118676341016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6491524178068848027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 813927009
+      Data2: 1151000942
+      Data3: -716363890
+      Data4: -647435674
+    Path: event:/Artefact/Artefact_RunePushed
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 3
 --- !u!1 &6491524178086118478
 GameObject:
   m_ObjectHideFlags: 0
@@ -5591,6 +5767,7 @@ GameObject:
   - component: {fileID: 6491524178086118513}
   - component: {fileID: 6491524178086118514}
   - component: {fileID: 6491524178086118515}
+  - component: {fileID: 3777026030742791501}
   m_Layer: 0
   m_Name: 8
   m_TagString: Untagged
@@ -5679,6 +5856,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 6491524178086118515}
           m_ObjectArgumentAssemblyTypeName: Rune, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3777026030742791501}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5795,6 +5984,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OrderInSequence: 8
   locked: 0
+--- !u!114 &3777026030742791501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6491524178086118478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 813927009
+      Data2: 1151000942
+      Data3: -716363890
+      Data4: -647435674
+    Path: event:/Artefact/Artefact_RunePushed
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 3
 --- !u!1 &6491524178103520488
 GameObject:
   m_ObjectHideFlags: 0
@@ -6092,6 +6312,7 @@ GameObject:
   - component: {fileID: 6491524178369993554}
   - component: {fileID: 6491524178369993555}
   - component: {fileID: 6491524178369993516}
+  - component: {fileID: 4747894747870346206}
   m_Layer: 0
   m_Name: 4
   m_TagString: Untagged
@@ -6180,6 +6401,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 6491524178369993516}
           m_ObjectArgumentAssemblyTypeName: Rune, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4747894747870346206}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6296,6 +6529,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OrderInSequence: 4
   locked: 0
+--- !u!114 &4747894747870346206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6491524178369993519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 813927009
+      Data2: 1151000942
+      Data3: -716363890
+      Data4: -647435674
+    Path: event:/Artefact/Artefact_RunePushed
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 3
 --- !u!1 &6491524178445351370
 GameObject:
   m_ObjectHideFlags: 0
@@ -6661,6 +6925,7 @@ GameObject:
   - component: {fileID: 6491524178870521133}
   - component: {fileID: 6491524178870521134}
   - component: {fileID: 6491524178870521135}
+  - component: {fileID: 1632842646699092270}
   m_Layer: 0
   m_Name: 9
   m_TagString: Untagged
@@ -6749,6 +7014,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 6491524178870521135}
           m_ObjectArgumentAssemblyTypeName: Rune, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1632842646699092270}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6865,6 +7142,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OrderInSequence: 9
   locked: 0
+--- !u!114 &1632842646699092270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6491524178870521130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 813927009
+      Data2: 1151000942
+      Data3: -716363890
+      Data4: -647435674
+    Path: event:/Artefact/Artefact_RunePushed
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 3
 --- !u!1 &6491524178922093471
 GameObject:
   m_ObjectHideFlags: 0
@@ -6963,6 +7271,7 @@ GameObject:
   - component: {fileID: 6491524178954600411}
   - component: {fileID: 6491524178954600404}
   - component: {fileID: 6491524178954600405}
+  - component: {fileID: 105851657220362517}
   m_Layer: 0
   m_Name: 7
   m_TagString: Untagged
@@ -7051,6 +7360,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 6491524178954600405}
           m_ObjectArgumentAssemblyTypeName: Rune, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 105851657220362517}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7167,6 +7488,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OrderInSequence: 7
   locked: 0
+--- !u!114 &105851657220362517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6491524178954600400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 813927009
+      Data2: 1151000942
+      Data3: -716363890
+      Data4: -647435674
+    Path: event:/Artefact/Artefact_RunePushed
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 3
 --- !u!1 &6491524179048893356
 GameObject:
   m_ObjectHideFlags: 0
@@ -7684,6 +8036,7 @@ GameObject:
   - component: {fileID: 6491524179238200276}
   - component: {fileID: 6491524179238200277}
   - component: {fileID: 6491524179238200278}
+  - component: {fileID: 602400638736458548}
   m_Layer: 0
   m_Name: 3
   m_TagString: Untagged
@@ -7772,6 +8125,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 6491524179238200278}
           m_ObjectArgumentAssemblyTypeName: Rune, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 602400638736458548}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7888,6 +8253,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OrderInSequence: 3
   locked: 0
+--- !u!114 &602400638736458548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6491524179238200273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 813927009
+      Data2: 1151000942
+      Data3: -716363890
+      Data4: -647435674
+    Path: event:/Artefact/Artefact_RunePushed
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 3
 --- !u!1 &6491524179253147913
 GameObject:
   m_ObjectHideFlags: 0
@@ -9807,6 +10203,7 @@ GameObject:
   - component: {fileID: 2383592323895193361}
   - component: {fileID: 4067382239569871196}
   - component: {fileID: 9028030470400937798}
+  - component: {fileID: 2209767193079494743}
   m_Layer: 0
   m_Name: 1
   m_TagString: Untagged
@@ -9906,16 +10303,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: RuneSequencer, Assembly-CSharp
         m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2209767193079494743}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -10011,6 +10420,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OrderInSequence: 1
   locked: 0
+--- !u!114 &2209767193079494743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8727642328925599368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 813927009
+      Data2: 1151000942
+      Data3: -716363890
+      Data4: -647435674
+    Path: event:/Artefact/Artefact_RunePushed
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 3
 --- !u!1 &8881309987020433677
 GameObject:
   m_ObjectHideFlags: 0

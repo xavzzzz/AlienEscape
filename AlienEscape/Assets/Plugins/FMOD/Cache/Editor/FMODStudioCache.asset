@@ -97,13 +97,13 @@ MonoBehaviour:
     Data4: 1204437919
   Banks:
   - {fileID: 7212438779820523129}
-  IsStream: 0
+  IsStream: 1
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
+  MinDistance: 0
+  MaxDistance: 2.2
+  Length: 142533
 --- !u!114 &-8651442963328982720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -466,7 +466,7 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638256175670039723
+  lastModified: 638256370810934464
   FileSizes:
   - Name: Desktop
     Value: 3570
@@ -1214,7 +1214,7 @@ MonoBehaviour:
   - {fileID: 7212438779820523129}
   StringsBanks:
   - {fileID: -5925986163448373950}
-  cacheTime: 638256175670039723
+  cacheTime: 638256370810934464
   cacheVersion: 131603
 --- !u!114 &12351545380421388
 MonoBehaviour:
@@ -1563,8 +1563,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 0
+  MaxDistance: 3
   Length: 2000
 --- !u!114 &1914961533150080597
 MonoBehaviour:
@@ -1761,7 +1761,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 1.6
-  Length: 70004
+  Length: 39263
 --- !u!114 &2585375340934494933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2046,7 +2046,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 66533
+  Length: 142533
 --- !u!114 &4238105477793450878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2142,13 +2142,13 @@ MonoBehaviour:
     Data4: -1435298841
   Banks:
   - {fileID: 7212438779820523129}
-  IsStream: 0
+  IsStream: 1
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
+  MinDistance: 0
+  MaxDistance: 2
+  Length: 4454
 --- !u!114 &5089127523427264626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2329,10 +2329,10 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638256175670039723
+  lastModified: 638256370810874333
   FileSizes:
   - Name: Desktop
-    Value: 12106560
+    Value: 14403552
   Exists: 1
 --- !u!114 &7442810880139287024
 MonoBehaviour:
@@ -2511,9 +2511,9 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
+  MinDistance: 0
+  MaxDistance: 2
+  Length: 768
 --- !u!114 &8959919965025840794
 MonoBehaviour:
   m_ObjectHideFlags: 0

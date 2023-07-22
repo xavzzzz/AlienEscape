@@ -66,6 +66,12 @@
 		<property name="voiceStealing">
 			<value>3</value>
 		</property>
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>3</value>
+		</property>
 		<property name="triggerCooldown">
 			<value>120</value>
 		</property>
