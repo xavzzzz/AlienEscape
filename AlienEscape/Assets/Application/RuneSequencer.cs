@@ -16,11 +16,12 @@ public class RuneSequencer : MonoBehaviour
     {
 
         counter = 1;
+        tries = 0;
     }
 
     public void TrySequence(Rune a)
     {
-        tries++;
+        Debug.Log("try");
 
         if (tries >= MaxSequence) { Debug.Log("Loser let's reset"); }
 
@@ -36,5 +37,7 @@ public class RuneSequencer : MonoBehaviour
         {
             Debug.Log("Already Lost");
         }
+
+        tries++;
     }
 }
