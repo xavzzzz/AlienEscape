@@ -22,6 +22,8 @@ public class RuneSequencer : MonoBehaviour
         tries = 0;
         RuneFail = FMODUnity.RuntimeManager.CreateInstance("event:/Artefact/Artefact_RuneFailed");
         RuneRight = FMODUnity.RuntimeManager.CreateInstance("event:/Artefact/Artefact_Artefact_RuneWin");
+        RuneFail.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
+        RuneRight.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
     }
 
     public void TrySequence(Rune a)
