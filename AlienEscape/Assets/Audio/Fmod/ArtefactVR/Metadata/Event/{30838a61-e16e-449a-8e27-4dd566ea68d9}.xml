@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{30838a61-e16e-449a-8e27-4dd566ea68d9}">
 		<property name="color">
-			<value>Red Light 2</value>
+			<value>Red Light 1</value>
 		</property>
 		<property name="name">
 			<value>Artefact_RunePushed</value>
@@ -327,7 +327,6 @@
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -336,7 +335,6 @@
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -372,7 +370,6 @@
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
