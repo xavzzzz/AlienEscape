@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using FMOD.Studio;
 using UnityEngine;
 
 public class RuneSequencer : MonoBehaviour
@@ -21,19 +22,24 @@ public class RuneSequencer : MonoBehaviour
         counter = 1;
         tries = 0;
         RuneFail = FMODUnity.RuntimeManager.CreateInstance("event:/Artefact/Artefact_RuneFailed");
-        RuneRight = FMODUnity.RuntimeManager.CreateInstance("event:/Artefact/Artefact_Artefact_RuneWin");
+        RuneRight = FMODUnity.RuntimeManager.CreateInstance("event:/Artefact/Artefact_RuneWin");
         RuneFail.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
         RuneRight.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
     }
 
     public void TrySequence(Rune a)
     {
+        
         Debug.Log("try");
 
-        if (tries >= MaxSequence) { Debug.Log("Loser let's reset"); RuneFail.start(); }
+        if (tries >= MaxSequence) { 
+            Debug.Log("Loser let's reset"); 
+            
+            tries = 0;
+        }
 
 
-        if (a.OrderInSequence == counter || a.OrderInSequence == MaxSequence-counter+1)
+        if (a.OrderInSequence == counter || a.OrderInSequence == MaxSequence-counter+1) 
         {
             RuneRight.start();
 
@@ -44,8 +50,12 @@ public class RuneSequencer : MonoBehaviour
         else
         {
             Debug.Log("Already Lost");
+            RuneFail.start();
+            counter = 1;
         }
 
         tries++;
     }
+
+
 }
