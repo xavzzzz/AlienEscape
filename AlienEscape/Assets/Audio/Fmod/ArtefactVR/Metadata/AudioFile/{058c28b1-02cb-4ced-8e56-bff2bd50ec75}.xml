@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{058c28b1-02cb-4ced-8e56-bff2bd50ec75}">
+		<property name="assetPath">
+			<value>Scifi, Energy, Hypnotic Beam, Ray 02 SND38670 1.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>13.515010416666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{03c61ffe-918f-47d6-be36-06aeed82eae1}</destination>
+		</relationship>
+	</object>
+</objects>

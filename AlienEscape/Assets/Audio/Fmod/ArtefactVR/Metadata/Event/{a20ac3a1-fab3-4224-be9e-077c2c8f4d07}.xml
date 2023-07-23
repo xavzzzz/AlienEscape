@@ -91,6 +91,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{d6852ea0-ac69-4124-8514-c70bd48547a0}">
+		<property name="volume">
+			<value>-4</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{e5aa962d-ed42-45c5-9cd9-f98182418b7c}</destination>
 		</relationship>
@@ -138,6 +141,7 @@
 	<object class="MixerBusEffectChain" id="{e5aa962d-ed42-45c5-9cd9-f98182418b7c}">
 		<relationship name="effects">
 			<destination>{a7aea2f6-f6e8-4ce0-9a2e-c56fafdb3fe6}</destination>
+			<destination>{d983caa2-0137-4a61-a844-3d5f99b90664}</destination>
 			<destination>{1bb450da-4fba-43cf-b5b5-1fb0105a87fa}</destination>
 		</relationship>
 	</object>
@@ -167,6 +171,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{5b37ee7d-a502-4069-a58b-56826c2a2e0c}">
+		<relationship name="modulators">
+			<destination>{d719e18a-f52e-491b-953d-3620441ef390}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{aa31af3e-2537-4446-ba13-ea2bd140c114}</destination>
 		</relationship>
@@ -179,10 +186,26 @@
 	</object>
 	<object class="MixerBusPanner" id="{792d1bfe-ec65-49fd-9805-ab8c9da6b513}" />
 	<object class="MixerBusFader" id="{a7aea2f6-f6e8-4ce0-9a2e-c56fafdb3fe6}" />
+	<object class="CompressorEffect" id="{d983caa2-0137-4a61-a844-3d5f99b90664}">
+		<property name="threshold">
+			<value>-24</value>
+		</property>
+		<property name="ratio">
+			<value>5</value>
+		</property>
+	</object>
 	<object class="PluginEffect" id="{1bb450da-4fba-43cf-b5b5-1fb0105a87fa}">
 		<relationship name="plugin">
 			<destination>{fd32a553-1080-4acb-b155-ecc24bb1568a}</destination>
 		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{d719e18a-f52e-491b-953d-3620441ef390}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>11.5</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{a446a85f-9af8-4e98-9a15-d822bb7fa071}" />
 	<object class="CompressorEffect" id="{32c5b656-d214-41e8-8fe4-b010cceb8679}">
@@ -285,7 +308,6 @@
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -294,7 +316,6 @@
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -330,7 +351,6 @@
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>

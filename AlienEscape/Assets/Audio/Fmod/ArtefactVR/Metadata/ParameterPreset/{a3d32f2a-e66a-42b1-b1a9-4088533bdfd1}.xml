@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{a3d32f2a-e66a-42b1-b1a9-4088533bdfd1}">
+		<property name="name">
+			<value>Increase_bpm</value>
+		</property>
+		<relationship name="folder">
+			<destination>{dd2a58f7-53a3-4a4a-99ed-a1c1598ae3a8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{828c2eb4-c80d-4ee9-b0d5-7ea5e52a4a4e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{828c2eb4-c80d-4ee9-b0d5-7ea5e52a4a4e}">
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="velocity">
+			<value>0.039999999105930328</value>
+		</property>
+	</object>
+</objects>

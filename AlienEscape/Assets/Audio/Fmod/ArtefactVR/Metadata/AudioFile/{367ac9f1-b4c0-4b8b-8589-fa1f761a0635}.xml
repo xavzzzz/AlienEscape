@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{367ac9f1-b4c0-4b8b-8589-fa1f761a0635}">
+		<property name="assetPath">
+			<value>Lasercutting.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>142.53331065759636</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{03c61ffe-918f-47d6-be36-06aeed82eae1}</destination>
+		</relationship>
+	</object>
+</objects>

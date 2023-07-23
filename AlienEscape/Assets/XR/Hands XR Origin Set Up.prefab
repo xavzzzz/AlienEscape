@@ -272,8 +272,8 @@ MonoBehaviour:
   m_EnableFreeZMovement: 1
   m_UseGravity: 1
   m_GravityApplicationMode: 0
-  m_LeftGrabMoveProvider: {fileID: 5695957910300899907}
-  m_RightGrabMoveProvider: {fileID: 2768196751248509868}
+  m_LeftGrabMoveProvider: {fileID: 0}
+  m_RightGrabMoveProvider: {fileID: 0}
   m_OverrideSharedSettingsOnInit: 1
   m_MoveFactor: 1
   m_RequireTwoHandsForTranslation: 0
@@ -503,7 +503,6 @@ GameObject:
   - component: {fileID: 2122998857811385115}
   - component: {fileID: 6861786048514381674}
   - component: {fileID: 2122998857811385119}
-  - component: {fileID: 5695957910300899907}
   - component: {fileID: 1181035340781291702}
   - component: {fileID: 238796831572546147}
   - component: {fileID: 2092997077835605994}
@@ -748,40 +747,6 @@ MonoBehaviour:
     m_Reference: {fileID: 7779212132400271959, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   m_ButtonPressPoint: 0.5
---- !u!114 &5695957910300899907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2122998857811385092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b94c4c83dec6a94fbaebf543478259e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_System: {fileID: 5406924077401612445}
-  m_EnableFreeXMovement: 1
-  m_EnableFreeYMovement: 0
-  m_EnableFreeZMovement: 1
-  m_UseGravity: 1
-  m_GravityApplicationMode: 0
-  m_ControllerTransform: {fileID: 0}
-  m_EnableMoveWhileSelecting: 0
-  m_MoveFactor: 1
-  m_GrabMoveAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Grab Move
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 3d33edcf-0043-45cb-95a7-008204badf83
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: -3742484312079769484, guid: c348712bda248c246b8c49b3db54643f,
-      type: 3}
 --- !u!114 &1181035340781291702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -943,7 +908,6 @@ GameObject:
   - component: {fileID: 2122998859346582522}
   - component: {fileID: 6047306791830281025}
   - component: {fileID: 2122998859346582527}
-  - component: {fileID: 2768196751248509868}
   - component: {fileID: 4744749511165390260}
   - component: {fileID: 8649237654435187714}
   - component: {fileID: 1692176224783172977}
@@ -1187,40 +1151,6 @@ MonoBehaviour:
     m_Reference: {fileID: 875253871413052681, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   m_ButtonPressPoint: 0.5
---- !u!114 &2768196751248509868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2122998859346582523}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b94c4c83dec6a94fbaebf543478259e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_System: {fileID: 5406924077401612445}
-  m_EnableFreeXMovement: 1
-  m_EnableFreeYMovement: 0
-  m_EnableFreeZMovement: 1
-  m_UseGravity: 1
-  m_GravityApplicationMode: 0
-  m_ControllerTransform: {fileID: 0}
-  m_EnableMoveWhileSelecting: 0
-  m_MoveFactor: 1
-  m_GrabMoveAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Grab Move
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: de56d195-bf90-4347-9982-6bf8ffa3420c
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 15759602096507913, guid: c348712bda248c246b8c49b3db54643f,
-      type: 3}
 --- !u!114 &4744749511165390260
 MonoBehaviour:
   m_ObjectHideFlags: 0
