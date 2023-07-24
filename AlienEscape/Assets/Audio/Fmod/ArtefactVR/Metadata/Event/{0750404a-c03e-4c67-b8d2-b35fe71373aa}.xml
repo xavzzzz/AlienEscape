@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{0750404a-c03e-4c67-b8d2-b35fe71373aa}">
 		<property name="color">
-			<value>Yellow</value>
+			<value>Green</value>
 		</property>
 		<property name="name">
 			<value>LaserCutter_On</value>
@@ -524,7 +524,6 @@
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -533,7 +532,6 @@
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -569,7 +567,6 @@
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>

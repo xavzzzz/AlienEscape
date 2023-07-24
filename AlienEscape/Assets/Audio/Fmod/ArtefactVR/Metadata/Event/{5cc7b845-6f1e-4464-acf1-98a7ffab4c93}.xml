@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{5cc7b845-6f1e-4464-acf1-98a7ffab4c93}">
 		<property name="color">
-			<value>Red</value>
+			<value>Red Light 1</value>
 		</property>
 		<property name="name">
 			<value>Lecteur_Replay</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3a165f6a-425e-48f0-be34-7decadba2162}</destination>
@@ -62,11 +62,18 @@
 	<object class="EventAutomatableProperties" id="{708c08c8-e765-4d80-81a0-f50f829b4711}" />
 	<object class="MarkerTrack" id="{984a249d-5e59-4cee-89c5-e4dcf0c36b5d}" />
 	<object class="GroupTrack" id="{5c670ed6-50fe-4660-9265-4ffa39fa25b1}">
+		<relationship name="modules">
+			<destination>{68ec6a9c-c583-4ad7-86ee-7ca8bf9e782e}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{7d97107c-afbc-4f1d-8566-221439239e52}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{496e2971-b775-4108-a329-b4df95631678}" />
+	<object class="Timeline" id="{496e2971-b775-4108-a329-b4df95631678}">
+		<relationship name="modules">
+			<destination>{68ec6a9c-c583-4ad7-86ee-7ca8bf9e782e}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{7c21bc27-c00e-4a0e-9da1-37d28a55937d}">
 		<relationship name="effectChain">
 			<destination>{f47f794f-8189-45cf-b71e-4d4127b43733}</destination>
@@ -84,6 +91,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b735ba13-0863-4cae-80ae-13dd309f6832}" />
+	<object class="SingleSound" id="{68ec6a9c-c583-4ad7-86ee-7ca8bf9e782e}">
+		<property name="length">
+			<value>0.48346938775510195</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.050000000000000003</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{474022e9-57a1-4163-b233-6b91a872976e}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{7d97107c-afbc-4f1d-8566-221439239e52}">
 		<property name="name">
 			<value>Audio 1</value>
@@ -211,7 +229,6 @@
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -220,7 +237,6 @@
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -256,7 +272,6 @@
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>

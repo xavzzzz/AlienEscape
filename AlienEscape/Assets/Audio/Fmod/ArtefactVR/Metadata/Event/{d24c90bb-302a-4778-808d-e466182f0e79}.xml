@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{d24c90bb-302a-4778-808d-e466182f0e79}">
 		<property name="color">
-			<value>Red</value>
+			<value>Red Light 1</value>
 		</property>
 		<property name="name">
 			<value>Lecteur_Play</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3a165f6a-425e-48f0-be34-7decadba2162}</destination>
@@ -62,11 +62,18 @@
 	<object class="EventAutomatableProperties" id="{fd7c80dd-c500-416d-8482-4e0d27fd6f82}" />
 	<object class="MarkerTrack" id="{801ca4ab-6671-4587-9c70-595cb49a0f77}" />
 	<object class="GroupTrack" id="{5846bf5a-e9b2-4367-9df4-d36478a058d3}">
+		<relationship name="modules">
+			<destination>{5736b574-5f0a-4e29-ada1-457b60c987c8}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{519ed81e-c797-4508-8b96-0af549aa17ac}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{5660c444-1bd5-46f6-9c6d-037047e8d6e2}" />
+	<object class="Timeline" id="{5660c444-1bd5-46f6-9c6d-037047e8d6e2}">
+		<relationship name="modules">
+			<destination>{5736b574-5f0a-4e29-ada1-457b60c987c8}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{6a3695cb-09f8-4294-8e7d-b189ba4341d6}">
 		<relationship name="effectChain">
 			<destination>{6b6b7e8b-858e-45ca-868d-96454ecfc87f}</destination>
@@ -84,6 +91,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d894368f-01dc-49c1-815a-621d3ddf0645}" />
+	<object class="SingleSound" id="{5736b574-5f0a-4e29-ada1-457b60c987c8}">
+		<property name="length">
+			<value>0.48346938775510195</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.050000000000000003</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{474022e9-57a1-4163-b233-6b91a872976e}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{519ed81e-c797-4508-8b96-0af549aa17ac}">
 		<property name="name">
 			<value>Audio 1</value>
@@ -211,7 +229,6 @@
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -220,7 +237,6 @@
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -256,7 +272,6 @@
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
