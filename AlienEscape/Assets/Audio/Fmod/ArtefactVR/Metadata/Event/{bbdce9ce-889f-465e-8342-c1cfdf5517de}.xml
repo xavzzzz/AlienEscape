@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{bbdce9ce-889f-465e-8342-c1cfdf5517de}">
+		<property name="note">
+			<value>Son d'extinction de l'outil lampe</value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>

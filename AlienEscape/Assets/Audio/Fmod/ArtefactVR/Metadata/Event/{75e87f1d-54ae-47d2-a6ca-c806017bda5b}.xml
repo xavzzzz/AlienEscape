@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{75e87f1d-54ae-47d2-a6ca-c806017bda5b}">
+		<property name="note">
+			<value>Feedback de réussite de filtration d'un des statics</value>
+		</property>
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>Filtered</value>
 		</property>

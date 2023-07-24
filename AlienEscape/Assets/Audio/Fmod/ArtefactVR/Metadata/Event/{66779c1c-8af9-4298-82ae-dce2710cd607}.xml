@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{66779c1c-8af9-4298-82ae-dce2710cd607}">
+		<property name="note">
+			<value>Son d'abandon d'un objet qui était dans les mains du joueur</value>
+		</property>
 		<property name="color">
 			<value>Yellow</value>
 		</property>

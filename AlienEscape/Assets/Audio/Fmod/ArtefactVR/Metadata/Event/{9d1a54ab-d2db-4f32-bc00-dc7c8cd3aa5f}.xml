@@ -2,8 +2,12 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9d1a54ab-d2db-4f32-bc00-dc7c8cd3aa5f}">
 		<property name="note">
-			<value>7 test 
+			<value>L'osciloscope fonctionne via 3 static différents, le joueur doit filtrer chaqu'un de ses static en trouvant la bonne combinaison sur les 3 potentiometre a sa disposition. Chaque static et leur variation est émis par un haut parleur différent. A chaque valeur correcte, un element sonore supplémentaire vient s'ajouter au static en question. Lorsque les 3 potentiometres sont a la bonne combinaison de valeur associer a un static, celui ci est neutraliser et disparait. Lorsque le joueur neutralise les 3 statics, la mélodie apparait et le puzzle est réussi.
+7 test 
 De 2 min30 a 5 min</value>
+		</property>
+		<property name="color">
+			<value>Green</value>
 		</property>
 		<property name="name">
 			<value>Oscilloscope Binaural + Incrémentation</value>

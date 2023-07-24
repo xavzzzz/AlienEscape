@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{5650a010-cf49-4ed4-aa03-3a5ffd9603f9}">
+		<property name="note">
+			<value>Esclave du static 1</value>
+		</property>
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>Oscillo_st 1</value>
 		</property>

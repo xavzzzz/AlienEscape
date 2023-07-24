@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{fcfed402-3a5e-4270-a52d-d09498616b32}">
+		<property name="note">
+			<value>Son Ambiant de l'artefact, de nature intrigant, mysterieux et "Alien" </value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>

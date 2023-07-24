@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9a03e75a-e3f9-48cd-9251-73eb9f43ca47}">
+		<property name="note">
+			<value>Son de découpe du laser sur la surface du noyau</value>
+		</property>
 		<property name="color">
 			<value>Red Light 1</value>
 		</property>
@@ -145,6 +148,9 @@
 	<object class="SoundScatterer" id="{788e50c8-d7ad-43e7-b973-9b0b9c3ce1ad}">
 		<property name="length">
 			<value>2</value>
+		</property>
+		<property name="spawnRate">
+			<value>150</value>
 		</property>
 		<property name="minimumScatterDistance">
 			<value>0</value>
@@ -476,7 +482,6 @@
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -485,7 +490,6 @@
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -521,7 +525,6 @@
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>

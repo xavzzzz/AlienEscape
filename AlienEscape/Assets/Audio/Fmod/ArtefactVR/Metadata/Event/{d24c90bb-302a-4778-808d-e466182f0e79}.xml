@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{d24c90bb-302a-4778-808d-e466182f0e79}">
+		<property name="note">
+			<value>Son de pression sur le bouton lecture du lecteur cassette</value>
+		</property>
 		<property name="color">
 			<value>Red Light 1</value>
 		</property>

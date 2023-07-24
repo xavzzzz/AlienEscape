@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{62361925-7e86-43c9-9e59-210919be4d65}">
+		<property name="note">
+			<value>Son d'impact d'un objet tombant contre une surface</value>
+		</property>
 		<property name="color">
 			<value>Yellow</value>
 		</property>

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e153705f-24f3-4102-86f8-ea6a20d01d75}">
+		<property name="note">
+			<value>Son de réussite du potentiomètres 3 sur le static 2   variation aigue du static 2</value>
+		</property>
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>Static 2-3</value>
 		</property>

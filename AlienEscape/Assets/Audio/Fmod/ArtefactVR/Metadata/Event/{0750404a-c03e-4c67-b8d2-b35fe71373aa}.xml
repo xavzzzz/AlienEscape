@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{0750404a-c03e-4c67-b8d2-b35fe71373aa}">
+		<property name="note">
+			<value>Son d'activation du rayon laser de découpe</value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>

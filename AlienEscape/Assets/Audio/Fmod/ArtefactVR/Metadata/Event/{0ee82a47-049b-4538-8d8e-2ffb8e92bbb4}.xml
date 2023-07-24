@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{0ee82a47-049b-4538-8d8e-2ffb8e92bbb4}">
+		<property name="note">
+			<value>Son de retour a la possition de départ d'une rune de l'artefact préalablement enfoncée par le joueur, aspect pierreux </value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{3a86373f-7db5-43d2-af6e-021a2d108762}">
+		<property name="note">
+			<value>Son de changement de couleur de la lumière émise par le l'outil lampe lors de l'ajout d'un nouveau filtre</value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>
@@ -318,7 +321,6 @@
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -327,7 +329,6 @@
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -363,7 +364,6 @@
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>

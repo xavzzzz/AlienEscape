@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9ad6fae8-cad1-4828-adbd-ae925d87babd}">
+		<property name="note">
+			<value>Ambiance sonore de salle close, léger bruit de fond élécrique </value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>
