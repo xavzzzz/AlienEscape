@@ -16,8 +16,7 @@ public class RaygunManager : MonoBehaviour
     public float fireRate;
     public float laserDuration;
 
-    private FMOD.Studio.EventInstance LaserOn;
-    private FMOD.Studio.EventInstance LaserOff;
+    
 
     LineRenderer laserLine;
     float fireTimer;
@@ -26,8 +25,7 @@ public class RaygunManager : MonoBehaviour
     {
         laserLine = this.GetComponentInChildren<LineRenderer>();
         laserOrigin = laserLine.GetComponent<Transform>();
-        LaserOn = FMODUnity.RuntimeManager.CreateInstance("event:/LaserCutter/LaserCutter_On");
-        LaserOff = FMODUnity.RuntimeManager.CreateInstance("event:/LaserCutter/LaserCutter_Off");
+        
     }
   
 
@@ -35,22 +33,25 @@ public class RaygunManager : MonoBehaviour
     {
 
         shooting = true;
-        LaserOn.start();
+        
     }
 
     public void StopShoot()
     {
-        LaserOn.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-        LaserOff.start();
+        
         shooting = false;
         laserLine.enabled = false;
     }
 
     public void FixedUpdate()
     {
+        
+
         fireTimer += Time.deltaTime;
         if (shooting && fireTimer >= fireRate)
         {
+            
+
             Debug.Log("Shhot");
             fireTimer = 0;
             laserLine.SetPosition(0, laserOrigin.position);

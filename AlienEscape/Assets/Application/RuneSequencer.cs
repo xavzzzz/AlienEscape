@@ -41,8 +41,8 @@ public class RuneSequencer : MonoBehaviour
 
         if (a.OrderInSequence == counter || a.OrderInSequence == MaxSequence-counter+1) 
         {
-            RuneRight.start();
-
+            //RuneRight.start();
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Artefact/Artefact_RuneWin", GetComponent<Transform>().position);
             if (counter == MaxSequence) { Debug.Log("T TRO FORT SALE RACISTE"); return; } 
             Debug.Log("Can continue");
             counter++;
@@ -50,7 +50,8 @@ public class RuneSequencer : MonoBehaviour
         else
         {
             Debug.Log("Already Lost");
-            RuneFail.start();
+            // RuneFail.start();
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Artefact/Artefact_RuneFailed", GetComponent<Transform>().position);
             counter = 1;
         }
 
