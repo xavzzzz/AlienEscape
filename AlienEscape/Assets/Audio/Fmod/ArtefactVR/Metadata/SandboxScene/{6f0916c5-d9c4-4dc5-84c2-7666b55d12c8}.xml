@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="SandboxScene" id="{6f0916c5-d9c4-4dc5-84c2-7666b55d12c8}">
 		<property name="name">
-			<value>New Scene</value>
+			<value>Laser</value>
 		</property>
 		<relationship name="folder">
 			<destination>{1e2f4265-b7d4-4857-a9e8-8a1bb839b5d3}</destination>
