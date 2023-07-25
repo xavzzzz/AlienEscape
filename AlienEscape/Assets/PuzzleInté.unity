@@ -2888,7 +2888,7 @@ MonoBehaviour:
       Data2: 1322569545
       Data3: 1597637546
       Data4: -117205251
-    Path: "event:/Incr\xE9mentationTry/Oscillo_st 1"
+    Path: "event:/Puzzle Sonore/Incr\xE9mentationTry/Oscillo_st 1"
   Event: 
   PlayEvent: 1
   StopEvent: 0
@@ -2899,7 +2899,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 0
-  OverrideMaxDistance: 2
+  OverrideMaxDistance: 3
 --- !u!1001 &831134523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3680,7 +3680,7 @@ MonoBehaviour:
       Data2: 1267275873
       Data3: 1331727273
       Data4: -596801422
-    Path: "event:/Incr\xE9mentationTry/Oscillo_st 3"
+    Path: "event:/Puzzle Sonore/Incr\xE9mentationTry/Oscillo_st 3"
   Event: 
   PlayEvent: 1
   StopEvent: 0
@@ -3691,7 +3691,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 0
-  OverrideMaxDistance: 2
+  OverrideMaxDistance: 3
 --- !u!114 &958926872 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9028030470400937798, guid: fae3bdcf17d2daa498dff59d5452ecd2,
@@ -4877,6 +4877,16 @@ PrefabInstance:
     - target: {fileID: 5915001549678156237, guid: 971ab4b07923ef0408d211d41bcbe0b1,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979891741509870299, guid: 971ab4b07923ef0408d211d41bcbe0b1,
+        type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979891741509870299, guid: 971ab4b07923ef0408d211d41bcbe0b1,
+        type: 3}
+      propertyPath: OverrideMinDistance
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6325,7 +6335,7 @@ MonoBehaviour:
       Data2: 1266992432
       Data3: -641341045
       Data4: 2012527493
-    Path: "event:/Incr\xE9mentationTry/Oscillo_st 2"
+    Path: "event:/Puzzle Sonore/Incr\xE9mentationTry/Oscillo_st 2"
   Event: 
   PlayEvent: 1
   StopEvent: 0
@@ -6336,7 +6346,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 0
-  OverrideMaxDistance: 2
+  OverrideMaxDistance: 3
 --- !u!1001 &1713860967
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8162,6 +8172,41 @@ PrefabInstance:
       propertyPath: m_FirstHoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1294908600529567529, guid: fae3bdcf17d2daa498dff59d5452ecd2,
+        type: 3}
+      propertyPath: EventReference.Path
+      value: event:/Artefact/Artefact_RuneUnpushed
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294908600529567529, guid: fae3bdcf17d2daa498dff59d5452ecd2,
+        type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294908600529567529, guid: fae3bdcf17d2daa498dff59d5452ecd2,
+        type: 3}
+      propertyPath: OverrideMinDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294908600529567529, guid: fae3bdcf17d2daa498dff59d5452ecd2,
+        type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: 250096199
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294908600529567529, guid: fae3bdcf17d2daa498dff59d5452ecd2,
+        type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1161299099
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294908600529567529, guid: fae3bdcf17d2daa498dff59d5452ecd2,
+        type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: -80769395
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294908600529567529, guid: fae3bdcf17d2daa498dff59d5452ecd2,
+        type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: -1262775666
+      objectReference: {fileID: 0}
     - target: {fileID: 1369844792807927602, guid: fae3bdcf17d2daa498dff59d5452ecd2,
         type: 3}
       propertyPath: m_PokeCollider
@@ -8187,6 +8232,11 @@ PrefabInstance:
       propertyPath: Runes.Array.data[2]
       value: 
       objectReference: {fileID: 1415380844}
+    - target: {fileID: 6491524178870521128, guid: fae3bdcf17d2daa498dff59d5452ecd2,
+        type: 3}
+      propertyPath: m_LastHoverExited.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
     - target: {fileID: 8881309987020433677, guid: fae3bdcf17d2daa498dff59d5452ecd2,
         type: 3}
       propertyPath: m_Name

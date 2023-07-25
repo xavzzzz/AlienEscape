@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{4883ec81-a953-4301-adc8-acd04e4f4d38}">
 		<property name="color">
-			<value>Red Light 1</value>
+			<value>Green</value>
 		</property>
 		<property name="name">
 			<value>Artefact_RuneWin</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{2dbae6d3-5c9d-473a-804d-97115f2b9d72}</destination>
@@ -92,6 +92,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{40330f7c-5a92-4426-acf7-6e424a243000}">
+		<relationship name="modulators">
+			<destination>{f08897f5-08f8-4599-afa1-57c6f1b674ba}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{258c3659-f41b-4bfd-8f94-d8f6552a502e}</destination>
 		</relationship>
@@ -164,11 +167,28 @@
 			<destination>{40330f7c-5a92-4426-acf7-6e424a243000}</destination>
 		</relationship>
 	</object>
+	<object class="ADSRModulator" id="{f08897f5-08f8-4599-afa1-57c6f1b674ba}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>2000</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{258c3659-f41b-4bfd-8f94-d8f6552a502e}">
 		<relationship name="effects">
 			<destination>{a623e6e0-c3bf-4d82-945b-57c0576addd4}</destination>
 			<destination>{14bfd4ba-0bae-45bd-9652-a4f03283ab16}</destination>
-			<destination>{a688059f-3edf-4572-a498-92d68e9870a5}</destination>
+			<destination>{15ed4980-8eb9-42b7-b221-e02372641df0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{313a7efb-6584-42a6-8dc4-e82ff9c8156e}" />
@@ -178,7 +198,7 @@
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>2</value>
+			<value>1</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{a49b9545-66a2-4b62-8d21-7d8ea6fa33b1}">
@@ -203,13 +223,10 @@
 			<value>-24</value>
 		</property>
 	</object>
-	<object class="SpatialiserEffect" id="{a688059f-3edf-4572-a498-92d68e9870a5}">
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>3</value>
-		</property>
+	<object class="PluginEffect" id="{15ed4980-8eb9-42b7-b221-e02372641df0}">
+		<relationship name="plugin">
+			<destination>{e8acf8c4-b3ef-414c-b5fc-b59d71f5cf6a}</destination>
+		</relationship>
 	</object>
 	<object class="SFXReverbEffect" id="{2c454213-4edd-4453-9048-65fc69a9de42}">
 		<property name="decayTime">
@@ -253,6 +270,25 @@
 	</object>
 	<object class="MixerBusFader" id="{ed98201c-d6a2-4cf9-bad4-6fc3a65cfafd}" />
 	<object class="PitchShifterEffect" id="{797e62c6-303a-4dfa-8063-e0a0f1226b0e}" />
+	<object class="Plugin" id="{e8acf8c4-b3ef-414c-b5fc-b59d71f5cf6a}">
+		<property name="identifier">
+			<value>Resonance Audio Source</value>
+		</property>
+		<relationship name="pluginParameters">
+			<destination>{5e852ba0-58a8-443a-818e-7580a1bfc380}</destination>
+			<destination>{17e9b2cd-dcf9-412f-ac75-ebca18b87989}</destination>
+			<destination>{662f94e5-597c-4ff4-855b-24a8b446421b}</destination>
+			<destination>{3f378138-240f-421e-a60e-144a444ff959}</destination>
+			<destination>{feb267ff-e5a0-477b-b210-2d14e0e71d32}</destination>
+			<destination>{378fa27a-5e58-466a-ae39-07563c469204}</destination>
+			<destination>{c79939dc-80c1-44f3-a250-e2c0520e8e75}</destination>
+			<destination>{01a37481-5c1c-4753-a00f-1373c1c51cc6}</destination>
+			<destination>{e689f0ce-7d83-4513-b439-d84a2e4f7d9c}</destination>
+			<destination>{cb149fb3-a49a-4dce-a0f5-065ef1185520}</destination>
+			<destination>{d535b104-1719-4d3f-9862-ff12bad73eda}</destination>
+			<destination>{321f5cd3-7481-48e7-84ee-c259c6a95f13}</destination>
+		</relationship>
+	</object>
 	<object class="LFOModulator" id="{4226450f-30fe-48ab-87c6-0d19f1f978a8}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>depth</value>
@@ -262,6 +298,129 @@
 		</property>
 		<property name="depth">
 			<value>49.5</value>
+		</property>
+	</object>
+	<object class="FloatPluginParameter" id="{5e852ba0-58a8-443a-818e-7580a1bfc380}">
+		<property name="name">
+			<value>Gain</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curve">
+			<value>{(0.000000,-80.000000)(1.000000,24.000000)}</value>
+		</property>
+	</object>
+	<object class="FloatPluginParameter" id="{17e9b2cd-dcf9-412f-ac75-ebca18b87989}">
+		<property name="name">
+			<value>Spread</value>
+		</property>
+		<property name="value">
+			<value>9.99999975e-06</value>
+		</property>
+		<property name="curve">
+			<value>{(0.000000,0.000000)(1.000000,360.000000)}</value>
+		</property>
+	</object>
+	<object class="IntPluginParameter" id="{662f94e5-597c-4ff4-855b-24a8b446421b}">
+		<property name="name">
+			<value>Dist Rolloff</value>
+		</property>
+		<property name="value">
+			<value>3</value>
+		</property>
+		<property name="minimumValue">
+			<value>0</value>
+		</property>
+		<property name="maximumValue">
+			<value>4</value>
+		</property>
+	</object>
+	<object class="FloatPluginParameter" id="{3f378138-240f-421e-a60e-144a444ff959}">
+		<property name="name">
+			<value>Occlusion</value>
+		</property>
+		<property name="value">
+			<value>9.99999997e-07</value>
+		</property>
+		<property name="curve">
+			<value>{(0.000000,0.000000)(1.000000,10.000000)}</value>
+		</property>
+	</object>
+	<object class="FloatPluginParameter" id="{feb267ff-e5a0-477b-b210-2d14e0e71d32}">
+		<property name="name">
+			<value>Directivity</value>
+		</property>
+		<property name="value">
+			<value>9.99999975e-06</value>
+		</property>
+		<property name="curve">
+			<value>{(0.000000,0.000000)(1.000000,1.000000)}</value>
+		</property>
+	</object>
+	<object class="FloatPluginParameter" id="{378fa27a-5e58-466a-ae39-07563c469204}">
+		<property name="name">
+			<value>Dir Sharpness</value>
+		</property>
+		<property name="value">
+			<value>1.00001001</value>
+		</property>
+		<property name="curve">
+			<value>{(0.000000,1.000000)(1.000000,2.000000)(2.000000,5.000000)(3.000000,10.000000)}</value>
+		</property>
+	</object>
+	<object class="DataPluginParameter" id="{c79939dc-80c1-44f3-a250-e2c0520e8e75}">
+		<property name="name">
+			<value>Attenuation Ran</value>
+		</property>
+		<property name="value" />
+		<property name="dataType">
+			<value>-6</value>
+		</property>
+	</object>
+	<object class="DataPluginParameter" id="{01a37481-5c1c-4753-a00f-1373c1c51cc6}">
+		<property name="name">
+			<value>3D Attributes</value>
+		</property>
+		<property name="value" />
+		<property name="dataType">
+			<value>-2</value>
+		</property>
+	</object>
+	<object class="BoolPluginParameter" id="{e689f0ce-7d83-4513-b439-d84a2e4f7d9c}">
+		<property name="name">
+			<value>Bypass Room</value>
+		</property>
+		<property name="value">
+			<value>false</value>
+		</property>
+	</object>
+	<object class="BoolPluginParameter" id="{cb149fb3-a49a-4dce-a0f5-065ef1185520}">
+		<property name="name">
+			<value>Near-Field FX</value>
+		</property>
+		<property name="value">
+			<value>false</value>
+		</property>
+	</object>
+	<object class="FloatPluginParameter" id="{d535b104-1719-4d3f-9862-ff12bad73eda}">
+		<property name="name">
+			<value>Near-Field Gain</value>
+		</property>
+		<property name="value">
+			<value>1.00001001</value>
+		</property>
+		<property name="curve">
+			<value>{(0.000000,0.000000)(1.000000,9.000000)}</value>
+		</property>
+	</object>
+	<object class="DataPluginParameter" id="{321f5cd3-7481-48e7-84ee-c259c6a95f13}">
+		<property name="name">
+			<value>Overall Gain</value>
+		</property>
+		<property name="value" />
+		<property name="dataType">
+			<value>-1</value>
 		</property>
 	</object>
 </objects>
