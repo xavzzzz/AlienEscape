@@ -72,6 +72,16 @@ public class DecalPainter : MonoBehaviour
         projector.material.SetTexture("Base_Map", decalData[selectedDecalIndex].sprite.texture);
         projector.size = decalData[selectedDecalIndex].size;
         decal.transform.forward = -normal;
+
+        StartCoroutine(DestroyDecal(decal));
+    }
+
+    IEnumerator DestroyDecal(GameObject decal)
+    {
+        yield return new WaitForSeconds(3);
+        Destroy(decal);
+
+        
     }
 
 }
