@@ -85,6 +85,33 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-8392898379454126724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Eyes/AngryEyes_Ambiance
+  m_EditorClassIdentifier: 
+  Path: event:/Eyes/AngryEyes_Ambiance
+  Guid:
+    Data1: -628414260
+    Data2: 1214367582
+    Data3: -1516543600
+    Data4: 1095579399
+  Banks:
+  - {fileID: 7212438779820523129}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 5
+  Length: 124985
 --- !u!114 &-8060101335151678750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,7 +264,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 483
 --- !u!114 &-7215133390606998292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -296,6 +323,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 52846
+--- !u!114 &-7039226031442898441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ArtefactCORE_BackgroundNoise/Operture
+  m_EditorClassIdentifier: 
+  Name: Operture
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 267149226
+    data2: 1018205613
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-7033402721920494522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,6 +428,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 142533
+--- !u!114 &-6278953454483647879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LecteurCassettes/Lecteur_Pause
+  m_EditorClassIdentifier: 
+  Path: event:/LecteurCassettes/Lecteur_Pause
+  Guid:
+    Data1: -258012993
+    Data2: 1115814440
+    Data3: -1345694321
+    Data4: -1244522782
+  Banks:
+  - {fileID: 7212438779820523129}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 235
 --- !u!114 &-5935499448754232502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -416,10 +494,10 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638258745595489929
+  lastModified: 638258988056656549
   FileSizes:
   - Name: Desktop
-    Value: 3652
+    Value: 3838
   Exists: 1
 --- !u!114 &-5710655391808532762
 MonoBehaviour:
@@ -1175,19 +1253,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Artefact/ArtefactCORE_Explosion
   Guid:
-    Data1: -258344760
-    Data2: 1319216088
-    Data3: -391444336
-    Data4: -266755690
+    Data1: 1333118276
+    Data2: 1127037603
+    Data3: 1071604616
+    Data4: -1748597631
   Banks:
   - {fileID: 7212438779820523129}
   IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
+  Is3D: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 1.6
-  Length: 70004
+  Length: 6000
 --- !u!114 &-482254119561736905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1239,6 +1317,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 3
   Length: 29933
+--- !u!114 &-149496800237729757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Artefact/ArtefactCORE_Break
+  m_EditorClassIdentifier: 
+  Path: event:/Artefact/ArtefactCORE_Break
+  Guid:
+    Data1: -258344760
+    Data2: 1319216088
+    Data3: -391444336
+    Data4: -266755690
+  Banks:
+  - {fileID: 7212438779820523129}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 1.6
+  Length: 6032
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1309,6 +1414,9 @@ MonoBehaviour:
   - {fileID: -1549429667564110006}
   - {fileID: -4664672311750925753}
   - {fileID: -4306687614680904460}
+  - {fileID: -6278953454483647879}
+  - {fileID: -149496800237729757}
+  - {fileID: -8392898379454126724}
   EditorParameters:
   - {fileID: 25129070219758688}
   - {fileID: 8919282874739550185}
@@ -1317,7 +1425,7 @@ MonoBehaviour:
   - {fileID: 7212438779820523129}
   StringsBanks:
   - {fileID: -5925986163448373950}
-  cacheTime: 638258745595489929
+  cacheTime: 638258988056656549
   cacheVersion: 131603
 --- !u!114 &25129070219758688
 MonoBehaviour:
@@ -1393,7 +1501,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 483
 --- !u!114 &1122217766799862416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2106,7 +2214,8 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: -7039226031442898441}
   MinDistance: 0
   MaxDistance: 1.6
   Length: 39263
@@ -2282,10 +2391,10 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638258745595489929
+  lastModified: 638258988056576534
   FileSizes:
   - Name: Desktop
-    Value: 14863776
+    Value: 17822944
   Exists: 1
 --- !u!114 &7246188565998164943
 MonoBehaviour:
@@ -2572,7 +2681,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 613
 --- !u!114 &9120631145029757353
 MonoBehaviour:
   m_ObjectHideFlags: 0
