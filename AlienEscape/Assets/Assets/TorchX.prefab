@@ -254,8 +254,8 @@ MonoBehaviour:
   AllowNonRigidbodyDoppler: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 3
 --- !u!114 &5196155138146061005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -491,10 +491,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f729671f261b3f47bb84b71178026ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RuneLook: {fileID: 2100000, guid: e8f8e7b6ee398a84e881e617aa8b828f, type: 2}
-  DefaultLook: {fileID: 6553742799822395505, guid: 32dee11d87a36fd47a642f617f3b6cac,
-    type: 3}
-  Unlocked: 0
+  RuneLook: {fileID: 2100000, guid: 5f970c2ba37cb1b4bb412e2480d2d193, type: 2}
+  DefaultLook: {fileID: 2100000, guid: 0cc2d76032c42f74cadb2ece144722ef, type: 2}
+  Unlocked: 1
 --- !u!1 &2142358788730624474
 GameObject:
   m_ObjectHideFlags: 0
