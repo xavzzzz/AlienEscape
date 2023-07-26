@@ -1218,7 +1218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aba323b48a932c841b5d07a528909ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OrderInSequence: 2
+  OrderInSequence: 0
   locked: 0
 --- !u!114 &8917129021187715816
 MonoBehaviour:
@@ -3980,7 +3980,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6013458470461366611}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 1.21, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5711,7 +5711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aba323b48a932c841b5d07a528909ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OrderInSequence: 5
+  OrderInSequence: 3
   locked: 0
 --- !u!114 &6139577505465886579
 MonoBehaviour:
@@ -6017,7 +6017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aba323b48a932c841b5d07a528909ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OrderInSequence: 6
+  OrderInSequence: 0
   locked: 0
 --- !u!114 &9000733118676341016
 MonoBehaviour:
@@ -6323,7 +6323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aba323b48a932c841b5d07a528909ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OrderInSequence: 8
+  OrderInSequence: 0
   locked: 0
 --- !u!114 &3777026030742791501
 MonoBehaviour:
@@ -6912,7 +6912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aba323b48a932c841b5d07a528909ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OrderInSequence: 4
+  OrderInSequence: 0
   locked: 0
 --- !u!114 &4747894747870346206
 MonoBehaviour:
@@ -7569,7 +7569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aba323b48a932c841b5d07a528909ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OrderInSequence: 9
+  OrderInSequence: 0
   locked: 0
 --- !u!114 &1632842646699092270
 MonoBehaviour:
@@ -7959,7 +7959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aba323b48a932c841b5d07a528909ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OrderInSequence: 7
+  OrderInSequence: 2
   locked: 0
 --- !u!114 &105851657220362517
 MonoBehaviour:
@@ -8768,7 +8768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aba323b48a932c841b5d07a528909ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OrderInSequence: 3
+  OrderInSequence: 4
   locked: 0
 --- !u!114 &602400638736458548
 MonoBehaviour:
@@ -11109,7 +11109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Runes: []
-  MaxSequence: 9
+  MaxSequence: 4
 --- !u!114 &11891620826689457
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -29,7 +29,7 @@ public class LightManager : MonoBehaviour
         var NewColor = Color.clear;
         foreach(LightReticle x in LightReticles)
         {
-            NewColor = CombineColors(NewColor, x.Color);   
+            NewColor += x.Color; 
         }
 
         Bulb.GetComponent<Renderer>().material.color = NewColor;

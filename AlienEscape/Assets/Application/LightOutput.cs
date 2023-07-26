@@ -5,24 +5,32 @@ using UnityEngine;
 
 public class LightOutput : MonoBehaviour
 {
+    public GameObject Main;
     public GameObject Right;
     public GameObject Left;
     public Color RuneUnlock;
 
     public void UpdateColorOut()
     {
-        Color combined = Right.GetComponent<Renderer>().material.color + Left.GetComponent<Renderer>().material.color;
+        Color combined = CombineColors(Right.GetComponent<Renderer>().material.color, Left.GetComponent<Renderer>().material.color);
         this.gameObject.GetComponent<Light>().color = combined;
+        Main.GetComponent<Renderer>().material.color = combined;    
+
 
        if (ColorToHex(combined) == ColorToHex(RuneUnlock))  this.gameObject.GetComponent<RuneManager>().Unlocked = true;
 
         
     }
 
-    public void Update()
+    public static Color CombineColors(params Color[] aColors)
     {
-        UpdateColorOut();
-
+        Color result = new Color(0, 0, 0, 0);
+        foreach (Color c in aColors)
+        {
+            result += c;
+        }
+        result /= aColors.Length;
+        return result;
     }
 
     string ColorToHex(Color color)
