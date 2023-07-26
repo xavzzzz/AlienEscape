@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9a03e75a-e3f9-48cd-9251-73eb9f43ca47}">
 		<property name="color">
-			<value>Red Light 1</value>
+			<value>Green</value>
 		</property>
 		<property name="name">
 			<value>LaserCutter_Cutting</value>
@@ -118,8 +118,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{3d08c271-c23f-49b4-870e-c61fc82bac90}" />
 	<object class="SingleSound" id="{f93d7f1f-f2c2-498a-97a4-b4bd73cb758d}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
 		<property name="length">
 			<value>142.53331065759636</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{367ac9f1-b4c0-4b8b-8589-fa1f761a0635}</destination>
@@ -145,6 +151,15 @@
 	<object class="SoundScatterer" id="{788e50c8-d7ad-43e7-b973-9b0b9c3ce1ad}">
 		<property name="length">
 			<value>2</value>
+		</property>
+		<property name="minimumTimeBetweenSounds">
+			<value>10</value>
+		</property>
+		<property name="maximumTimeBetweenSounds">
+			<value>500</value>
+		</property>
+		<property name="spawnRate">
+			<value>150</value>
 		</property>
 		<property name="minimumScatterDistance">
 			<value>0</value>
@@ -476,7 +491,6 @@
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -485,7 +499,6 @@
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -521,7 +534,6 @@
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
