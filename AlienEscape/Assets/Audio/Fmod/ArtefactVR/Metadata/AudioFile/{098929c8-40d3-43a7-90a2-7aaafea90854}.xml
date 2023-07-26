@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{098929c8-40d3-43a7-90a2-7aaafea90854}">
+		<property name="assetPath">
+			<value>Cassette-003.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>71.556961451247162</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{03c61ffe-918f-47d6-be36-06aeed82eae1}</destination>
+		</relationship>
+	</object>
+</objects>

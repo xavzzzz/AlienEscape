@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000002211AC2C428 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001C45535FB08 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -83,169 +83,153 @@
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [WRN] EffectInstanceFactory::create            : Creating stub DSP for plugin 'Resonance Audio Listener'
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 17620576
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 202368
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000E12990F138
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF8B85939D0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF8B8593990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF8B8593AB0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF8B8593B70
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000021F71E46D78
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='6159 - Drop Smartphone On Concrete 02 1', format=5, channels=1, frequency=48000, lengthbytes=960, lengthpcm=3362, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.881019.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 17620576
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 202368
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000E12990F138
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF8B85939D0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF8B8593990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF8B8593AB0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF8B8593B70
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000021F71E46D78
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='6159 - Drop Smartphone On Concrete 02 2', format=5, channels=1, frequency=48000, lengthbytes=1344, lengthpcm=5010, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.890360.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 17620576
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 202368
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000E12990F138
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF8B85939D0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF8B8593990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF8B8593AB0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF8B8593B70
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000021F71E46D78
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='6159 - Drop Smartphone On Concrete 02 3', format=5, channels=1, frequency=48000, lengthbytes=1824, lengthpcm=5615, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.705113.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 17620576
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 202368
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000E12990F138
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF8B85939D0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF8B8593990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF8B8593AB0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF8B8593B70
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000021F71E46D78
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='6159 - Drop Smartphone On Concrete 02', format=5, channels=1, frequency=48000, lengthbytes=1632, lengthpcm=7396, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.890360.
-[LOG] SystemI::mixerSuspend                    : Suspending output.
-[LOG] SystemI::mixerResume                     : Resuming output.
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000021F79B9F1B8, queue head = 0000021FE00CF798, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021F79B9F1B8
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000021F79B9F368, queue head = 0000021FE00CF798, queue count = 0
-[LOG] AsyncThread::add                         :     add sound to async queue : soundi = 00000221146E0248, queue head = 0000021FE00CF798, queue count = 1
-[LOG] AsyncThread::add                         :     add sound to async queue : soundi = 00000221146E05A8, queue head = 0000021FE00CF798, queue count = 2
-[LOG] AsyncThread::add                         :     add sound to async queue : soundi = 0000021F79B9F518, queue head = 0000021FE00CF798, queue count = 3
-[LOG] AsyncThread::add                         :     add sound to async queue : soundi = 0000021F79B9ECA8, queue head = 0000021FE00CF798, queue count = 4
-[LOG] AsyncThread::add                         :     add sound to async queue : soundi = 0000021F79B9F878, queue head = 0000021FE00CF798, queue count = 5
-[LOG] AsyncThread::add                         :     add sound to async queue : soundi = 00000221146E03F8, queue head = 0000021FE00CF798, queue count = 6
-[LOG] AsyncThread::add                         :     add sound to async queue : soundi = 0000021F79B9EE58, queue head = 0000021FE00CF798, queue count = 7
-[LOG] AsyncThread::add                         :     add sound to async queue : soundi = 00000221146E0758, queue head = 0000021FE00CF798, queue count = 8
-[LOG] AsyncThread::add                         :     add sound to async queue : soundi = 0000021F79B9F6C8, queue head = 0000021FE00CF798, queue count = 9
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021F79B9F1B8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021F79B9F368
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021F79B9F368
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000221146E0248
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000221146E0248
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000221146E05A8
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000221146E05A8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021F79B9F518
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021F79B9F518
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021F79B9ECA8
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021F79B9ECA8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021F79B9F878
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021F79B9F878
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000221146E03F8
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000221146E03F8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021F79B9EE58
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021F79B9EE58
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000221146E0758
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000221146E0758
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021F79B9F6C8
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021F79B9F6C8
-[LOG] SoundI::release                          : Core (000002211A5A2AB8)
-[LOG] SoundI::release                          :     Core (0000021F78EF8CB8)
-[LOG] SoundI::release                          :     Core (0000021F79B9F878)
-[LOG] SoundI::release                          : Core2 (000002211A59FB78)
-[LOG] SoundI::release                          :     Core2 (0000021F78EF7938)
-[LOG] SoundI::release                          :     Core2 (0000021F79B9F1B8)
-[LOG] SoundI::release                          : CoreLoop (000002211A5A0748)
-[LOG] SoundI::release                          :     CoreLoop (0000021F78EF8978)
-[LOG] SoundI::release                          :     CoreLoop (0000021F79B9F368)
-[LOG] SoundI::release                          : ArtifactNoise2 (000002211A5A3178)
-[LOG] SoundI::release                          :     ArtifactNoise2 (0000021F78EF5718)
-[LOG] SoundI::release                          :     ArtifactNoise2 (0000021F79B9F6C8)
-[LOG] SoundI::release                          : ArtifactNoise1 (000002211A5A4918)
-[LOG] SoundI::release                          :     ArtifactNoise1 (0000021F78EFB3B8)
-[LOG] SoundI::release                          :     ArtifactNoise1 (0000021F79B9EE58)
-[LOG] SoundI::release                          : ArtifactNoise2 (000002211A59E738)
-[LOG] SoundI::release                          :     ArtifactNoise2 (0000021F78EF6418)
-[LOG] SoundI::release                          :     ArtifactNoise2 (0000021F79B9F518)
-[LOG] SoundI::release                          : ArtefactNoise3 (000002211A59E228)
-[LOG] SoundI::release                          :     ArtefactNoise3 (0000021F78EFA858)
-[LOG] SoundI::release                          :     ArtefactNoise3 (0000021F79B9ECA8)
-[LOG] SoundI::release                          : ArtifactNoise2 (000002211A59E3D8)
-[LOG] SoundI::release                          :     ArtifactNoise2 (0000021F78EFA518)
-[LOG] SoundI::release                          :     ArtifactNoise2 (00000221146E0758)
-[LOG] SoundI::release                          : ArtifactNoise1 (000002211A5A1678)
-[LOG] SoundI::release                          :     ArtifactNoise1 (0000021F78EF99B8)
-[LOG] SoundI::release                          :     ArtifactNoise1 (00000221146E03F8)
-[LOG] SoundI::release                          : ArtifactNoise2 (000002211A5A0FB8)
-[LOG] SoundI::release                          :     ArtifactNoise2 (0000021F78EF60D8)
-[LOG] SoundI::release                          :     ArtifactNoise2 (00000221146E0248)
-[LOG] SoundI::release                          : ArtefactNoise3 (000002211A5A1B88)
-[LOG] SoundI::release                          :     ArtefactNoise3 (0000021F78EF7FB8)
-[LOG] SoundI::release                          :     ArtefactNoise3 (00000221146E05A8)
-[LOG] SoundI::release                          :  (0000021F785C44A8)
-[LOG] SoundI::release                          :     RunesValidation-002 (0000021F78EFA1D8)
-[LOG] SoundI::release                          :  (0000021F785C1258)
-[LOG] SoundI::release                          :     RunesValidation-001 (0000021F78EF9818)
-[LOG] SoundI::release                          :  (0000021F785C0118)
-[LOG] SoundI::release                          :     6159 - Drop Smartphone On Concrete 02 (0000021F78EF8B18)
-[LOG] SoundI::release                          :  (0000021F785BFCC8)
-[LOG] SoundI::release                          :     6159 - Drop Smartphone On Concrete 02 1 (0000021F78EFB558)
-[LOG] SoundI::release                          :  (0000021F785C2958)
-[LOG] SoundI::release                          :     6159 - Drop Smartphone On Concrete 02 2 (0000021F78EF6DD8)
-[LOG] SoundI::release                          :  (0000021F785C4058)
-[LOG] SoundI::release                          :     6159 - Drop Smartphone On Concrete 02 3 (0000021F78EF8498)
-[ERR] assert                                   : assertion: 'mImpl->mRefCount > 0' failed
-[ERR] AsyncManager::asyncThreadLoop            : System::update returned error 28.
-[ERR] system_release                           : Failed to call flushCommands during system release (Error code 28)
-[LOG] Thread::callback                         : FMOD Studio update thread finished.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] SystemI::close                           : Closed.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] SystemI::close                           : Closed.
-[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
-[LOG] Thread::callback                         : FMOD file thread finished.
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Listener'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[WRN] EffectInstanceFactory::create            : Creating stub DSP for plugin 'Resonance Audio Listener'
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Listener'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[WRN] EffectInstanceFactory::create            : Creating stub DSP for plugin 'Resonance Audio Listener'
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
