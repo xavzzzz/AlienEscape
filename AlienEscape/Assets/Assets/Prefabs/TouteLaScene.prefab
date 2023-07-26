@@ -4628,6 +4628,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1591748778326612791}
     m_Modifications:
+    - target: {fileID: 598425863697611855, guid: 43254cd353a9c8c4ab21b0d815ce607e,
+        type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 598425863697611855, guid: 43254cd353a9c8c4ab21b0d815ce607e,
+        type: 3}
+      propertyPath: OverrideMinDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 910924262200448258, guid: 43254cd353a9c8c4ab21b0d815ce607e,
+        type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 910924262200448258, guid: 43254cd353a9c8c4ab21b0d815ce607e,
+        type: 3}
+      propertyPath: OverrideMinDistance
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3023101975294455149, guid: 43254cd353a9c8c4ab21b0d815ce607e,
         type: 3}
       propertyPath: m_RootOrder
@@ -4712,6 +4732,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 8669509394036815238, guid: 43254cd353a9c8c4ab21b0d815ce607e,
+        type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 3.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8669509394036815238, guid: 43254cd353a9c8c4ab21b0d815ce607e,
+        type: 3}
+      propertyPath: OverrideMinDistance
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43254cd353a9c8c4ab21b0d815ce607e, type: 3}

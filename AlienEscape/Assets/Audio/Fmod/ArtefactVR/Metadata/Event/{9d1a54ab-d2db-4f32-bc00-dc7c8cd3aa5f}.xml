@@ -5,6 +5,9 @@
 			<value>7 test 
 De 2 min30 a 5 min</value>
 		</property>
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>Oscilloscope Binaural + Incrémentation</value>
 		</property>
