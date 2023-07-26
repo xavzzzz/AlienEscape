@@ -48,7 +48,15 @@ public class RaygunManager : MonoBehaviour
 
             if (Physics.Raycast(rayOrigin, laserLine.gameObject.transform.forward, out hit, gunRange))
             {
-                if(canShootDecals)StartCoroutine(DoDecals(previousHit, hit));
+                if (canShootDecals)
+                {
+                    //startsoundof burn
+                    StartCoroutine(DoDecals(previousHit, hit));
+                }
+                else
+                {
+                    //stopburnsound
+                }
                 previousHit = hit;
                 var hitObj = hit.collider.gameObject;
 
@@ -67,6 +75,7 @@ public class RaygunManager : MonoBehaviour
             }
             else
             {
+                
                 laserLine.SetPosition(1, rayOrigin + (laserLine.gameObject.transform.forward * gunRange));
             }
             StartCoroutine(ShootLaser());
