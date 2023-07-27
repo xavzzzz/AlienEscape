@@ -14,6 +14,9 @@ public class RaygunManager : MonoBehaviour
     public float fireRate;
     public float laserDuration;
 
+    private FMOD.Studio.EventInstance Burn;
+    private bool flag; 
+
     LineRenderer laserLine;
     float fireTimer;
     RaycastHit previousHit;
@@ -22,6 +25,7 @@ public class RaygunManager : MonoBehaviour
     {
         laserLine = this.GetComponentInChildren<LineRenderer>();
         laserOrigin = laserLine.GetComponent<Transform>();
+        Burn = FMODUnity.RuntimeManager.CreateInstance("event:/LaserCutter/LaserCutter_Cutting");
     }
 
     public void Shoot()
@@ -48,7 +52,29 @@ public class RaygunManager : MonoBehaviour
 
             if (Physics.Raycast(rayOrigin, laserLine.gameObject.transform.forward, out hit, gunRange))
             {
-                if(canShootDecals)StartCoroutine(DoDecals(previousHit, hit));
+                Burn.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(hit.point));
+                if (canShootDecals)
+                {
+                    //startsoundof burn
+                    if (flag == false)
+                    {
+                        Burn.start();
+                        flag = true;
+                    }
+
+                    StartCoroutine(DoDecals(previousHit, hit));
+                }
+                else
+                {
+                    //stopburnsoundif (flag == true)
+                    if (flag == true)
+                    {
+                        //Burn.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+                        flag = false;
+                    }
+                    
+
+                }
                 previousHit = hit;
                 var hitObj = hit.collider.gameObject;
 
@@ -67,10 +93,15 @@ public class RaygunManager : MonoBehaviour
             }
             else
             {
+                
                 laserLine.SetPosition(1, rayOrigin + (laserLine.gameObject.transform.forward * gunRange));
             }
             StartCoroutine(ShootLaser());
             
+        }
+        if (!shooting)
+        {
+            Burn.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         }
         
     }
