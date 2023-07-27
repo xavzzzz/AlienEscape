@@ -23,15 +23,15 @@ public class RuneManager : MonoBehaviour
     {
         if (other.tag == "Rune" && Unlocked)
         {
-            Glow.start();
+            //Glow.start();
             other.GetComponent<Renderer>().material = RuneLook;
-            Glow.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(other.gameObject.transform.position));
+            //Glow.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(other.gameObject.transform.position));
         }
     }
 
     void OnTriggerExit(Collider other)
         {
-        Glow.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        //Glow.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         if (other.tag == "Rune" && Unlocked) other.GetComponent<Renderer>().material = DefaultLook;
         }
     
