@@ -125,6 +125,9 @@
 	<object class="MixerBusPanner" id="{27d68a98-b3de-4d3c-8519-1a147675462d}" />
 	<object class="MixerBusFader" id="{c685a872-e42f-454e-8400-be9695b9ffe7}" />
 	<object class="TransceiverEffect" id="{775e3b1a-9506-457f-b549-ee42b75e7fd7}">
+		<property name="level">
+			<value>-15</value>
+		</property>
 		<property name="channel">
 			<value>2</value>
 		</property>
@@ -206,7 +209,7 @@
 			<value>Directivity</value>
 		</property>
 		<property name="value">
-			<value>0.5</value>
+			<value>0.25</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,1.000000)}</value>

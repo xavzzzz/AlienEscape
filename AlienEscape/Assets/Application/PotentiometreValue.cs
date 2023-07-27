@@ -9,16 +9,20 @@ public class PotentiometreValue : MonoBehaviour
     public float value;
     public string potentiometreID;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-      
-    }
+    public bool IsSlider;
+
+
 
     // Update is called once per frame
     void Update()
     {
-        value = GetComponent<XRKnob>().value;
+        if (IsSlider) { 
+            value = GetComponent<XRSlider>().value;
+        }
+        else
+        {
+            value = GetComponent<XRKnob>().value;
+        }
         FMODUnity.RuntimeManager.StudioSystem.setParameterByName("potentiomètre " + potentiometreID, value);
         
     }
