@@ -128,7 +128,7 @@ public class AudioManager : MonoBehaviour
 
                     //Play FMOD event 1
                     Cassette_2.setPaused(false);
-                    Cas1Paused = false;
+                    Cas2Paused = false;
                 }
                 else
                 {
@@ -160,7 +160,7 @@ public class AudioManager : MonoBehaviour
 
                     //Play FMOD event 1
                     Cassette_3.setPaused(false);
-                    Cas1Paused = false;
+                    Cas3Paused = false;
                 }
                 else
                 {
@@ -216,6 +216,7 @@ public class AudioManager : MonoBehaviour
             if (CurrentCassetteID == 2)
             {
                 //Play FMOD event 2
+                FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Cassette1_Rewind", 1);
                 FromRewind = true;
                 
             }
@@ -223,6 +224,7 @@ public class AudioManager : MonoBehaviour
             if (CurrentCassetteID == 3)
             {
                 //Play FMOD event 3
+                FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Cassette1_Rewind", 1);
                 FromRewind = true;
                 
             }
