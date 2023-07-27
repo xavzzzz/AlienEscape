@@ -542,7 +542,7 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638260894889627068
+  lastModified: 638260967285131266
   FileSizes:
   - Name: Desktop
     Value: 4060
@@ -1041,13 +1041,13 @@ MonoBehaviour:
     Data4: -936729952
   Banks:
   - {fileID: 7212438779820523129}
-  IsStream: 0
+  IsStream: 1
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
+  MinDistance: 0
+  MaxDistance: 3
+  Length: 19274
 --- !u!114 &-2718085770449686421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1176,6 +1176,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 152951
+--- !u!114 &-1918863969326044940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Artefact_SecondOpen/Result
+  m_EditorClassIdentifier: 
+  Name: Result
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3759552677
+    data2: 1791603992
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-1871892443722495882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1603,7 +1627,7 @@ MonoBehaviour:
   - {fileID: 7212438779820523129}
   StringsBanks:
   - {fileID: -5925986163448373950}
-  cacheTime: 638260894889627068
+  cacheTime: 638260967285131266
   cacheVersion: 131603
 --- !u!114 &25129070219758688
 MonoBehaviour:
@@ -2651,10 +2675,10 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638260894889537043
+  lastModified: 638260967285040020
   FileSizes:
   - Name: Desktop
-    Value: 21666944
+    Value: 21788864
   Exists: 1
 --- !u!114 &7246188565998164943
 MonoBehaviour:
@@ -2783,10 +2807,11 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -1918863969326044940}
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 4766
 --- !u!114 &7657135571045610738
 MonoBehaviour:
   m_ObjectHideFlags: 0

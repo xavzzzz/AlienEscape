@@ -14,6 +14,7 @@ public class RuneSequencer : MonoBehaviour
 
     private FMOD.Studio.EventInstance RuneFail;
     private FMOD.Studio.EventInstance RuneRight;
+    private FMOD.Studio.EventInstance PuzzleOpening;
 
 
     public void Awake()
@@ -23,8 +24,11 @@ public class RuneSequencer : MonoBehaviour
         tries = 0;
         RuneFail = FMODUnity.RuntimeManager.CreateInstance("event:/Artefact/Artefact_RuneFailed");
         RuneRight = FMODUnity.RuntimeManager.CreateInstance("event:/Artefact/Artefact_RuneWin");
+        PuzzleOpening = FMODUnity.RuntimeManager.CreateInstance("event:/Artefact/Artefact_FirstOpen");
+
         RuneFail.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
         RuneRight.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
+        PuzzleOpening.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
     }
 
     public void TrySequence(Rune a)
@@ -43,7 +47,11 @@ public class RuneSequencer : MonoBehaviour
         {
             //RuneRight.start();
             FMODUnity.RuntimeManager.PlayOneShot("event:/Artefact/Artefact_RuneWin", GetComponent<Transform>().position);
-            if (counter == MaxSequence) { Debug.Log("T TRO FORT SALE RACISTE"); return; } 
+            if (counter == MaxSequence) {
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Artefact/Artefact_FirstOpen", GetComponent<Transform>().position);
+                Debug.Log("T TRO FORT SALE RACISTE"); return;
+            } 
+
             Debug.Log("Can continue");
             counter++;
         }
