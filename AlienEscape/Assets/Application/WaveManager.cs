@@ -49,4 +49,45 @@ public class WaveManager : MonoBehaviour
 
         frequency = newFreq;
     }
+
+
+    private bool isLerping = false;
+    private float originalAmplitude;
+    public float lerpDuration = 1.0f; // The duration of the lerp in seconds
+
+    public void StartLerpToZero()
+    {
+        if (isLerping) return; // Don't start a new lerp if one is already in progress
+
+        originalAmplitude = amplitude;
+        StartCoroutine(LerpToZero());
+    }
+
+    private IEnumerator LerpToZero()
+    {
+        isLerping = true;
+
+        float elapsedTime = 0f;
+
+        while (elapsedTime < lerpDuration)
+        {
+            float t = elapsedTime / lerpDuration;
+            amplitude = Mathf.Lerp(originalAmplitude, 0f, t);
+
+            // Redraw the wave with the updated amplitude
+            Draw();
+
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        // Ensure the amplitude is set to exactly zero at the end
+        amplitude = 0f;
+
+        // Redraw the wave with the final amplitude (zero)
+        Draw();
+
+        isLerping = false;
+    }
 }
+
