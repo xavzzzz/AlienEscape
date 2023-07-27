@@ -157,6 +157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 0
   potentiometreID: 3
+  IsSlider: 1
 --- !u!1 &782155607190782548
 GameObject:
   m_ObjectHideFlags: 0
@@ -1769,7 +1770,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4414969197355423098}
-  m_LocalRotation: {x: -0, y: 0.35384607, z: -0, w: 0.9353037}
+  m_LocalRotation: {x: 0, y: 0.35385033, z: 0, w: 0.9353021}
   m_LocalPosition: {x: -0.756, y: 1.1546, z: -0.807}
   m_LocalScale: {x: 1.2085416, y: 1.2085416, z: 1.2085416}
   m_ConstrainProportionsScale: 0
@@ -1808,7 +1809,7 @@ MonoBehaviour:
       Data4: 1605030796
     Path: "event:/Puzzle Sonore/Incr\xE9mentationTry/Oscilloscope Binaural + Incr\xE9mentation"
   Event: 
-  PlayEvent: 0
+  PlayEvent: 1
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -2275,6 +2276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 0
   potentiometreID: 2
+  IsSlider: 0
 --- !u!1 &5664450787280097891
 GameObject:
   m_ObjectHideFlags: 0
@@ -2495,6 +2497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 0
   potentiometreID: 1
+  IsSlider: 1
 --- !u!1 &6392064715690665793
 GameObject:
   m_ObjectHideFlags: 0
@@ -4280,7 +4283,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9219798249255100536}
   m_LocalRotation: {x: -0, y: -0.33029348, z: 0, w: 0.94387835}
-  m_LocalPosition: {x: 0.0053169206, y: 0.2718, z: 0.17634174}
+  m_LocalPosition: {x: -0.2153, y: 0.2718, z: 0.453}
   m_LocalScale: {x: 0.42, y: 0.42, z: 0.42}
   m_ConstrainProportionsScale: 1
   m_Children:
