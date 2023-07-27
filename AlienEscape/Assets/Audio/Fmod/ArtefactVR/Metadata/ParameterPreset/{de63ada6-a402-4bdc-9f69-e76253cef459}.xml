@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{de63ada6-a402-4bdc-9f69-e76253cef459}">
+		<property name="name">
+			<value>RewindTime</value>
+		</property>
+		<relationship name="folder">
+			<destination>{dd2a58f7-53a3-4a4a-99ed-a1c1598ae3a8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{00b3ae88-2a27-4d51-af58-c85fdb76c818}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{00b3ae88-2a27-4d51-af58-c85fdb76c818}">
+		<property name="maximum">
+			<value>110</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

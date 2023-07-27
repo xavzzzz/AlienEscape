@@ -494,10 +494,10 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638260682670952939
+  lastModified: 638260802789485771
   FileSizes:
   - Name: Desktop
-    Value: 3960
+    Value: 4112
   Exists: 1
 --- !u!114 &-5710655391808532762
 MonoBehaviour:
@@ -683,6 +683,30 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 3
   Length: 8494
+--- !u!114 &-4672622275478789598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cassette 1/RewindTime
+  m_EditorClassIdentifier: 
+  Name: RewindTime
+  StudioPath: 
+  Min: 0
+  Max: 110
+  Default: 0
+  ID:
+    data1: 3252233872
+    data2: 2934899699
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-4664672311750925753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -901,6 +925,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 74951
+--- !u!114 &-3043241294633874253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cassette 1/Cassette1_Rewind
+  m_EditorClassIdentifier: 
+  Name: Cassette1_Rewind
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2405670847
+    data2: 1418030404
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-3026164551052336555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1264,7 +1312,7 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters: []
   MinDistance: 0
-  MaxDistance: 2
+  MaxDistance: 3
   Length: 0
 --- !u!114 &-1080090634321807303
 MonoBehaviour:
@@ -1293,6 +1341,30 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 1.6
   Length: 6000
+--- !u!114 &-1022392711679398325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cassette 1/Cassette1_FastForward
+  m_EditorClassIdentifier: 
+  Name: Cassette1_FastForward
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1420446674
+    data2: 3975970054
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-482254119561736905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1451,11 +1523,13 @@ MonoBehaviour:
   - {fileID: 25129070219758688}
   - {fileID: 8919282874739550185}
   - {fileID: 4346609700672390754}
+  - {fileID: 1764283808161697580}
+  - {fileID: 7392416073535151462}
   MasterBanks:
   - {fileID: 7212438779820523129}
   StringsBanks:
   - {fileID: -5925986163448373950}
-  cacheTime: 638260682670952939
+  cacheTime: 638260802789485771
   cacheVersion: 131603
 --- !u!114 &25129070219758688
 MonoBehaviour:
@@ -1662,6 +1736,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 74951
+--- !u!114 &1764283808161697580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cassette1_FastForward
+  m_EditorClassIdentifier: 
+  Name: Cassette1_FastForward
+  StudioPath: parameter:/Cassette1_FastForward
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1420446674
+    data2: 3975970054
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &1932426375603630664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1718,7 +1816,7 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters: []
   MinDistance: 0
-  MaxDistance: 2
+  MaxDistance: 3
   Length: 0
 --- !u!114 &2558458192784988365
 MonoBehaviour:
@@ -2138,10 +2236,13 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -3043241294633874253}
+  - {fileID: -1022392711679398325}
+  - {fileID: -4672622275478789598}
   MinDistance: 1
   MaxDistance: 3
-  Length: 63103
+  Length: 64000
 --- !u!114 &4904630622150943183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2273,7 +2374,7 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters: []
   MinDistance: 0
-  MaxDistance: 2
+  MaxDistance: 3
   Length: 0
 --- !u!114 &5730213444966952940
 MonoBehaviour:
@@ -2475,10 +2576,10 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638260682670862915
+  lastModified: 638260802789406631
   FileSizes:
   - Name: Desktop
-    Value: 19756288
+    Value: 20444576
   Exists: 1
 --- !u!114 &7246188565998164943
 MonoBehaviour:
@@ -2560,6 +2661,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 52846
+--- !u!114 &7392416073535151462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cassette1_Rewind
+  m_EditorClassIdentifier: 
+  Name: Cassette1_Rewind
+  StudioPath: parameter:/Cassette1_Rewind
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2405670847
+    data2: 1418030404
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &7551445495462685419
 MonoBehaviour:
   m_ObjectHideFlags: 0

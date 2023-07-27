@@ -497,7 +497,7 @@ PrefabInstance:
     - target: {fileID: 1576856332082564758, guid: e4c6faed41a033040bfc29c871c28c66,
         type: 3}
       propertyPath: OverrideMaxDistance
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1591748778326612791, guid: e4c6faed41a033040bfc29c871c28c66,
         type: 3}
@@ -1193,6 +1193,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7657080353417426122, guid: e4c6faed41a033040bfc29c871c28c66,
+        type: 3}
+      propertyPath: CasetteNumber
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7680521886010028108, guid: e4c6faed41a033040bfc29c871c28c66,
         type: 3}

@@ -67,7 +67,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2</value>
+			<value>3</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{e1dc3aa7-2351-4236-bed9-32e56d9406b1}" />
@@ -209,7 +209,7 @@
 			<value>Directivity</value>
 		</property>
 		<property name="value">
-			<value>0.5</value>
+			<value>0.25</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,1.000000)}</value>
