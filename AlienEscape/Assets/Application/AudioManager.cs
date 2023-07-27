@@ -41,13 +41,13 @@ public class AudioManager : MonoBehaviour
 
             if (CurrentCassetteID == 1)
             {
-                Cassette_3.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+                Cassette_1.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
                 CurrentCassetteID = 0;
             }
 
             if (CurrentCassetteID == 2)
             {
-                Cassette_3.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+                Cassette_2.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
                 CurrentCassetteID = 0;
             }
 
@@ -109,30 +109,66 @@ public class AudioManager : MonoBehaviour
 
             if (CurrentCassetteID == 2)
             {
-                if (Cas2Paused)
+                if (FromRewind == true)
                 {
+                    Cassette_2.getTimelinePosition(out int TimePosition);
+                    Cassette_2.setTimelinePosition((63097) - TimePosition);
+                    FromRewind = false;
+                    FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Cassette1_Rewind", 0);
+
+                }
+                else if (FromForward == true)
+                {
+                    FromForward = false;
+                    FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Cassette1_FastForward", 0);
+                }
+
+                else if (Cas1Paused)
+                {
+
                     //Play FMOD event 1
-                    Cassette_2.start();
+                    Cassette_2.setPaused(false);
+                    Cas1Paused = false;
                 }
                 else
                 {
-                    Cassette_2.setPaused(false);
-                    Cas2Paused = false;
+
+                    //Play FMOD event 1
+                    Cassette_2.start();
                 }
+
             }
 
             if (CurrentCassetteID == 3)
             {
-                if (Cas3Paused)
+                if (FromRewind == true)
                 {
-                    //Play FMOD event 1
-                    Cassette_3.start();
+                    Cassette_3.getTimelinePosition(out int TimePosition);
+                    Cassette_3.setTimelinePosition((63097) - TimePosition);
+                    FromRewind = false;
+                    FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Cassette1_Rewind", 0);
+
                 }
-                else
+                else if (FromForward == true)
                 {
+                    FromForward = false;
+                    FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Cassette1_FastForward", 0);
+                }
+
+                else if (Cas1Paused)
+                {
+
+                    //Play FMOD event 1
                     Cassette_3.setPaused(false);
                     Cas1Paused = false;
                 }
+                else
+                {
+
+                    //Play FMOD event 1
+                    Cassette_3.start();
+                }
+
             }
         }
     }
