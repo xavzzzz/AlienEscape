@@ -67,7 +67,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximumDistance">
-			<value>3</value>
+			<value>2</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{6a64755f-a0eb-4f5c-9816-4601f7565707}" />
@@ -125,6 +125,9 @@
 	<object class="MixerBusPanner" id="{2dd4af35-4cf4-4a70-9dc3-f299845bca75}" />
 	<object class="MixerBusFader" id="{d16b4cd7-a038-4580-94a7-66be71b8292b}" />
 	<object class="TransceiverEffect" id="{d9983eb2-29df-4a26-b772-073fea9aab7e}">
+		<property name="level">
+			<value>-10</value>
+		</property>
 		<property name="channel">
 			<value>3</value>
 		</property>

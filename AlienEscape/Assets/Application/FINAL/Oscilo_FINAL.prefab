@@ -1782,6 +1782,8 @@ Transform:
   - {fileID: 7355111701667532102}
   - {fileID: 5302044463434341194}
   - {fileID: 8042490909332483257}
+  - {fileID: 73181098290778154}
+  - {fileID: 6844371896978812487}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 41.446, z: 0}
@@ -2273,6 +2275,69 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 0
   potentiometreID: 2
+--- !u!1 &5664450787280097891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6844371896978812487}
+  - component: {fileID: 106559736992602562}
+  m_Layer: 0
+  m_Name: AudioSpeekerLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6844371896978812487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5664450787280097891}
+  m_LocalRotation: {x: -0, y: -0.35384607, z: 0, w: 0.9353037}
+  m_LocalPosition: {x: 0.1019, y: 0.0564, z: 0.038}
+  m_LocalScale: {x: 0.82744354, y: 0.82744354, z: 0.82744354}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 506768116103170817}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &106559736992602562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5664450787280097891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1388278749
+      Data2: 1266992432
+      Data3: -641341045
+      Data4: 2012527493
+    Path: "event:/Puzzle Sonore/Incr\xE9mentationTry/Oscillo_st 2"
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 1
 --- !u!1 &6012612118544826500
 GameObject:
   m_ObjectHideFlags: 0
@@ -3073,6 +3138,69 @@ MonoBehaviour:
         stateExited: {fileID: 0}
     m_Variable: {fileID: 11400000, guid: 64ad62f44531ed64b8409f9af3e74b8e, type: 2}
   m_AudioSource: {fileID: 5144340997535173786}
+--- !u!1 &7215496780435645518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 73181098290778154}
+  - component: {fileID: 1492989870296544411}
+  m_Layer: 0
+  m_Name: AudioSpeekerRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &73181098290778154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7215496780435645518}
+  m_LocalRotation: {x: -0, y: -0.35384607, z: 0, w: 0.9353037}
+  m_LocalPosition: {x: -0.103, y: 0.0564, z: 0.036}
+  m_LocalScale: {x: 0.82744354, y: 0.82744354, z: 0.82744354}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 506768116103170817}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1492989870296544411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7215496780435645518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1388278749
+      Data2: 1266992432
+      Data3: -641341045
+      Data4: 2012527493
+    Path: "event:/Puzzle Sonore/Incr\xE9mentationTry/Oscillo_st 2"
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 1
 --- !u!1 &7256908051988376004
 GameObject:
   m_ObjectHideFlags: 0
