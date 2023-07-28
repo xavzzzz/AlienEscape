@@ -542,10 +542,10 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638261148186754974
+  lastModified: 638261602404575571
   FileSizes:
   - Name: Desktop
-    Value: 4060
+    Value: 4216
   Exists: 1
 --- !u!114 &-5710655391808532762
 MonoBehaviour:
@@ -571,6 +571,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-5685257156031880146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objets/Object_PipeMovement
+  m_EditorClassIdentifier: 
+  Path: event:/Objets/Object_PipeMovement
+  Guid:
+    Data1: 601854655
+    Data2: 1258335559
+    Data3: 171269539
+    Data4: 1839631586
+  Banks:
+  - {fileID: 7212438779820523129}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 2.6000001
+  Length: 0
 --- !u!114 &-5625639081592681788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1099,6 +1126,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-2464158519573780304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objets/Object_ButtonPush
+  m_EditorClassIdentifier: 
+  Path: event:/Objets/Object_ButtonPush
+  Guid:
+    Data1: 404209330
+    Data2: 1172722769
+    Data3: -1025984621
+    Data4: -824371835
+  Banks:
+  - {fileID: 7212438779820523129}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 2
+  Length: 0
 --- !u!114 &-2259080813623326281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1617,6 +1671,9 @@ MonoBehaviour:
   - {fileID: -1871892443722495882}
   - {fileID: 4783756709481053108}
   - {fileID: 2870120764926415894}
+  - {fileID: -2464158519573780304}
+  - {fileID: 4127075921976651092}
+  - {fileID: -5685257156031880146}
   EditorParameters:
   - {fileID: 25129070219758688}
   - {fileID: 8919282874739550185}
@@ -1627,7 +1684,7 @@ MonoBehaviour:
   - {fileID: 7212438779820523129}
   StringsBanks:
   - {fileID: -5925986163448373950}
-  cacheTime: 638261148186754974
+  cacheTime: 638261602404575571
   cacheVersion: 131603
 --- !u!114 &25129070219758688
 MonoBehaviour:
@@ -2232,6 +2289,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 3
   Length: 3500
+--- !u!114 &4127075921976651092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objets/Object_PipeWin
+  m_EditorClassIdentifier: 
+  Path: event:/Objets/Object_PipeWin
+  Guid:
+    Data1: 468526633
+    Data2: 1148451978
+    Data3: 31556021
+    Data4: 1702920214
+  Banks:
+  - {fileID: 7212438779820523129}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2915
 --- !u!114 &4144621061781800555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2675,10 +2759,10 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638261148186677634
+  lastModified: 638261602404495553
   FileSizes:
   - Name: Desktop
-    Value: 21788864
+    Value: 21820000
   Exists: 1
 --- !u!114 &7246188565998164943
 MonoBehaviour:
