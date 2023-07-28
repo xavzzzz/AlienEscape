@@ -12,7 +12,12 @@ public class PUZZLEMANAGER : MonoBehaviour
     {
         //TP TO SECOND LOCATION
 
-        Teleport();
+        if (LightRunePuzzleCheck && LightRunePuzzleCheck)
+        {
+            Teleport();
+        }
+
+        
     }
 
     public void Teleport()

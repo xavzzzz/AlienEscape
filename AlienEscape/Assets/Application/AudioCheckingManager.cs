@@ -43,7 +43,7 @@ public class AudioCheckingManager : MonoBehaviour
         if (OneKill && TwoKill && ThreeKill) {
             // END FMOD EVENT 
             this.GetComponent<FMODUnity.StudioEventEmitter>().Stop();
-            FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Operture", +1);
+            FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Operture", + 1.0f);
 
             UnlockAnimator.SetBool("Unlock", true);
             MANAGER.GetComponent<PUZZLEMANAGER>().AudioPuzzleCheck = true;
@@ -67,11 +67,11 @@ public class AudioCheckingManager : MonoBehaviour
             }
         }
 
-        if (Slider1 <= 0.75 && Slider1 >= 0.55)
+        if (Slider1 <= 0.75 && Slider1 >= 0.55) 
         {
-            if (Knob <= 0.05 && Knob >= 0.19)
+            if (Knob <= 0.19 && Knob >= 0.05)
             {
-                if (Slider2 <= 0.26 && Slider2 >= 0.43)
+                if (Slider2 <= 0.43 && Slider2 >= 0.26)
                 {
                     Debug.Log("KILL CURVE TWO");
                     TwoKill = true;
@@ -80,9 +80,9 @@ public class AudioCheckingManager : MonoBehaviour
             }
         }
 
-        if (Slider1 <= 0.78 && Slider1 >= 0.98)
+        if (Slider1 <= 0.98 && Slider1 >= 0.78)
         {
-            if (Knob <= 0.33 && Knob >= 0.48)
+            if (Knob <= 0.48 && Knob >= 0.33)
             {
                 if (Slider2 <= 0.24 && Slider2 >= 0.07)
                 {
@@ -93,8 +93,8 @@ public class AudioCheckingManager : MonoBehaviour
             }
         }
         DoingCheck = false;
+        CheckPuzzleComplete();
     }
-
 
 
 }
