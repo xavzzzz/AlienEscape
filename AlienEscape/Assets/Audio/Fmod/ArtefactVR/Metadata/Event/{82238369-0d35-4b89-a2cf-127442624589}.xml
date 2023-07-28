@@ -95,6 +95,9 @@
 		<property name="timelockedOffset">
 			<value>3</value>
 		</property>
+		<property name="pitch">
+			<value>-1.39999998</value>
+		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{e1b8b610-f21a-4ffa-a724-a9b899e3447b}</destination>
 		</relationship>
@@ -256,7 +259,6 @@
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -265,7 +267,6 @@
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -301,7 +302,6 @@
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>

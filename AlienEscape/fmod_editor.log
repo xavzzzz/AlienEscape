@@ -77,6 +77,8 @@
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Listener'
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
