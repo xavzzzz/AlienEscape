@@ -42,6 +42,7 @@ public class AudioCheckingManager : MonoBehaviour
         if (OneKill && TwoKill && ThreeKill) {
             // END FMOD EVENT 
             this.GetComponent<FMODUnity.StudioEventEmitter>().Stop();
+            FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Operture", +1);
 
             MANAGER.GetComponent<PUZZLEMANAGER>().AudioPuzzleCheck = true;
             MANAGER.GetComponent<PUZZLEMANAGER>().CheckIfAdvanceToSecondScene();
@@ -66,9 +67,9 @@ public class AudioCheckingManager : MonoBehaviour
 
         if (Slider1 <= 0.75 && Slider1 >= 0.55)
         {
-            if (Knob <= 0.19 && Knob >= 0.13)
+            if (Knob <= 0.05 && Knob >= 0.19)
             {
-                if (Slider2 <= 0.33 && Slider2 >= 0.39)
+                if (Slider2 <= 0.26 && Slider2 >= 0.43)
                 {
                     Debug.Log("KILL CURVE TWO");
                     TwoKill = true;
@@ -79,9 +80,9 @@ public class AudioCheckingManager : MonoBehaviour
 
         if (Slider1 <= 0.78 && Slider1 >= 0.98)
         {
-            if (Knob <= 0.43 && Knob >= 0.39)
+            if (Knob <= 0.33 && Knob >= 0.48)
             {
-                if (Slider2 <= 0.16 && Slider2 >= 0.07)
+                if (Slider2 <= 0.24 && Slider2 >= 0.07)
                 {
                     Debug.Log("KILL CURVE THREE");
                     ThreeKill = true;

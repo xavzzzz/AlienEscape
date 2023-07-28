@@ -385,7 +385,7 @@
 			<value>-24</value>
 		</property>
 		<property name="ratio">
-			<value>3</value>
+			<value>4</value>
 		</property>
 	</object>
 	<object class="SFXReverbEffect" id="{1da633b7-7817-4514-8eba-1d6a7d3f84d3}">

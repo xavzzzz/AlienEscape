@@ -13,4 +13,10 @@ public class OpeningFaceSon : MonoBehaviour
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/Artefact/OpeningAnimRunes/Artefact_Opening_StoneMove 2", GetComponent<Transform>().position);
     }
+
+    private void FaceOpen()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Artefact/Artefact_FirstOpen", GetComponent<Transform>().position);
+    }
+
 }
