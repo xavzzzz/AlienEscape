@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{6bbcb7fc-afb8-4788-b36e-8bd57b4b6956}">
+		<property name="name">
+			<value>OpeningAnimRunes</value>
+		</property>
+		<relationship name="folder">
+			<destination>{2dbae6d3-5c9d-473a-804d-97115f2b9d72}</destination>
+		</relationship>
+	</object>
+</objects>
