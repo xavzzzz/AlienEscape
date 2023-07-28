@@ -9,8 +9,11 @@ public class TurnManager : MonoBehaviour
     public List<GameObject> Yellows;
 
 
+    
+
     public void TurnRedObjects(float angle)
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Objets/Object_PipeMovement", GetComponent<Transform>().position);
 
         foreach (var r in Reds)
         {
@@ -20,7 +23,7 @@ public class TurnManager : MonoBehaviour
 
     public void TurnBlueObjects(float angle)
     {
-
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Objets/Object_PipeMovement", GetComponent<Transform>().position);
         foreach (var r in Blues)
         {
             r.transform.Rotate(0f, angle, 0f);
@@ -29,7 +32,7 @@ public class TurnManager : MonoBehaviour
 
     public void TurnYellowObjects(float angle)
     {
-
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Objets/Object_PipeMovement", GetComponent<Transform>().position);
         foreach (var r in Yellows)
         {
             r.transform.Rotate(0f, angle, 0f);
