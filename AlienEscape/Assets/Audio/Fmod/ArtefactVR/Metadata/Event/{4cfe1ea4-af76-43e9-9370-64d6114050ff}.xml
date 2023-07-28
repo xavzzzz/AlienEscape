@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{4cfe1ea4-af76-43e9-9370-64d6114050ff}">
 		<property name="color">
-			<value>Yellow</value>
+			<value>Green</value>
 		</property>
 		<property name="name">
 			<value>Artefact_SecondOpen</value>
@@ -59,7 +59,7 @@
 			<destination>{52271220-dccd-4f4a-b0fc-9f1dcb7390b6}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{1b0738c5-96e6-4ee4-8a51-0f98aa0b88ca}</destination>
+			<destination>{9476cc2e-e9a2-4e0e-96dd-a51be976e9c2}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{308c56cf-2fe1-4df7-894d-ef80565344bb}">

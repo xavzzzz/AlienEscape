@@ -172,12 +172,14 @@ public class AudioManager : MonoBehaviour
                     //Play FMOD event 1
                     Cassette_3.setPaused(false);
                     Cas3Paused = false;
+                    FMODUnity.RuntimeManager.StudioSystem.setParameterByName("CassetteReading", 0);
                 }
                 else
                 {
 
                     //Play FMOD event 1
                     Cassette_3.start();
+                    FMODUnity.RuntimeManager.StudioSystem.setParameterByName("CassetteReading", 1);
                 }
 
             }
@@ -208,6 +210,7 @@ public class AudioManager : MonoBehaviour
                 //Play FMOD event 3
                 Cassette_3.setPaused(true);
                 Cas3Paused = true;
+                FMODUnity.RuntimeManager.StudioSystem.setParameterByName("CassetteReading", 0);
             }
         }
     }

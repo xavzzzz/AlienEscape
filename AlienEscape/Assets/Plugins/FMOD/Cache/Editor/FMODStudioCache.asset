@@ -569,10 +569,10 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638261828442497552
+  lastModified: 638261856333171268
   FileSizes:
   - Name: Desktop
-    Value: 4582
+    Value: 4770
   Exists: 1
 --- !u!114 &-5710655391808532762
 MonoBehaviour:
@@ -777,6 +777,33 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-4846413372767046189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objets/Object_ElectricalNoise
+  m_EditorClassIdentifier: 
+  Path: event:/Objets/Object_ElectricalNoise
+  Guid:
+    Data1: 720435965
+    Data2: 1179599356
+    Data3: -194730879
+    Data4: 263787908
+  Banks:
+  - {fileID: 7212438779820523129}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 2.2
+  Length: 39116
 --- !u!114 &-4763032922959911358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1813,6 +1840,7 @@ MonoBehaviour:
   - {fileID: 747591032440024724}
   - {fileID: 492024398669054372}
   - {fileID: -1652050431225312409}
+  - {fileID: -4846413372767046189}
   EditorParameters:
   - {fileID: 25129070219758688}
   - {fileID: 8919282874739550185}
@@ -1820,11 +1848,12 @@ MonoBehaviour:
   - {fileID: 1764283808161697580}
   - {fileID: 7392416073535151462}
   - {fileID: -5012674375343427278}
+  - {fileID: 8750915996382584080}
   MasterBanks:
   - {fileID: 7212438779820523129}
   StringsBanks:
   - {fileID: -5925986163448373950}
-  cacheTime: 638261828442497552
+  cacheTime: 638261856333171268
   cacheVersion: 131603
 --- !u!114 &25129070219758688
 MonoBehaviour:
@@ -2534,8 +2563,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 0
+  MaxDistance: 3
   Length: 2915
 --- !u!114 &4144621061781800555
 MonoBehaviour:
@@ -2980,10 +3009,10 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638261828442406553
+  lastModified: 638261856333076193
   FileSizes:
   - Name: Desktop
-    Value: 22145984
+    Value: 22148032
   Exists: 1
 --- !u!114 &7246188565998164943
 MonoBehaviour:
@@ -3212,6 +3241,30 @@ MonoBehaviour:
   ID:
     data1: 2221251132
     data2: 2506805322
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8750915996382584080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CassetteReading
+  m_EditorClassIdentifier: 
+  Name: CassetteReading
+  StudioPath: parameter:/CassetteReading
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2432335438
+    data2: 3620549839
   Type: 0
   IsGlobal: 1
   Labels: []

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{dae3a38a-80a1-469d-b518-bf55a071e863}">
+		<property name="name">
+			<value>TransitionFade</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{3e392219-21b6-475e-ab03-54aafb014cd2}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{b4233a36-3562-4261-a0e0-e1d744957a37}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1b0738c5-96e6-4ee4-8a51-0f98aa0b88ca}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{3e392219-21b6-475e-ab03-54aafb014cd2}">
+		<relationship name="effects">
+			<destination>{3da151dc-4b20-4422-a0a5-0094f45b8770}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{b4233a36-3562-4261-a0e0-e1d744957a37}" />
+	<object class="MixerBusFader" id="{3da151dc-4b20-4422-a0a5-0094f45b8770}" />
+</objects>

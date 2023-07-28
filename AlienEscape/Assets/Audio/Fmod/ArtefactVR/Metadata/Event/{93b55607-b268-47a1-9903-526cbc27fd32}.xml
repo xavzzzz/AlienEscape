@@ -71,7 +71,7 @@ De 2 min30 a 5 min</value>
 			<destination>{7f61fc99-c384-4fc4-80da-6ee279528f12}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{1b0738c5-96e6-4ee4-8a51-0f98aa0b88ca}</destination>
+			<destination>{9476cc2e-e9a2-4e0e-96dd-a51be976e9c2}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{1309d495-dc63-493e-b001-f500e379c855}" />
