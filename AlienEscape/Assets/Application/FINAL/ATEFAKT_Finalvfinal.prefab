@@ -121,7 +121,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6430102873907050171}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EmergencyStopOffset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,7 +156,7 @@ GameObject:
   - component: {fileID: 1506971183878711680}
   - component: {fileID: 6323036328543750437}
   - component: {fileID: 6816166517727269485}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EmergencyStop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -466,7 +466,7 @@ GameObject:
   - component: {fileID: 4842514660154976777}
   - component: {fileID: 1032473968515889254}
   - component: {fileID: 8220196247484139303}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 2.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -578,7 +578,7 @@ GameObject:
   - component: {fileID: 4662015825252912279}
   - component: {fileID: 785917570348049707}
   - component: {fileID: 8405288627601617414}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 2.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -793,7 +793,7 @@ GameObject:
   - component: {fileID: 8133181027050855283}
   - component: {fileID: 8917129021187715816}
   - component: {fileID: 6662384244362470764}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1098,7 +1098,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6667486578460384070
 Transform:
@@ -1177,7 +1177,7 @@ GameObject:
   - component: {fileID: 6093671909912262018}
   - component: {fileID: 5516904271669907819}
   - component: {fileID: 4300756309688589870}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 5.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1274,7 +1274,7 @@ GameObject:
   - component: {fileID: 3740463972621151849}
   - component: {fileID: 5031152728528487888}
   - component: {fileID: 5554626687979464655}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Emergency Stop Plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1471,7 +1471,7 @@ GameObject:
   - component: {fileID: 1422120981475997964}
   - component: {fileID: 2229458412118952513}
   - component: {fileID: 1425565874092391146}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 4.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1626,7 +1626,7 @@ GameObject:
   - component: {fileID: 1200866913715366658}
   - component: {fileID: 9098854967154028103}
   - component: {fileID: 4646964488268513539}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 4.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1836,7 +1836,7 @@ GameObject:
   - component: {fileID: 8722518917092771075}
   - component: {fileID: 6994618300586226019}
   - component: {fileID: 2286525931151057919}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 1.002
   m_TagString: Rune
   m_Icon: {fileID: 0}
@@ -1931,7 +1931,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7217979568615252080}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EmergencyStopOffset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1967,7 +1967,7 @@ GameObject:
   - component: {fileID: 3831344465583049013}
   - component: {fileID: 2808504797088080169}
   - component: {fileID: 2881649940136777722}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 5.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2066,7 +2066,7 @@ GameObject:
   - component: {fileID: 7623724026668096636}
   - component: {fileID: 529533485573847450}
   - component: {fileID: 454110300568562756}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 3.002
   m_TagString: Rune
   m_Icon: {fileID: 0}
@@ -2164,7 +2164,7 @@ GameObject:
   - component: {fileID: 3420892681810582853}
   - component: {fileID: 771060651121643411}
   - component: {fileID: 3420892681810582852}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 8.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2297,7 +2297,7 @@ GameObject:
   - component: {fileID: 5357502443862264717}
   - component: {fileID: 2343554342157038309}
   - component: {fileID: 6070969371379676190}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EmergencyStop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2382,7 +2382,7 @@ GameObject:
   - component: {fileID: 8824024073944041754}
   - component: {fileID: 7017870059515662543}
   - component: {fileID: 4530369723859156775}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Arefact_Haut
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2496,7 +2496,7 @@ GameObject:
   - component: {fileID: 3850252040283908268}
   - component: {fileID: 6121314326080883034}
   - component: {fileID: 5736529742480712511}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EmergencyStop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2580,7 +2580,7 @@ GameObject:
   - component: {fileID: 8408182943702631921}
   - component: {fileID: 4608842037299467698}
   - component: {fileID: 95833891327508220}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Emergency Stop Plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2665,7 +2665,7 @@ GameObject:
   - component: {fileID: 9166954293826683249}
   - component: {fileID: 2892891862423152898}
   - component: {fileID: 5888895119451125633}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 0.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2767,7 +2767,7 @@ GameObject:
   - component: {fileID: 1744939344269094045}
   - component: {fileID: 5666905112466237395}
   - component: {fileID: 1002715701452897354}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3289,7 +3289,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2624526188852471156}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EmergencyStopOffset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3325,7 +3325,7 @@ GameObject:
   - component: {fileID: 8185273385252995914}
   - component: {fileID: 2503096767183423702}
   - component: {fileID: 2503096767183423701}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 6.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3424,7 +3424,7 @@ GameObject:
   - component: {fileID: 2505346876852843927}
   - component: {fileID: 453322053104024221}
   - component: {fileID: 4090707124843054636}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 7.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3519,7 +3519,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5455396089180169254}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3672,7 +3672,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &50949863767768020
 Transform:
@@ -3782,7 +3782,7 @@ GameObject:
   - component: {fileID: 3963422417579796212}
   - component: {fileID: 1243734112100766110}
   - component: {fileID: 6738622023305276215}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 0.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3881,7 +3881,7 @@ GameObject:
   - component: {fileID: 4150579296759406795}
   - component: {fileID: 1566933338707857063}
   - component: {fileID: 7095741583012902794}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 6.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3978,7 +3978,7 @@ GameObject:
   - component: {fileID: 6491524177359587237}
   - component: {fileID: 6491524177359587243}
   - component: {fileID: 6491524177359587236}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Emergency Stop Plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4062,7 +4062,7 @@ GameObject:
   - component: {fileID: 6491524177465799601}
   - component: {fileID: 6491524177465799607}
   - component: {fileID: 6491524177465799600}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Emergency Stop Plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4146,7 +4146,7 @@ GameObject:
   - component: {fileID: 6491524177511006260}
   - component: {fileID: 6491524177511006266}
   - component: {fileID: 6491524177511006267}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EmergencyStop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4228,7 +4228,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6491524177523929406}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EmergencyStopOffset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4263,7 +4263,7 @@ GameObject:
   - component: {fileID: 6491524177671387963}
   - component: {fileID: 6491524177671387961}
   - component: {fileID: 6491524177671387962}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Emergency Stop Plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4345,7 +4345,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6491524177677044805}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EmergencyStopOffset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4380,7 +4380,7 @@ GameObject:
   - component: {fileID: 6491524177736367082}
   - component: {fileID: 6491524177736367080}
   - component: {fileID: 6491524177736367081}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EmergencyStop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4464,7 +4464,7 @@ GameObject:
   - component: {fileID: 6491524177804017061}
   - component: {fileID: 6491524177804017067}
   - component: {fileID: 6491524177804017060}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EmergencyStop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4553,7 +4553,7 @@ GameObject:
   - component: {fileID: 6491524178053926101}
   - component: {fileID: 6139577505465886579}
   - component: {fileID: 7836822097559943103}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4858,7 +4858,7 @@ GameObject:
   - component: {fileID: 6491524178068848024}
   - component: {fileID: 9000733118676341016}
   - component: {fileID: 3807208769153784486}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5163,7 +5163,7 @@ GameObject:
   - component: {fileID: 6491524178086118515}
   - component: {fileID: 3777026030742791501}
   - component: {fileID: 6491200818825051071}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5463,7 +5463,7 @@ GameObject:
   - component: {fileID: 6491524178192898443}
   - component: {fileID: 6491524178192898441}
   - component: {fileID: 6491524178192898442}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Emergency Stop Plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5552,7 +5552,7 @@ GameObject:
   - component: {fileID: 6491524178369993516}
   - component: {fileID: 4747894747870346206}
   - component: {fileID: 2043367826209693547}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5852,7 +5852,7 @@ GameObject:
   - component: {fileID: 6491524178445351369}
   - component: {fileID: 6491524178445351375}
   - component: {fileID: 6491524178445351368}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EmergencyStop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5934,7 +5934,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6491524178469312575}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5969,7 +5969,7 @@ GameObject:
   - component: {fileID: 6491524178537997303}
   - component: {fileID: 6491524178537997301}
   - component: {fileID: 6491524178537997302}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Emergency Stop Plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6051,7 +6051,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6491524178572639377}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6086,7 +6086,7 @@ GameObject:
   - component: {fileID: 6491524178637450089}
   - component: {fileID: 6491524178637450095}
   - component: {fileID: 6491524178637450088}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EmergencyStop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6168,7 +6168,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6491524178701174592}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EmergencyStopOffset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6208,7 +6208,7 @@ GameObject:
   - component: {fileID: 6491524178870521135}
   - component: {fileID: 1632842646699092270}
   - component: {fileID: 1294908600529567529}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6508,7 +6508,7 @@ GameObject:
   - component: {fileID: 6491524178922093470}
   - component: {fileID: 6491524178922093468}
   - component: {fileID: 6491524178922093469}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EmergencyStop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6597,7 +6597,7 @@ GameObject:
   - component: {fileID: 6491524178954600405}
   - component: {fileID: 105851657220362517}
   - component: {fileID: 7650960348989243711}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6895,7 +6895,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6491524179048893395}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6928,7 +6928,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6491524179050038451}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EmergencyStopOffset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6963,7 +6963,7 @@ GameObject:
   - component: {fileID: 6491524179056374274}
   - component: {fileID: 6491524179056374272}
   - component: {fileID: 6491524179056374273}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EmergencyStop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7047,7 +7047,7 @@ GameObject:
   - component: {fileID: 6491524179061438588}
   - component: {fileID: 6491524179061438562}
   - component: {fileID: 6491524179061438563}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Emergency Stop Plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7129,7 +7129,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6491524179129922205}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7169,7 +7169,7 @@ GameObject:
   - component: {fileID: 6491524179238200278}
   - component: {fileID: 602400638736458548}
   - component: {fileID: 4897086673282889956}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7467,7 +7467,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6491524179253147912}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7500,7 +7500,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6491524179258398280}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EmergencyStopOffset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7533,7 +7533,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6491524179304649558}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7566,7 +7566,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6491524179312602243}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EmergencyStopOffset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7601,7 +7601,7 @@ GameObject:
   - component: {fileID: 6491524179388262083}
   - component: {fileID: 6491524179388262081}
   - component: {fileID: 6491524179388262082}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Emergency Stop Plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7683,7 +7683,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6491524179438365690}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7716,7 +7716,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6491524179456454491}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EmergencyStopOffset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7752,7 +7752,7 @@ GameObject:
   - component: {fileID: 3694286974531835193}
   - component: {fileID: 3035843320135629035}
   - component: {fileID: 4592295672106201640}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 9.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7850,7 +7850,7 @@ GameObject:
   - component: {fileID: 5692492751350203948}
   - component: {fileID: 875145758017655526}
   - component: {fileID: 4424584229138884016}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 3.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7948,7 +7948,7 @@ GameObject:
   - component: {fileID: 6424269071671213805}
   - component: {fileID: 4960555757521379652}
   - component: {fileID: 4523964171390470864}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Emergency Stop Plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8033,7 +8033,7 @@ GameObject:
   - component: {fileID: 4147825842224629060}
   - component: {fileID: 3943031957751391698}
   - component: {fileID: 2645133681478276831}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 9.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8131,7 +8131,7 @@ GameObject:
   - component: {fileID: 1924982845806821782}
   - component: {fileID: 2790098762584165210}
   - component: {fileID: 6541844614870293790}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Arefact_Haut.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8327,7 +8327,7 @@ GameObject:
   - component: {fileID: 4844089040522342745}
   - component: {fileID: 6030879940899776089}
   - component: {fileID: 5415194434458194860}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 8.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8425,7 +8425,7 @@ GameObject:
   - component: {fileID: 9130070718396637729}
   - component: {fileID: 5390973087361305465}
   - component: {fileID: 2380635494166228823}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 7.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8636,7 +8636,7 @@ GameObject:
   - component: {fileID: 4716489168561120897}
   - component: {fileID: 5488563852814934545}
   - component: {fileID: 5099028085944868620}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 1.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8732,7 +8732,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 619070005555692595}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8765,7 +8765,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3502807878939198560}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8805,7 +8805,7 @@ GameObject:
   - component: {fileID: 9028030470400937798}
   - component: {fileID: 2209767193079494743}
   - component: {fileID: 1071294275897754131}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 1
   m_TagString: Rune
   m_Icon: {fileID: 0}

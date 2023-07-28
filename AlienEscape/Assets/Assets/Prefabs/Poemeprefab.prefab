@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1893629554380222521}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Poemeprefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,6 +108,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Poeme5
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0e67bfc5911bb1949a681b7eaf3db390,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e67bfc5911bb1949a681b7eaf3db390, type: 3}
 --- !u!4 &2221626088934183175 stripped
@@ -187,6 +192,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Poeme1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3db461adc2a791e42af7ea60a4e97033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3db461adc2a791e42af7ea60a4e97033, type: 3}
@@ -283,6 +293,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Poeme2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77df5f4cef64e6240bd34c8d8dcbc389,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77df5f4cef64e6240bd34c8d8dcbc389, type: 3}
 --- !u!4 &4439675738817022048 stripped
@@ -363,6 +378,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Poeme4
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ab250692967f6e2499b5708625d120fc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab250692967f6e2499b5708625d120fc, type: 3}
 --- !u!4 &7706813875826521126 stripped
@@ -442,6 +462,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Poeme3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c1a582c74287684d80f1ff48c9c2d64,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1a582c74287684d80f1ff48c9c2d64, type: 3}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1376676000783563864}
   - component: {fileID: 3087238091378936552}
   - component: {fileID: 1986620364300371649}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4371161584024597618}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Laser_avant
   m_TagString: Untagged
   m_Icon: {fileID: 0}

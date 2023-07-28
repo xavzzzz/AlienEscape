@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4887466055978559876}
   - component: {fileID: 4887466055978559877}
   - component: {fileID: 4887466055978559874}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cylinder.017 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 4887466056699154450}
   - component: {fileID: 4887466056699154451}
   - component: {fileID: 4887466056699154448}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cylinder.017 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 4887466056741332122}
   - component: {fileID: 4887466056741332124}
   - component: {fileID: 4887466056741332123}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cylinder.017 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -369,7 +369,7 @@ GameObject:
   - component: {fileID: 4887466056829648720}
   - component: {fileID: 4887466056829648721}
   - component: {fileID: 9222919483262892874}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LaserBatterie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -677,7 +677,7 @@ GameObject:
   - component: {fileID: 4887466057177360961}
   - component: {fileID: 4887466057177360960}
   - component: {fileID: 4887466057177360974}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cylinder.017 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

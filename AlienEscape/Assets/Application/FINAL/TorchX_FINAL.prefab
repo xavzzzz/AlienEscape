@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 4837514370149529057}
   - component: {fileID: 8705911671559804341}
   - component: {fileID: 4945327802553418535}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Corp lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -332,7 +332,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9095381516453490124}
   - component: {fileID: 2752066151589076282}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LeftReticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -578,7 +578,7 @@ GameObject:
   - component: {fileID: 5897598551375666233}
   - component: {fileID: 3535140292120529906}
   - component: {fileID: 2752066150299848597}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -737,7 +737,7 @@ GameObject:
   - component: {fileID: 9092763645178346967}
   - component: {fileID: 7772107816878836509}
   - component: {fileID: 888700058224398822}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lentille_d
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -820,7 +820,7 @@ GameObject:
   - component: {fileID: 5814367629451373198}
   - component: {fileID: 656839172037910039}
   - component: {fileID: 7296900423005418682}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lentille_g
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -903,7 +903,7 @@ GameObject:
   - component: {fileID: 644969832210893031}
   - component: {fileID: 8312088476372224887}
   - component: {fileID: 2057389010356531745}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Grosse_lentille
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -989,7 +989,7 @@ GameObject:
   - component: {fileID: 7983184025066920195}
   - component: {fileID: 7601360195643164932}
   - component: {fileID: 7520081231558824552}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RightReticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1173,7 +1173,7 @@ GameObject:
   - component: {fileID: 953894613113479028}
   - component: {fileID: 1598600385725508199}
   - component: {fileID: 1139616591622441959}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lampe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1748,7 +1748,7 @@ GameObject:
   - component: {fileID: 71322092629437936}
   - component: {fileID: 1073971004628550013}
   - component: {fileID: 3349076340765349922}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ColorZoneFront (1)
   m_TagString: Slot
   m_Icon: {fileID: 0}
@@ -1933,7 +1933,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3781824356260390410}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TorchX_FINAL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
