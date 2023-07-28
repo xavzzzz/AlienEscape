@@ -1,0 +1,83 @@
+{e54ffbe8-5678-421b-85d4-582682ff92f0} bank:/Master
+{7d52db3c-2703-0e59-039d-d2d8730c9468} bank:/Master.strings
+{1b0738c5-96e6-4ee4-8a51-0f98aa0b88ca} bus:/
+{b9854b9f-76f0-45ca-b8b7-d05ef2c5b5f6} bus:/Reverb
+{01f4fd9d-d220-4b25-bfec-b24eaf71449a} event:/Ambiance/Final_Ambiance
+{4c2df8c3-b1a8-4103-b484-9d787b3b04aa} event:/Ambiance/New Event
+{9ad6fae8-cad1-4828-adbd-ae925d87babd} event:/Ambiance/Room_Ambiance
+{e2ff5690-f3ce-48ef-ab29-fb6449439994} event:/Ambiance/Room_Ambiance 2
+{1d8d1bc6-3cda-4d29-bbe0-54f944c8643b} event:/Artefact/ArtefactCORE_BackgroundNoise
+{f099f8c8-a3d8-4ea1-9008-abe896a119f0} event:/Artefact/ArtefactCORE_Break
+{4f75c544-3aa3-432d-8863-df3f8184c697} event:/Artefact/ArtefactCORE_Explosion
+{fcfed402-3a5e-4270-a52d-d09498616b32} event:/Artefact/Artefact_BackgroundNoise
+{96f163cf-5032-4953-99cf-0737a0a22ac8} event:/Artefact/Artefact_FirstOpen
+{2b93ebb6-58c0-4288-b662-f1ae225ceaeb} event:/Artefact/Artefact_RuneFailed
+{2f46bfef-57bb-4b65-9a01-2f64d1b65abf} event:/Artefact/Artefact_RuneGlowing
+{30838a61-e16e-449a-8e27-4dd566ea68d9} event:/Artefact/Artefact_RunePushed
+{0ee82a47-049b-4538-8d8e-2ffb8e92bbb4} event:/Artefact/Artefact_RuneUnpushed
+{4883ec81-a953-4301-adc8-acd04e4f4d38} event:/Artefact/Artefact_RuneWin
+{4cfe1ea4-af76-43e9-9370-64d6114050ff} event:/Artefact/Artefact_SecondOpen
+{4282a33d-d737-4c15-a1ee-54e026f9af79} event:/Artefact/OpeningAnimRunes/Artefact_RuneWin
+{7de29c0e-95b7-43fc-b31a-263f538bd6b0} event:/Artefact/OpeningAnimRunes/Artefact_RuneWin 2
+{0140f599-ba4e-463f-ab31-62259534ff32} event:/Artefact/OpeningAnimRunes/Artefact_RuneWin 3
+{8fdb2289-4d7f-470e-8a20-e1fe81d111c4} event:/Artefact/OpeningAnimRunes/Artefact_RuneWin 4
+{1a73bf7c-4c1b-47c1-9437-68d0757893ad} event:/Cassetes/Cassette 1
+{8cd1ed3f-93d4-4d65-98b8-ad083f77d11b} event:/Cassetes/Cassette 2
+{bcce18c9-ce76-4ef7-8580-247e2ac84175} event:/Cassetes/Cassette 3
+{1727ca3b-fa5a-41bf-9128-dac26d5ca12d} event:/Cassetes/Cassette_Insert
+{da8b28cc-c75e-4861-9061-9ba507374d41} event:/Eyes/AngryEyes_Ambiance
+{9a03e75a-e3f9-48cd-9251-73eb9f43ca47} event:/LaserCutter/LaserCutter_Cutting
+{0e475bda-d06e-4459-ac57-24a8c28da0ac} event:/LaserCutter/LaserCutter_Off
+{0750404a-c03e-4c67-b8d2-b35fe71373aa} event:/LaserCutter/LaserCutter_On
+{e04d1296-2164-404b-8e4c-c40b92195f86} event:/LecteurCassettes/Lecteur_Eject
+{f09f08bf-fa28-4281-8f55-caafe216d2b5} event:/LecteurCassettes/Lecteur_Pause
+{d24c90bb-302a-4778-808d-e466182f0e79} event:/LecteurCassettes/Lecteur_Play
+{5cc7b845-6f1e-4464-acf1-98a7ffab4c93} event:/LecteurCassettes/Lecteur_Replay
+{a84f40bb-47ab-4439-af4e-5b856bda227f} event:/LightTool/LightTool_Activated
+{3a86373f-7db5-43d2-af6e-021a2d108762} event:/LightTool/LightTool_ColorChange
+{d2a50f3d-afd4-46bf-9925-507e7f7cb343} event:/LightTool/LightTool_ColorChange 2
+{bbdce9ce-889f-465e-8342-c1cfdf5517de} event:/LightTool/LightTool_Desactivated
+{a3f0ab00-5ede-46ea-961e-91ce51ff8b35} event:/LightTool/LightTool_Plug
+{81832335-9105-4f81-856a-31166a8cff83} event:/LightTool/LightTool_Unplug
+{1817beb2-5451-45e6-93b7-d8c28515ddce} event:/Objets/Object_ButtonPush
+{23df92bf-ad47-4b00-a35d-350ae28ca66d} event:/Objets/Object_PipeMovement
+{1bed2629-fc8a-4473-b581-e10116808065} event:/Objets/Object_PipeWin
+{66779c1c-8af9-4298-82ae-dce2710cd607} event:/Objets/Objects_Drop
+{a24c51ae-c62c-4fdf-af62-b9ffe44d681f} event:/Objets/Objects_Grab
+{62361925-7e86-43c9-9e59-210919be4d65} event:/Objets/Objects_HitFloor
+{a20ac3a1-fab3-4224-be9e-077c2c8f4d07} event:/Objets/Objects_HitFloor 2
+{f4575735-d312-443f-89fc-28cf2420ad92} event:/Objets/Objects_merge
+{5650a010-cf49-4ed4-aa03-3a5ffd9603f9} event:/Puzzle Sonore/IncrémentationTry/Oscillo_st 1
+{52bf73dd-c530-4b84-8be9-c5d985bbf477} event:/Puzzle Sonore/IncrémentationTry/Oscillo_st 2
+{a352dfb7-1861-4b89-a98b-604f72886ddc} event:/Puzzle Sonore/IncrémentationTry/Oscillo_st 3
+{9d1a54ab-d2db-4f32-bc00-dc7c8cd3aa5f} event:/Puzzle Sonore/IncrémentationTry/Oscilloscope Binaural + Incrémentation
+{ab587a6b-d3a6-4f1d-a46f-637d2edb8040} event:/Puzzle Sonore/IncrémentationTry/StaticsSoundsAdd/Static 1/Static 1-1
+{72947984-61a9-48a9-9838-af3725e19ff0} event:/Puzzle Sonore/IncrémentationTry/StaticsSoundsAdd/Static 1/Static 1-2
+{1a504ba4-4fa6-4bec-8ef2-4f377fef9e55} event:/Puzzle Sonore/IncrémentationTry/StaticsSoundsAdd/Static 1/Static 1-3
+{174dcb0f-5c6b-4772-9118-bcf0bf734aeb} event:/Puzzle Sonore/IncrémentationTry/StaticsSoundsAdd/Static 2/Static 2-1
+{cb3198cb-acb7-41df-ada1-5402200b2060} event:/Puzzle Sonore/IncrémentationTry/StaticsSoundsAdd/Static 2/Static 2-2
+{e153705f-24f3-4102-86f8-ea6a20d01d75} event:/Puzzle Sonore/IncrémentationTry/StaticsSoundsAdd/Static 2/Static 2-3
+{6e9d8c46-4260-4a59-8643-b9bd2212712f} event:/Puzzle Sonore/IncrémentationTry/StaticsSoundsAdd/Static 3/Static 3-1
+{7753b065-a35d-43d1-974d-20bccca9b1a0} event:/Puzzle Sonore/IncrémentationTry/StaticsSoundsAdd/Static 3/Static 3-2
+{7a1aef38-1c59-4081-bdd5-dd6f5e86e819} event:/Puzzle Sonore/IncrémentationTry/StaticsSoundsAdd/Static 3/Static 3-3
+{74ff4c9b-7f3c-4a77-b4b3-a8daa206bd3b} event:/Puzzle Sonore/Oscilloscope
+{599bbe85-79fd-40a0-89a1-9e83c47e5263} event:/Puzzle Sonore/Oscilloscope 2
+{befe3d7a-1ccf-45ee-adae-cd1f7fafa10a} event:/Puzzle Sonore/Oscilloscope 3
+{93b55607-b268-47a1-9903-526cbc27fd32} event:/Puzzle Sonore/Oscilloscope Binaural
+{10324df7-0c26-4ba0-8e7b-d92090b4a372} event:/Trashcan/Clavier/Clavier_note 1
+{a5c4f57c-ffe9-4857-b2e6-5833d20a1dea} event:/Trashcan/Clavier/Clavier_note 2
+{20028abd-7559-481c-a8e0-1d58e26e6556} event:/Trashcan/Clavier/Clavier_note 3
+{ec2c1d0e-43e8-4f85-948d-9414add202a9} event:/Trashcan/Clavier/Clavier_note 4
+{0e41db0e-6687-492a-94d8-28986e7eedec} event:/Trashcan/Clavier/Clavier_note 5
+{43a4b3ad-256f-4673-a7cc-68a940341256} parameter:/Cassette1_FastForward
+{f78c3e24-f5ac-4dd4-a465-598b5bee63ff} parameter:/Cassette1_Rewind
+{828c2eb4-c80d-4ee9-b0d5-7ea5e52a4a4e} parameter:/Increase_bpm
+{fca8ff54-ead0-4d14-bec2-8525a1953852} parameter:/Note
+{76d14fda-0ebc-4506-bbba-7576dc727e58} parameter:/Operture
+{01c4bc03-15cf-4bcc-aee5-597201f8f9a3} parameter:/Result
+{328b5afb-6827-4eae-8845-dd3ef6901ac2} parameter:/Static 1
+{d557523d-ce05-4998-80ee-5536c001359b} parameter:/Static 2
+{b2b7b87e-712e-4eb5-98ee-a34b3c6f98e1} parameter:/Static 3
+{25a80258-fa9e-4479-9ab7-41332e2adc7b} parameter:/potentiomètre 1
+{82276603-1b10-48da-af8f-3ee168f38bf1} parameter:/potentiomètre 2
+{19b7db5b-4027-4feb-886f-cb90ff860c7b} parameter:/potentiomètre 3
