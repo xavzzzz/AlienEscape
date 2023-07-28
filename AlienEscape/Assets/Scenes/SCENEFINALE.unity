@@ -1939,6 +1939,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TouteLaScene_cassee (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7000937547574894538, guid: 94e5fbefb38ddda4ea3d1dd858b563d3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 63fec5682e346a845808091b751a964a, type: 2}
+    - target: {fileID: 7000937547574894538, guid: 94e5fbefb38ddda4ea3d1dd858b563d3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 63fec5682e346a845808091b751a964a, type: 2}
     - target: {fileID: 8156361953868407137, guid: 94e5fbefb38ddda4ea3d1dd858b563d3,
         type: 3}
       propertyPath: m_BoxOffset.y
