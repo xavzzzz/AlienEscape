@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{1d8d1bc6-3cda-4d29-bbe0-54f944c8643b}">
 		<property name="color">
-			<value>Red Light 1</value>
+			<value>Green</value>
 		</property>
 		<property name="name">
 			<value>ArtefactCORE_BackgroundNoise</value>
@@ -72,7 +72,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximumDistance">
-			<value>1.60000002</value>
+			<value>3</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{f74e573a-5af5-4061-b771-7c6ba2d6d337}" />
@@ -116,6 +116,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{3145296c-c4f2-4ebf-ab5a-1bb145e07226}">
+		<property name="volume">
+			<value>-3.5</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{e72cbd4f-9c8e-4453-8ae4-e3a6b7115cd6}</destination>
 		</relationship>
@@ -262,8 +265,8 @@
 		<relationship name="effects">
 			<destination>{273ead51-573a-4c74-ab6f-efc872dccf36}</destination>
 			<destination>{ce5b1913-f506-426d-8c8d-7294dd65a3a6}</destination>
-			<destination>{8bc9821a-3487-43f4-9819-736eab0f7b89}</destination>
 			<destination>{f5cb1666-e7a1-4fd4-bbe6-0f4355daf9f5}</destination>
+			<destination>{8bc9821a-3487-43f4-9819-736eab0f7b89}</destination>
 			<destination>{33784608-4f04-4645-b429-fd88a0681209}</destination>
 		</relationship>
 	</object>
@@ -305,8 +308,8 @@
 			<destination>{f4a134d4-70c7-4049-889e-9cd6c90a116b}</destination>
 		</relationship>
 	</object>
-	<object class="LoudnessMeter" id="{8bc9821a-3487-43f4-9819-736eab0f7b89}" />
 	<object class="MixerBusFader" id="{f5cb1666-e7a1-4fd4-bbe6-0f4355daf9f5}" />
+	<object class="LoudnessMeter" id="{8bc9821a-3487-43f4-9819-736eab0f7b89}" />
 	<object class="PluginEffect" id="{33784608-4f04-4645-b429-fd88a0681209}">
 		<relationship name="plugin">
 			<destination>{ce2485cb-4c1f-4d03-b7b4-b6d088cc22be}</destination>

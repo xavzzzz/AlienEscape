@@ -67,7 +67,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximumDistance">
-			<value>1.60000002</value>
+			<value>3</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{4df60be6-c018-4e0c-8bed-c03f1cf4e74e}" />
@@ -376,9 +376,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{c06dd998-4be5-4ab6-9718-2ce05c496259}" />
 	<object class="CompressorEffect" id="{9514e4ff-da96-4ee0-beee-14833f8bd141}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
 		<property name="threshold">
 			<value>-24</value>
 		</property>
