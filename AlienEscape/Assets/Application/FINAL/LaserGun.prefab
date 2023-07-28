@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1804937629}
   - component: {fileID: 1804937628}
   - component: {fileID: 1804937627}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: BatterieSlot
   m_TagString: AudioSlot
   m_Icon: {fileID: 0}
@@ -130,8 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34fa8ea1de84c474b98c3eb82cf8b65c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  opened: 0
-  PlayerAnimator: {fileID: 0}
+  CurrentCassetteID: 0
 --- !u!82 &1804937628
 AudioSource:
   m_ObjectHideFlags: 0
@@ -277,7 +276,7 @@ GameObject:
   - component: {fileID: 8275918631378215170}
   - component: {fileID: 5728701992858957198}
   - component: {fileID: 4250380939578564643}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -745,7 +744,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7270158730966990552}
   - component: {fileID: 7477847349093957145}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: zzwzw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -878,7 +877,7 @@ GameObject:
   - component: {fileID: 2613181773673285324}
   - component: {fileID: 6441858021038193501}
   - component: {fileID: 2469330311222605427}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LaserGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -914,6 +913,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Constructed: 0
+  BatteryOn: 0
+  EndOn: 0
   Laser: {fileID: 0}
   laserOrigin: {fileID: 0}
   gunRange: 50
