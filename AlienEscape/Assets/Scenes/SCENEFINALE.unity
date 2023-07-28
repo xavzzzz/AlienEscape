@@ -4703,6 +4703,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 40647953010048114, guid: 8c064c4705645a1408e16f680018d23e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ac44b794316e79344ae6feb5601b80ab, type: 2}
     - target: {fileID: 103261854014876485, guid: 8c064c4705645a1408e16f680018d23e,
         type: 3}
       propertyPath: OverrideMaxDistance
