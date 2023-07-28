@@ -15,8 +15,9 @@ public class AudioCheckingManager : MonoBehaviour
     public GameObject MANAGER;
     private bool OneKill,TwoKill,ThreeKill;
 
-    private bool DoingCheck;
+    public Animator UnlockAnimator;
 
+    private bool DoingCheck;
 
     public void SliderOneChangeValue(float x)
     {
@@ -44,6 +45,7 @@ public class AudioCheckingManager : MonoBehaviour
             this.GetComponent<FMODUnity.StudioEventEmitter>().Stop();
             FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Operture", +1);
 
+            UnlockAnimator.SetBool("Unlock", true);
             MANAGER.GetComponent<PUZZLEMANAGER>().AudioPuzzleCheck = true;
             MANAGER.GetComponent<PUZZLEMANAGER>().CheckIfAdvanceToSecondScene();
         }

@@ -569,7 +569,7 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638261828442497552
+  lastModified: 638261795619288464
   FileSizes:
   - Name: Desktop
     Value: 4582
@@ -1824,7 +1824,7 @@ MonoBehaviour:
   - {fileID: 7212438779820523129}
   StringsBanks:
   - {fileID: -5925986163448373950}
-  cacheTime: 638261828442497552
+  cacheTime: 638261845761093805
   cacheVersion: 131603
 --- !u!114 &25129070219758688
 MonoBehaviour:
@@ -2980,7 +2980,7 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638261828442406553
+  lastModified: 638261845761093805
   FileSizes:
   - Name: Desktop
     Value: 22145984
