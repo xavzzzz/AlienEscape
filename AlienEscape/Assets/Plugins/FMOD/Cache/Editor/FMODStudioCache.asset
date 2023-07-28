@@ -569,7 +569,7 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638261755896487562
+  lastModified: 638261794554832534
   FileSizes:
   - Name: Desktop
     Value: 4582
@@ -1518,7 +1518,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1450
+  Length: 1000
 --- !u!114 &-1549429667564110006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1799,7 +1799,7 @@ MonoBehaviour:
   - {fileID: 7212438779820523129}
   StringsBanks:
   - {fileID: -5925986163448373950}
-  cacheTime: 638261755896487562
+  cacheTime: 638261794554832534
   cacheVersion: 131603
 --- !u!114 &25129070219758688
 MonoBehaviour:
@@ -2955,10 +2955,10 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638261755896387428
+  lastModified: 638261794554711958
   FileSizes:
   - Name: Desktop
-    Value: 21936640
+    Value: 22133024
   Exists: 1
 --- !u!114 &7246188565998164943
 MonoBehaviour:
@@ -3084,14 +3084,14 @@ MonoBehaviour:
     Data4: -11517935
   Banks:
   - {fileID: 7212438779820523129}
-  IsStream: 0
+  IsStream: 1
   Is3D: 1
   IsOneShot: 1
   Parameters:
   - {fileID: -1918863969326044940}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 4766
+  MinDistance: 0
+  MaxDistance: 3
+  Length: 5618
 --- !u!114 &7657135571045610738
 MonoBehaviour:
   m_ObjectHideFlags: 0
