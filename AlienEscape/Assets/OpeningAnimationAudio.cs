@@ -5,6 +5,9 @@ using FMODUnity;
 
 public class OpeningAnimationAudio : MonoBehaviour
 {
+
+    public Material RuneLook;
+
     // Start is called before the first frame update
     void Start()
     {
