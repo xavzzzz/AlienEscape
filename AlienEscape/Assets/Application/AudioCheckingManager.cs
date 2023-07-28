@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.Assertions.Must;
 using UnityEngine.XR.Content.Interaction;
 using UnityEngine.XR.Interaction.Toolkit;
+using FMODUnity;
 
 public class AudioCheckingManager : MonoBehaviour
 {
@@ -38,10 +39,10 @@ public class AudioCheckingManager : MonoBehaviour
 
     private void CheckPuzzleComplete()
     {
-        if (OneKill && TwoKill && ThreeKill) { 
+        if (OneKill && TwoKill && ThreeKill) {
             // END FMOD EVENT 
+            this.GetComponent<FMODUnity.StudioEventEmitter>().Stop();
 
-            
             MANAGER.GetComponent<PUZZLEMANAGER>().AudioPuzzleCheck = true;
             MANAGER.GetComponent<PUZZLEMANAGER>().CheckIfAdvanceToSecondScene();
         }
