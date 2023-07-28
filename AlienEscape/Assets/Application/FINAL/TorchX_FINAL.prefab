@@ -1172,6 +1172,7 @@ GameObject:
   - component: {fileID: 7575328899294206033}
   - component: {fileID: 953894613113479028}
   - component: {fileID: 1598600385725508199}
+  - component: {fileID: 1139616591622441959}
   m_Layer: 0
   m_Name: Lampe
   m_TagString: Untagged
@@ -1369,7 +1370,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.33
-  m_MovementType: 1
+  m_MovementType: 2
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -1533,6 +1534,20 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!64 &1139616591622441959
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5400380918631337041}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 482839523588931362, guid: 2834fa9236155414f8437b361e002bfe, type: 3}
 --- !u!1 &8382729045524187358
 GameObject:
   m_ObjectHideFlags: 0

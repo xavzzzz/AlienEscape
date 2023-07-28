@@ -22,6 +22,28 @@ public class LightOutput : MonoBehaviour
         
     }
 
+    public void Awake()
+    {
+
+        this.gameObject.GetComponent<Light>().enabled = false;
+
+    }
+
+    public void TurnOn() {
+
+        this.gameObject.GetComponent<Light>().enabled = true;
+
+    }
+
+    public void TurnOff()
+    {
+
+        this.gameObject.GetComponent<Light>().enabled = false;
+
+    }
+
+
+
     public static Color CombineColors(params Color[] aColors)
     {
         Color result = new Color(0, 0, 0, 0);

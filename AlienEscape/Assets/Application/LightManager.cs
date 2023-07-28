@@ -20,7 +20,7 @@ public class LightManager : MonoBehaviour
 
     private void Awake()
     {
-        LightSource.GetComponent<Light>().color = Color.clear;
+        LightSource.GetComponent<Light>().color = Color.white;
 
     }
 

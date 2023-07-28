@@ -6,6 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class AudioManager : MonoBehaviour
 {
     public int CurrentCassetteID = 0;
+    private GameObject Ref;
     private FMOD.Studio.EventInstance Cassette_1;
     private FMOD.Studio.EventInstance Cassette_2;
     private FMOD.Studio.EventInstance Cassette_3;
@@ -29,12 +30,22 @@ public class AudioManager : MonoBehaviour
 
     public void OnSelectEntered(SelectEnterEventArgs args)
     {
-        int i = args.interactable.gameObject.GetComponent<CasetteAudio>().CasetteNumber;
+        Ref = args.interactable.gameObject;
+        Ref.GetComponent<Collider>().enabled = false;
+        int i = Ref.GetComponent<CasetteAudio>().CasetteNumber;
         UpdateID(i);
+    }
+
+    public void RestoreCasette()
+    {
+        
     }
 
     public void EjectCasette()
     {
+        Ref.GetComponent<Collider>().enabled = true;
+        Ref = null;
+        CurrentCassetteID = 0;
 
         if (CurrentCassetteID != 0)
         {
