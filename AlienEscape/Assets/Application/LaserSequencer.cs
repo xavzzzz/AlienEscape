@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using FMOD.Studio;
 using UnityEngine;
 
-public class RuneSequencer : MonoBehaviour
+public class LaserSequencer : MonoBehaviour
 {
-    public GameObject MANAGER;
-
+   
     public int MaxSequence;
 
 
@@ -44,15 +43,13 @@ public class RuneSequencer : MonoBehaviour
         }
 
 
-        if (a.OrderInSequence == counter) 
+        if (a.OrderInSequence == counter || a.OrderInSequence == MaxSequence-counter+1) 
         {
             //RuneRight.start();
             FMODUnity.RuntimeManager.PlayOneShot("event:/Artefact/Artefact_RuneWin", GetComponent<Transform>().position);
             if (counter == MaxSequence) {
                 FMODUnity.RuntimeManager.PlayOneShot("event:/Artefact/Artefact_FirstOpen", GetComponent<Transform>().position);
-                MANAGER.GetComponent<PUZZLEMANAGER>().LightRunePuzzleCheck = true;
-                MANAGER.GetComponent<PUZZLEMANAGER>().CheckIfAdvanceToSecondScene();
-                return;
+                Debug.Log("T TRO FORT SALE RACISTE"); return;
             } 
 
             Debug.Log("Can continue");
