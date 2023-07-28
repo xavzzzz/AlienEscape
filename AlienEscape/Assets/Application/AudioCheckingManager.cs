@@ -11,6 +11,8 @@ public class AudioCheckingManager : MonoBehaviour
     private float Slider1, Slider2, Knob;
     public WaveManager one,two,three;
 
+    public GameObject MANAGER;
+    private bool OneKill,TwoKill,ThreeKill;
 
     private bool DoingCheck;
 
@@ -34,6 +36,17 @@ public class AudioCheckingManager : MonoBehaviour
         if(!DoingCheck)CheckKillCurve();
     }
 
+    private void CheckPuzzleComplete()
+    {
+        if (OneKill && TwoKill && ThreeKill) { 
+            // END FMOD EVENT 
+
+            
+            MANAGER.GetComponent<PUZZLEMANAGER>().AudioPuzzleCheck = true;
+            MANAGER.GetComponent<PUZZLEMANAGER>().CheckIfAdvanceToSecondScene();
+        }
+    }
+
     public void CheckKillCurve()
     {
         DoingCheck = true;
@@ -44,6 +57,7 @@ public class AudioCheckingManager : MonoBehaviour
                 if (Slider2 <= 0.88 && Slider2 >= 0.68)
                 {
                     Debug.Log("KILL CURVE ONE");
+                    OneKill = true;
                     one.StartLerpToZero();
                 }
             }
@@ -56,6 +70,7 @@ public class AudioCheckingManager : MonoBehaviour
                 if (Slider2 <= 0.33 && Slider2 >= 0.39)
                 {
                     Debug.Log("KILL CURVE TWO");
+                    TwoKill = true;
                     two.StartLerpToZero();
                 }
             }
@@ -68,6 +83,7 @@ public class AudioCheckingManager : MonoBehaviour
                 if (Slider2 <= 0.16 && Slider2 >= 0.07)
                 {
                     Debug.Log("KILL CURVE THREE");
+                    ThreeKill = true;
                     three.StartLerpToZero();
                 }
             }
