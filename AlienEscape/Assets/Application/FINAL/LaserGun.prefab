@@ -913,6 +913,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Constructed: 0
+  BatteryOn: 0
+  EndOn: 0
   Laser: {fileID: 0}
   laserOrigin: {fileID: 0}
   gunRange: 50

@@ -6,7 +6,7 @@ public class RaygunManager : MonoBehaviour
     private bool shooting;
     private bool canShootDecals = true;
 
-    public bool Constructed;
+    public bool Constructed, BatteryOn, EndOn, BatteryConstruct;
     public Collider Laser;
 
     public Transform laserOrigin;
@@ -28,9 +28,31 @@ public class RaygunManager : MonoBehaviour
         Burn = FMODUnity.RuntimeManager.CreateInstance("event:/LaserCutter/LaserCutter_Cutting");
     }
 
+    public void AddEnd()
+    {
+        EndOn = true;
+    }
+
+    public void AddBat()
+    {
+        BatteryOn = true;
+    }
+
+    public void CheckFullConstruct()
+    {
+        if(BatteryOn && EndOn)
+        {
+            Constructed = true;
+        }
+    }
+
     public void Shoot()
     {
+        if (Constructed && BatteryConstruct) 
+        { 
+            //SHOOTING SOUND HERE
         shooting = true;
+        }
     }
 
     public void StopShoot()
