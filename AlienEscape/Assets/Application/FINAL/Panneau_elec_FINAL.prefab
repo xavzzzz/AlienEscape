@@ -885,6 +885,7 @@ GameObject:
   - component: {fileID: 3331007426025794459}
   - component: {fileID: 3331007426025794458}
   - component: {fileID: 3331007426025794460}
+  - component: {fileID: 224284828}
   m_Layer: 3
   m_Name: Cylinder
   m_TagString: Untagged
@@ -899,14 +900,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3331007426025794456}
-  m_LocalRotation: {x: -0.000039845705, y: -0.00051234197, z: 0.025623951, w: -0.9996716}
+  m_LocalRotation: {x: -0.025627326, y: 0.9996716, z: -0.000052332867, w: -0.0000013411042}
   m_LocalPosition: {x: -0.05918652, y: 0.16857629, z: 0.02525426}
   m_LocalScale: {x: 139.53, y: 139.53, z: 139.53}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3331007427249694670}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.006, y: 180, z: -2.937}
 --- !u!33 &3331007426025794459
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -971,6 +972,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8691780276856062721, guid: 0f0702fb18a98944f899b0750eab5f36, type: 3}
+--- !u!114 &224284828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331007426025794456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 967cbb72c8bd4c544b8afc5b86b518ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationPos: 1
 --- !u!1 &3331007426073235455
 GameObject:
   m_ObjectHideFlags: 0
@@ -1016,6 +1030,7 @@ GameObject:
   - component: {fileID: 3331007426093070512}
   - component: {fileID: 3331007426093070514}
   - component: {fileID: 3331007426093070513}
+  - component: {fileID: 773976710}
   m_Layer: 3
   m_Name: Cylinder (1)
   m_TagString: Untagged
@@ -1030,14 +1045,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3331007426093070527}
-  m_LocalRotation: {x: -0.0000023180762, y: 1, z: -0.00003609061, w: -0.00013241486}
+  m_LocalRotation: {x: 0.000034922778, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.36520362, y: 0.16727112, z: 0.19576287}
   m_LocalScale: {x: 139.53, y: 139.53, z: 139.53}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3331007427249694670}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.004, y: 0, z: 0}
 --- !u!33 &3331007426093070514
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1045,7 +1060,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3331007426093070527}
-  m_Mesh: {fileID: -2060383225959364169, guid: 0f0702fb18a98944f899b0750eab5f36, type: 3}
+  m_Mesh: {fileID: 8691780276856062721, guid: 0f0702fb18a98944f899b0750eab5f36, type: 3}
 --- !u!23 &3331007426093070513
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1088,6 +1103,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &773976710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331007426093070527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 967cbb72c8bd4c544b8afc5b86b518ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationPos: 3
 --- !u!1 &3331007426103519453
 GameObject:
   m_ObjectHideFlags: 0
@@ -1429,7 +1457,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -90
+          m_FloatArgument: 90
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -1441,7 +1469,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 90
+          m_FloatArgument: -90
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -1459,7 +1487,19 @@ MonoBehaviour:
         m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 409681145271779938}
+        m_TargetAssemblyTypeName: TurnManager, Assembly-CSharp
+        m_MethodName: CheckValidRotations
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -1578,6 +1618,7 @@ GameObject:
   - component: {fileID: 3331007426248088451}
   - component: {fileID: 3331007426248088450}
   - component: {fileID: 3331007426248088449}
+  - component: {fileID: 926142529}
   m_Layer: 3
   m_Name: Cylinder (1)
   m_TagString: Untagged
@@ -1592,14 +1633,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3331007426248088448}
-  m_LocalRotation: {x: -0.000039845705, y: -0.00051234197, z: 0.025623951, w: -0.9996716}
+  m_LocalRotation: {x: -0.018084262, y: 0.7068755, z: -0.018158253, w: 0.7068736}
   m_LocalPosition: {x: -0.1449153, y: 0.1628814, z: 0.19389845}
   m_LocalScale: {x: 139.53, y: 139.53, z: 139.53}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3331007426073235440}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.006, y: 90, z: -2.937}
 --- !u!33 &3331007426248088450
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1650,6 +1691,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &926142529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331007426248088448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 967cbb72c8bd4c544b8afc5b86b518ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationPos: 2
 --- !u!1 &3331007426352307399
 GameObject:
   m_ObjectHideFlags: 0
@@ -1661,6 +1715,7 @@ GameObject:
   - component: {fileID: 3331007426352307448}
   - component: {fileID: 3331007426352307450}
   - component: {fileID: 3331007426352307449}
+  - component: {fileID: 1606478079}
   m_Layer: 3
   m_Name: Cylinder (2)
   m_TagString: Untagged
@@ -1675,14 +1730,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3331007426352307399}
-  m_LocalRotation: {x: 0.0000033378597, y: 0.7071076, z: 0.018114356, w: -0.706874}
+  m_LocalRotation: {x: -0.01280936, y: -0.00016410663, z: -0.01280936, w: 0.99983597}
   m_LocalPosition: {x: -0.14386445, y: 0.16823715, z: -0.059491258}
   m_LocalScale: {x: 139.53, y: 139.53, z: 139.53}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3331007428006368508}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -1.468, y: 0, z: -1.468}
 --- !u!33 &3331007426352307450
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1733,6 +1788,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1606478079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331007426352307399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 967cbb72c8bd4c544b8afc5b86b518ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationPos: 3
 --- !u!1 &3331007426567095023
 GameObject:
   m_ObjectHideFlags: 0
@@ -1744,6 +1812,7 @@ GameObject:
   - component: {fileID: 3331007426567095008}
   - component: {fileID: 3331007426567095010}
   - component: {fileID: 3331007426567095009}
+  - component: {fileID: 875387359}
   m_Layer: 3
   m_Name: Cylinder (2)
   m_TagString: Untagged
@@ -1758,14 +1827,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3331007426567095023}
-  m_LocalRotation: {x: -0.0000025928018, y: -0.7075065, z: 0.018108157, w: -0.70647484}
+  m_LocalRotation: {x: -0.012791948, y: 0.9998362, z: -0.012809363, w: -0.00016388357}
   m_LocalPosition: {x: 0.025932213, y: 0.16779667, z: 0.5323731}
   m_LocalScale: {x: 139.53, y: 139.53, z: 139.53}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3331007426073235440}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 1.468, y: 180, z: -1.466}
 --- !u!33 &3331007426567095010
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1816,6 +1885,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &875387359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331007426567095023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 967cbb72c8bd4c544b8afc5b86b518ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationPos: 1
 --- !u!1 &3331007426612622789
 GameObject:
   m_ObjectHideFlags: 0
@@ -2173,6 +2255,7 @@ GameObject:
   - component: {fileID: 3331007426970300846}
   - component: {fileID: 3331007426970300845}
   - component: {fileID: 3331007426970300844}
+  - component: {fileID: 1285958474}
   m_Layer: 3
   m_Name: Cylinder
   m_TagString: Untagged
@@ -2187,14 +2270,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3331007426970300842}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0.06, y: 0.17, z: -0.06}
   m_LocalScale: {x: 139.53, y: 139.53, z: 139.53}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3331007426073235440}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!33 &3331007426970300845
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2245,6 +2328,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1285958474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331007426970300842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 967cbb72c8bd4c544b8afc5b86b518ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationPos: 0
 --- !u!1 &3331007427034471139
 GameObject:
   m_ObjectHideFlags: 0
@@ -2387,7 +2483,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -90
+          m_FloatArgument: 90
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -2399,7 +2495,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 90
+          m_FloatArgument: -90
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -2417,7 +2513,19 @@ MonoBehaviour:
         m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 409681145271779938}
+        m_TargetAssemblyTypeName: TurnManager, Assembly-CSharp
+        m_MethodName: CheckValidRotations
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -2570,6 +2678,7 @@ GameObject:
   - component: {fileID: 3331007427303752647}
   - component: {fileID: 3331007427303752697}
   - component: {fileID: 3331007427303752696}
+  - component: {fileID: 1499559334}
   m_Layer: 3
   m_Name: Cylinder (2)
   m_TagString: Untagged
@@ -2584,14 +2693,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3331007427303752646}
-  m_LocalRotation: {x: -0.000039845705, y: -0.00051234197, z: 0.025623951, w: -0.9996716}
+  m_LocalRotation: {x: -0.02562733, y: 0.99967164, z: -0.00005232017, w: -0.0000013412667}
   m_LocalPosition: {x: 0.19427128, y: 0.16688155, z: 0.4495933}
   m_LocalScale: {x: 139.53, y: 139.53, z: 139.53}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3331007427249694670}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.006, y: 180, z: -2.937}
 --- !u!33 &3331007427303752697
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2642,6 +2751,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1499559334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331007427303752646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 967cbb72c8bd4c544b8afc5b86b518ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationPos: 1
 --- !u!1 &3331007427475058326
 GameObject:
   m_ObjectHideFlags: 0
@@ -2685,6 +2807,7 @@ GameObject:
   - component: {fileID: 3331007427485123298}
   - component: {fileID: 3331007427485123300}
   - component: {fileID: 3331007427485123299}
+  - component: {fileID: 1819472802}
   m_Layer: 3
   m_Name: Cylinder
   m_TagString: Untagged
@@ -2699,14 +2822,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3331007427485123297}
-  m_LocalRotation: {x: 0.0000018597348, y: 0.99999964, z: 0.000022858381, w: -0.0009405438}
+  m_LocalRotation: {x: -0.000018537152, y: -0.7071068, z: -0.000018537152, w: 0.7071068}
   m_LocalPosition: {x: 0.19422032, y: 0.16747458, z: 0.27993235}
   m_LocalScale: {x: 139.53, y: 139.53, z: 139.53}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3331007428006368508}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.003, y: -90, z: 0}
 --- !u!33 &3331007427485123300
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2757,6 +2880,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1819472802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331007427485123297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 967cbb72c8bd4c544b8afc5b86b518ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationPos: 0
 --- !u!1 &3331007427547499693
 GameObject:
   m_ObjectHideFlags: 0
@@ -2768,6 +2904,7 @@ GameObject:
   - component: {fileID: 3331007427547499694}
   - component: {fileID: 3331007427547499680}
   - component: {fileID: 3331007427547499695}
+  - component: {fileID: 332911519}
   m_Layer: 3
   m_Name: Cylinder (1)
   m_TagString: Untagged
@@ -2782,14 +2919,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3331007427547499693}
-  m_LocalRotation: {x: 0.00000089406956, y: 0.70794374, z: -0.018095283, w: 0.70603704}
+  m_LocalRotation: {x: -0.012783149, y: 0.99983627, z: -0.012809364, w: -0.00016377083}
   m_LocalPosition: {x: 0.3654238, y: 0.1654237, z: 0.4506782}
   m_LocalScale: {x: 139.53, y: 139.53, z: 139.53}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3331007428006368508}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 1.468, y: 180, z: -1.465}
 --- !u!33 &3331007427547499680
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2840,6 +2977,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &332911519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331007427547499693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 967cbb72c8bd4c544b8afc5b86b518ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationPos: 1
 --- !u!1 &3331007427603889722
 GameObject:
   m_ObjectHideFlags: 0
@@ -3247,7 +3397,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -90
+          m_FloatArgument: 90
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -3259,7 +3409,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 90
+          m_FloatArgument: -90
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -3277,7 +3427,19 @@ MonoBehaviour:
         m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 409681145271779938}
+        m_TargetAssemblyTypeName: TurnManager, Assembly-CSharp
+        m_MethodName: CheckValidRotations
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
