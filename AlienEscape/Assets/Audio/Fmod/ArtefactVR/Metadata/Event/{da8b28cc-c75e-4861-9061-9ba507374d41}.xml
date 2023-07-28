@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{da8b28cc-c75e-4861-9061-9ba507374d41}">
 		<property name="color">
-			<value>Yellow</value>
+			<value>Green</value>
 		</property>
 		<property name="name">
 			<value>AngryEyes_Ambiance</value>
@@ -60,8 +60,11 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{a3de597a-cbd6-4b18-927c-ef296caa95d2}">
+		<property name="minimumDistance">
+			<value>4</value>
+		</property>
 		<property name="maximumDistance">
-			<value>5</value>
+			<value>10</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{8c019c1f-5172-4cc0-9bfd-f2b4e96a7989}" />
@@ -273,7 +276,6 @@
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -282,7 +284,6 @@
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -318,7 +319,6 @@
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
