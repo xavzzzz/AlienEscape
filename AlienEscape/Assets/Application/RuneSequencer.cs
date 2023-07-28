@@ -8,6 +8,7 @@ public class RuneSequencer : MonoBehaviour
     public GameObject MANAGER;
 
     public int MaxSequence;
+    public Animator UnlockAnimator;
 
 
     private int counter;
@@ -20,7 +21,6 @@ public class RuneSequencer : MonoBehaviour
 
     public void Awake()
     {
-
         counter = 1;
         tries = 0;
         RuneFail = FMODUnity.RuntimeManager.CreateInstance("event:/Artefact/Artefact_RuneFailed");
@@ -49,6 +49,8 @@ public class RuneSequencer : MonoBehaviour
             //RuneRight.start();
             FMODUnity.RuntimeManager.PlayOneShot("event:/Artefact/Artefact_RuneWin", GetComponent<Transform>().position);
             if (counter == MaxSequence) {
+
+                UnlockAnimator.SetBool("Unlock", true);
                 FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Operture", +1);
                 FMODUnity.RuntimeManager.PlayOneShot("event:/Artefact/Artefact_FirstOpen", GetComponent<Transform>().position);
                 MANAGER.GetComponent<PUZZLEMANAGER>().LightRunePuzzleCheck = true;
