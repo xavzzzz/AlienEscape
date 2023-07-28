@@ -319,6 +319,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{325083ee-7666-4fe6-9d2a-b1251ecde763}">
 		<relationship name="effects">
+			<destination>{d3c064c0-440e-4fb7-a0c8-58c74a9e0819}</destination>
 			<destination>{33c6a119-28c6-44a3-b69b-33c82f709b0b}</destination>
 			<destination>{4353f182-30d0-46db-971b-d6d5f92919eb}</destination>
 			<destination>{0f6d8cd0-4201-48cd-aa0f-c19399b4c6c9}</destination>
@@ -395,6 +396,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{447f5d2e-7753-4c24-880b-919629e3c298}" />
+	<object class="CompressorEffect" id="{d3c064c0-440e-4fb7-a0c8-58c74a9e0819}">
+		<property name="threshold">
+			<value>-24</value>
+		</property>
+		<property name="ratio">
+			<value>1.45000005</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{33c6a119-28c6-44a3-b69b-33c82f709b0b}" />
 	<object class="LoudnessMeter" id="{4353f182-30d0-46db-971b-d6d5f92919eb}" />
 	<object class="PluginEffect" id="{0f6d8cd0-4201-48cd-aa0f-c19399b4c6c9}">

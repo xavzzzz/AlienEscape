@@ -2382,6 +2382,7 @@ GameObject:
   - component: {fileID: 8824024073944041754}
   - component: {fileID: 7017870059515662543}
   - component: {fileID: 4530369723859156775}
+  - component: {fileID: 3972584370175663835}
   m_Layer: 3
   m_Name: Arefact_Haut
   m_TagString: Untagged
@@ -2485,6 +2486,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3972584370175663835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4197630162799302609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ab2ad0ce274aa64aaef46caa5c0239e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4203351348850903495
 GameObject:
   m_ObjectHideFlags: 0
