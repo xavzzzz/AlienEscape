@@ -49,7 +49,6 @@ GameObject:
   - component: {fileID: 5406924077401612444}
   - component: {fileID: 5406924077401612434}
   - component: {fileID: 5406924077401612432}
-  - component: {fileID: 9068958290746796450}
   - component: {fileID: 5406924077401612433}
   - component: {fileID: 5406924077401612436}
   m_Layer: 2
@@ -254,33 +253,6 @@ MonoBehaviour:
   m_RightControllerTransform: {fileID: 2122998859346582522}
   m_LeftHandMovementDirection: 0
   m_RightHandMovementDirection: 0
---- !u!114 &9068958290746796450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 765909513066701350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 760ff70c1c91bdd45907d0ff0cdcaf7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_System: {fileID: 5406924077401612445}
-  m_EnableFreeXMovement: 1
-  m_EnableFreeYMovement: 0
-  m_EnableFreeZMovement: 1
-  m_UseGravity: 1
-  m_GravityApplicationMode: 0
-  m_LeftGrabMoveProvider: {fileID: 0}
-  m_RightGrabMoveProvider: {fileID: 0}
-  m_OverrideSharedSettingsOnInit: 1
-  m_MoveFactor: 1
-  m_RequireTwoHandsForTranslation: 0
-  m_EnableRotation: 1
-  m_EnableScaling: 0
-  m_MinimumScale: 0.2
-  m_MaximumScale: 5
 --- !u!143 &5406924077401612433
 CharacterController:
   m_ObjectHideFlags: 0
