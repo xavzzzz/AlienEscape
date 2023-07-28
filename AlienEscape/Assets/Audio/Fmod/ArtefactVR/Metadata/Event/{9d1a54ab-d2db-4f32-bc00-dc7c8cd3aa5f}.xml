@@ -414,10 +414,10 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="EventSound" id="{fc81290c-b6ce-4b2a-877a-c0bf4c77a0da}">
 		<property name="start">
-			<value>0.1202</value>
+			<value>0.059999999999999998</value>
 		</property>
 		<property name="length">
-			<value>0.079600000000000004</value>
+			<value>0.13979999999999998</value>
 		</property>
 		<property name="volume">
 			<value>2.5</value>
@@ -428,10 +428,10 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="EventSound" id="{03182680-3df3-4f0e-afc5-a9ea1967cdba}">
 		<property name="start">
-			<value>0.32020000000000004</value>
+			<value>0.26000000000000001</value>
 		</property>
 		<property name="length">
-			<value>0.079599999999999976</value>
+			<value>0.16999999999999996</value>
 		</property>
 		<property name="volume">
 			<value>2.5</value>
@@ -518,10 +518,10 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="EventSound" id="{2253fc33-a728-4906-831f-71c7f35ac240}">
 		<property name="start">
-			<value>0.38020000000000004</value>
+			<value>0.33000000000000002</value>
 		</property>
 		<property name="length">
-			<value>0.059599999999999959</value>
+			<value>0.14999999999999994</value>
 		</property>
 		<property name="volume">
 			<value>2</value>
@@ -535,7 +535,7 @@ De 2 min30 a 5 min</value>
 			<value>0.060200000000000004</value>
 		</property>
 		<property name="length">
-			<value>0.10959999999999998</value>
+			<value>0.17979999999999999</value>
 		</property>
 		<property name="volume">
 			<value>2.5</value>
@@ -953,7 +953,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="ParameterCondition" id="{2ebc628e-33ed-4821-b3f0-ee4418cb84f8}">
 		<property name="minimum">
-			<value>0.12999999523162842</value>
+			<value>0.054999999701976776</value>
 		</property>
 		<property name="maximum">
 			<value>0.18999999761581421</value>
@@ -964,10 +964,10 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="ParameterCondition" id="{8a41ed15-b8f5-4536-858c-b07f915bfb33}">
 		<property name="minimum">
-			<value>0.33000001311302185</value>
+			<value>0.25999999046325684</value>
 		</property>
 		<property name="maximum">
-			<value>0.38999998569488525</value>
+			<value>0.42999997735023499</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{19b7db5b-4027-4feb-886f-cb90ff860c7b}</destination>
@@ -986,10 +986,10 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="ParameterCondition" id="{d972a975-a0b8-495c-b3ce-2a7e282ddc8d}">
 		<property name="minimum">
-			<value>0.38999998569488525</value>
+			<value>0.33499997854232788</value>
 		</property>
 		<property name="maximum">
-			<value>0.43000000715255737</value>
+			<value>0.47999998927116394</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{82276603-1b10-48da-af8f-3ee168f38bf1}</destination>
@@ -1000,7 +1000,7 @@ De 2 min30 a 5 min</value>
 			<value>0.070000000298023224</value>
 		</property>
 		<property name="maximum">
-			<value>0.15999999642372131</value>
+			<value>0.24499998986721039</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{19b7db5b-4027-4feb-886f-cb90ff860c7b}</destination>
@@ -1874,7 +1874,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{8b918e28-bf5c-4832-a43c-98a88fd8a9c0}">
 		<property name="position">
-			<value>0.12</value>
+			<value>0.059800000000000006</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -1904,7 +1904,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{2e2131fc-5ced-4272-b838-2dcd2754c793}">
 		<property name="position">
-			<value>0.31987750556792871</value>
+			<value>0.26000000000000001</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -1915,7 +1915,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{b94b1f85-d7cd-4816-944b-398dece92f32}">
 		<property name="position">
-			<value>0.40000000000000002</value>
+			<value>0.42999999999999999</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -1999,7 +1999,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{11308ca5-9346-4427-b111-3a8ad30b0422}">
 		<property name="position">
-			<value>0.32000000000000001</value>
+			<value>0.26000000000000001</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -2010,7 +2010,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{49fd8748-58ce-49b6-b2e8-b6d9fb9ca166}">
 		<property name="position">
-			<value>0.40000000000000002</value>
+			<value>0.42999999999999999</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -2067,7 +2067,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{bdce2bd2-5a2f-4db6-97fe-1089c5399528}">
 		<property name="position">
-			<value>0.12</value>
+			<value>0.059800000000000006</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -2235,7 +2235,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{a95b8890-39ed-4bc7-a5c5-b7f28145a2f8}">
 		<property name="position">
-			<value>0.38</value>
+			<value>0.33000000000000002</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -2246,7 +2246,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{127202c9-dbe9-4c8e-9ede-7612ad573e3d}">
 		<property name="position">
-			<value>0.44</value>
+			<value>0.47999999999999998</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -2281,7 +2281,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{113b2f36-5384-43e2-977d-b57a27d4cb9f}">
 		<property name="position">
-			<value>0.17000000000000001</value>
+			<value>0.23999999999999999</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -2395,7 +2395,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{753515c1-8c81-4285-b780-7d3e0f32d26b}">
 		<property name="position">
-			<value>0.44</value>
+			<value>0.47999999999999998</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -2403,7 +2403,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{19d6da43-076f-44b6-b65c-87071e461d3e}">
 		<property name="position">
-			<value>0.38</value>
+			<value>0.33000000000000002</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -2441,7 +2441,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{3e663fb9-cdef-4978-a8ea-432588152679}">
 		<property name="position">
-			<value>0.17000000000000001</value>
+			<value>0.23999999999999999</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -2864,7 +2864,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{086ac512-803b-4474-a027-40ac4fc65dfe}">
 		<property name="position">
-			<value>0.12</value>
+			<value>0.059800000000000006</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -2896,7 +2896,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{b223b9f5-ca7f-436b-97f5-6e3d25521b88}">
 		<property name="position">
-			<value>0.32000000000000001</value>
+			<value>0.26000000000000001</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -2904,7 +2904,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{592883ae-ab7f-4489-a648-2b3811ff3f0e}">
 		<property name="position">
-			<value>0.40000000000000002</value>
+			<value>0.42999999999999999</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -2968,7 +2968,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{78b66f19-b989-495d-ba35-ca42fd60a46d}">
 		<property name="position">
-			<value>0.12</value>
+			<value>0.059800000000000006</value>
 		</property>
 		<property name="value">
 			<value>360</value>
@@ -2992,7 +2992,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{fe696bb9-e923-401f-badc-514a6032ab82}">
 		<property name="position">
-			<value>0.32340425531914896</value>
+			<value>0.26000000000000001</value>
 		</property>
 		<property name="value">
 			<value>360</value>
@@ -3000,7 +3000,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{98f211f9-4cf4-49a8-aaae-688c354c3e6a}">
 		<property name="position">
-			<value>0.40070921985815605</value>
+			<value>0.42999999999999999</value>
 		</property>
 		<property name="value">
 			<value>360</value>
@@ -3089,7 +3089,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{547e65f0-6aed-4da3-b0e7-e8e2e3211503}">
 		<property name="position">
-			<value>0.38156028368794331</value>
+			<value>0.33000000000000002</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -3097,7 +3097,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{ceae08e7-2a9f-4021-a4ae-449fc82e1e43}">
 		<property name="position">
-			<value>0.44326241134751776</value>
+			<value>0.47999999999999998</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -3129,7 +3129,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{fb6b9a9a-6ad9-4064-afff-a8041722d12e}">
 		<property name="position">
-			<value>0.17234042553191489</value>
+			<value>0.23999999999999999</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -3185,7 +3185,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{8215040d-6dbe-4934-9443-44d342cebb36}">
 		<property name="position">
-			<value>0.38</value>
+			<value>0.33000000000000002</value>
 		</property>
 		<property name="value">
 			<value>360</value>
@@ -3193,7 +3193,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{c7e6ebe2-58eb-47d4-a2aa-499df8e7df8d}">
 		<property name="position">
-			<value>0.45000000000000001</value>
+			<value>0.47999999999999998</value>
 		</property>
 		<property name="value">
 			<value>360</value>
@@ -3217,7 +3217,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{d316298c-1d9c-4543-b5c6-d33aabd254a8}">
 		<property name="position">
-			<value>0.063120567375886533</value>
+			<value>0.059999999999999998</value>
 		</property>
 		<property name="value">
 			<value>360</value>
@@ -3225,7 +3225,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{72a22c89-e8d0-47af-ba35-fd4bdc415311}">
 		<property name="position">
-			<value>0.17234042553191489</value>
+			<value>0.23999999999999999</value>
 		</property>
 		<property name="value">
 			<value>360</value>
@@ -3458,7 +3458,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{dd500800-a224-4511-91ff-7a315f06a3f0}">
 		<property name="position">
-			<value>0.12</value>
+			<value>0.059800000000000006</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -3490,7 +3490,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{c840c709-22c8-4053-b8c4-d33535281a04}">
 		<property name="position">
-			<value>0.32000000000000001</value>
+			<value>0.26000000000000001</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -3498,7 +3498,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{bd5d4984-b752-44da-98d8-60e92c2724df}">
 		<property name="position">
-			<value>0.40000000000000002</value>
+			<value>0.42999999999999999</value>
 		</property>
 		<property name="value">
 			<value>5</value>
@@ -3554,7 +3554,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{9426b0d3-bc6a-44d8-b20e-c4fdd4d94a9f}">
 		<property name="position">
-			<value>0.38</value>
+			<value>0.33000000000000002</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -3562,7 +3562,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{8fba4302-59ad-4696-b41e-d84e368a67e5}">
 		<property name="position">
-			<value>0.44</value>
+			<value>0.47999999999999998</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -3594,7 +3594,7 @@ De 2 min30 a 5 min</value>
 	</object>
 	<object class="AutomationPoint" id="{07691ab9-fe4d-4f0b-af38-b21666053977}">
 		<property name="position">
-			<value>0.17000000000000001</value>
+			<value>0.23999999999999999</value>
 		</property>
 		<property name="value">
 			<value>0</value>

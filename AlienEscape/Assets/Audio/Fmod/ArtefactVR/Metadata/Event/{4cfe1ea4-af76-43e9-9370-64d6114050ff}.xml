@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{4cfe1ea4-af76-43e9-9370-64d6114050ff}">
 		<property name="color">
-			<value>Red Light 1</value>
+			<value>Yellow</value>
 		</property>
 		<property name="name">
 			<value>Artefact_SecondOpen</value>
@@ -147,7 +147,7 @@
 	</object>
 	<object class="SingleSound" id="{c9dcaadc-6c78-4b8a-8dd6-52d5d0cea284}">
 		<property name="length">
-			<value>4.7661904761904763</value>
+			<value>3.9000000000000004</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -344,7 +344,7 @@
 	</object>
 	<object class="AutomationPoint" id="{90d79324-2cc9-4490-ba4f-276a7010e578}">
 		<property name="position">
-			<value>0.16619047619047578</value>
+			<value>0</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -355,7 +355,7 @@
 	</object>
 	<object class="AutomationPoint" id="{22b56fba-5ccd-4983-be23-771852fdb8bf}">
 		<property name="position">
-			<value>4.7661904761904763</value>
+			<value>3.9000000000000004</value>
 		</property>
 		<property name="value">
 			<value>0</value>

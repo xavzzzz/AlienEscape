@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{82238369-0d35-4b89-a2cf-127442624589}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>Artefact_Opening_StoneMove</value>
 		</property>

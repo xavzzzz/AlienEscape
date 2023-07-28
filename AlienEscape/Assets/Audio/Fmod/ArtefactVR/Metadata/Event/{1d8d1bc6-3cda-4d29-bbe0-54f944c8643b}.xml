@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{1d8d1bc6-3cda-4d29-bbe0-54f944c8643b}">
 		<property name="color">
-			<value>Red Light 1</value>
+			<value>Green</value>
 		</property>
 		<property name="name">
 			<value>ArtefactCORE_BackgroundNoise</value>
