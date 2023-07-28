@@ -21,18 +21,28 @@ public class RuneManager : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Rune" && Unlocked)
+        if (Unlocked)
         {
-            Glow.start();
-            other.GetComponent<Renderer>().material = RuneLook;
-            Glow.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(other.gameObject.transform.position));
+            if (other.tag == "Rune")
+            {
+                Glow.start();
+                other.GetComponent<Renderer>().material = RuneLook;
+                Glow.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(other.gameObject.transform.position));
+            }
         }
     }
 
     void OnTriggerExit(Collider other)
-        {
-        Glow.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-        if (other.tag == "Rune" && Unlocked) other.GetComponent<Renderer>().material = DefaultLook;
+    {
+    
+        if (Unlocked) {
+            if (other.tag == "Rune")
+            {
+                Glow.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+                other.GetComponent<Renderer>().material = DefaultLook;
+            }
+
         }
+    }
     
 }
