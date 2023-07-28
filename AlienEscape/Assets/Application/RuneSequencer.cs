@@ -49,6 +49,7 @@ public class RuneSequencer : MonoBehaviour
             //RuneRight.start();
             FMODUnity.RuntimeManager.PlayOneShot("event:/Artefact/Artefact_RuneWin", GetComponent<Transform>().position);
             if (counter == MaxSequence) {
+                FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Operture", +1);
                 FMODUnity.RuntimeManager.PlayOneShot("event:/Artefact/Artefact_FirstOpen", GetComponent<Transform>().position);
                 MANAGER.GetComponent<PUZZLEMANAGER>().LightRunePuzzleCheck = true;
                 MANAGER.GetComponent<PUZZLEMANAGER>().CheckIfAdvanceToSecondScene();
