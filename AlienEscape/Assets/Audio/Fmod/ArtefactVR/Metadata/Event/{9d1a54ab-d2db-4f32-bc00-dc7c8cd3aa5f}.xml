@@ -239,6 +239,9 @@ De 2 min30 a 5 min</value>
 		<property name="volume">
 			<value>-10</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{94b4a3ce-4e43-4e2f-8b89-7e0bb5c963bc}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{ba261353-466d-4f7b-9965-dd0434f106b1}</destination>
 		</relationship>
@@ -770,6 +773,20 @@ De 2 min30 a 5 min</value>
 			<destination>{315a02e2-65d3-4110-873f-7247ba6af13e}</destination>
 		</relationship>
 	</object>
+	<object class="ADSRModulator" id="{94b4a3ce-4e43-4e2f-8b89-7e0bb5c963bc}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="releaseTime">
+			<value>6000</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{ba261353-466d-4f7b-9965-dd0434f106b1}">
 		<relationship name="effects">
 			<destination>{a0cbc6c8-dc8f-4071-8d69-64eced83b7c7}</destination>
@@ -1154,6 +1171,9 @@ De 2 min30 a 5 min</value>
 		</property>
 	</object>
 	<object class="ChannelMixEffect" id="{7e2f73e9-9b00-42dd-b008-492cf9df1388}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="gain00">
 			<value>-80</value>
 		</property>
@@ -1288,6 +1308,9 @@ De 2 min30 a 5 min</value>
 		</property>
 	</object>
 	<object class="ChannelMixEffect" id="{b64fc1f1-745e-4382-a207-ff28ac752c14}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="gain00">
 			<value>-80</value>
 		</property>
@@ -1408,6 +1431,9 @@ De 2 min30 a 5 min</value>
 		</property>
 	</object>
 	<object class="ChannelMixEffect" id="{a4409a11-3088-4de9-b4ae-d428a7c1ec51}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="gain00">
 			<value>-80</value>
 		</property>
@@ -1489,6 +1515,9 @@ De 2 min30 a 5 min</value>
 		</property>
 	</object>
 	<object class="ChannelMixEffect" id="{df13ead9-24fc-44ed-b786-fa233a2f85cd}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="gain00">
 			<value>-80</value>
 		</property>
