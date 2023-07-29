@@ -23,8 +23,6 @@ public class NoPeekScipt : MonoBehaviour
         }
         else 
         {
-            if(Flashing) FlashFade(1f);
-            Debug.Log("log");
             CameraFade(0f);
         }
     }
@@ -47,9 +45,5 @@ public class NoPeekScipt : MonoBehaviour
 
 
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.green;
-        Gizmos.DrawSphere(transform.position, sphereCheckSize);
-    }
+
 }

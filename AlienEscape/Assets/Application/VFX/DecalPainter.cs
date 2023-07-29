@@ -43,7 +43,7 @@ public class DecalPainter : MonoBehaviour
     //Setting up UI image to selected decal image
     private void Start()
     {
-        decalImage.sprite = decalData[selectedDecalIndex].sprite;
+        //decalImage.sprite = decalData[selectedDecalIndex].sprite;
     }
 
     private void SwitchDecal(InputAction.CallbackContext obj)
