@@ -20,6 +20,11 @@ public class PUZZLEMANAGER : MonoBehaviour
         
     }
 
+    public void Awake()
+    {
+        Teleport();
+    }
+
     public void Teleport()
     {
         XrRef.transform.position = new Vector3(0,0,20);

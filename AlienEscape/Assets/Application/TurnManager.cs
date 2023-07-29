@@ -8,21 +8,23 @@ public class TurnManager : MonoBehaviour
     public List<GameObject> Blues;
     public List<GameObject> Yellows;
 
+    public Collider BatteryRef;
+
 
     public void CheckValidRotations()
     {
 
 
 
-        if ((Blues[0].transform.rotation.y == -180) && Blues[1].transform.rotation.y == 90.038 && Blues[2].transform.rotation.y == -90.038)
+        if (Blues[0].GetComponent<TubeRotator>().rotationPos == 1 && Blues[1].GetComponent<TubeRotator>().rotationPos == 2 && Blues[2].GetComponent<TubeRotator>().rotationPos == 0)
         {
-            Debug.Log("winnnnner");
-            if (Reds[0].transform.rotation.y == -180 && Reds[1].transform.rotation.y == 0 && Reds[2].transform.rotation.y == 90.038)
+            
+            if (Reds[0].GetComponent<TubeRotator>().rotationPos == 1 && Reds[1].GetComponent<TubeRotator>().rotationPos == 3 && Reds[2].GetComponent<TubeRotator>().rotationPos == 2)
             {
 
-                if (Yellows[0].transform.rotation.y == 0 && Yellows[1].transform.rotation.y == -180 && Yellows[2].transform.rotation.y == 0)
+                if (Yellows[0].GetComponent<TubeRotator>().rotationPos == 3 && Yellows[1].GetComponent<TubeRotator>().rotationPos == 1 && Yellows[2].GetComponent<TubeRotator>().rotationPos == 3)
                 {
-                    Debug.Log("winnnnner");
+                    BatteryRef.enabled = true;
                 }
             }
         }
