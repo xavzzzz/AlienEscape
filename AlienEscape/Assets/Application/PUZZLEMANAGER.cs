@@ -7,6 +7,9 @@ public class PUZZLEMANAGER : MonoBehaviour
     public bool AudioPuzzleCheck, LightRunePuzzleCheck;
 
     public GameObject XrRef;
+    public Animator OverlayRef;
+
+    public Animator NoyauRef;
     private FMOD.Studio.EventInstance SceneFinalAmbiant;
 
     void Start()
@@ -22,21 +25,19 @@ public class PUZZLEMANAGER : MonoBehaviour
 
         if (LightRunePuzzleCheck && LightRunePuzzleCheck)
         {
-            SceneFinalAmbiant.start();
-            Teleport();
+            NoyauRef.SetBool("Flash", true);
+            OverlayRef.SetBool("Unlock", true);
+            StartCoroutine(Teleport());
         }
 
         
     }
 
-    public void Awake()
+    IEnumerator Teleport()
     {
-        Teleport();
-    }
-
-    public void Teleport()
-    {
+        yield return new WaitForSeconds(6f);
         XrRef.transform.position = new Vector3(0,0,20);
+        SceneFinalAmbiant.start();
     }
 
 }

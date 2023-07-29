@@ -10,6 +10,7 @@ public class NoPeekScipt : MonoBehaviour
 
     private Material cameraFadeMat;
     private bool isCameraFadeOut = false;
+    public bool Flashing;
 
     private void Awake() => cameraFadeMat = GetComponent<Renderer>().material;
 
@@ -22,8 +23,8 @@ public class NoPeekScipt : MonoBehaviour
         }
         else 
         {
-            
-            
+            if(Flashing) FlashFade(1f);
+            Debug.Log("log");
             CameraFade(0f);
         }
     }
@@ -35,6 +36,16 @@ public class NoPeekScipt : MonoBehaviour
         //cameraFadeMat.SetColor("_OverlayColor", Color.white);
         if (fadeValue <= 0.01f) isCameraFadeOut = false;
     }
+
+    public void FlashFade(float targetAlpha)
+    {
+        Debug.Log("flash");
+        var fadeValue = Mathf.MoveTowards(cameraFadeMat.GetFloat("_AlphaValue"), targetAlpha, Time.deltaTime * fadeSpeed);
+        cameraFadeMat.SetFloat("_AlphaValue", fadeValue);
+        
+    }
+
+
 
     private void OnDrawGizmos()
     {

@@ -46,3 +46,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AudioPuzzleCheck: 0
   LightRunePuzzleCheck: 0
+  XrRef: {fileID: 0}
+  OverlayRef: {fileID: 0}
+  NoyauRef: {fileID: 0}
