@@ -7,6 +7,14 @@ public class PUZZLEMANAGER : MonoBehaviour
     public bool AudioPuzzleCheck, LightRunePuzzleCheck;
 
     public GameObject XrRef;
+    private FMOD.Studio.EventInstance SceneFinalAmbiant;
+
+    void Start()
+    {
+        SceneFinalAmbiant = FMODUnity.RuntimeManager.CreateInstance("event:/Ambiance/Final_Ambiance");
+        
+    }
+
 
     public void CheckIfAdvanceToSecondScene()
     {
@@ -14,6 +22,7 @@ public class PUZZLEMANAGER : MonoBehaviour
 
         if (LightRunePuzzleCheck && LightRunePuzzleCheck)
         {
+            SceneFinalAmbiant.start();
             Teleport();
         }
 
