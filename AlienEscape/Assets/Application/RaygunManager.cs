@@ -13,6 +13,7 @@ public class RaygunManager : MonoBehaviour
     public float gunRange;
     public float fireRate;
     public float laserDuration;
+    public Animator FinalBlowAnim;
 
     private FMOD.Studio.EventInstance Burn;
     private bool flag; 
@@ -103,6 +104,7 @@ public class RaygunManager : MonoBehaviour
                 laserLine.SetPosition(1, hit.point);
                 if (hitObj.CompareTag("LightLink"))
                 {
+                    FinalBlowAnim.SetBool("Explode", true);
                     var lightRune = hitObj.GetComponent<Rune>();
 
                     if (!lightRune.locked) hitObj.GetComponentInParent<RuneSequencer>().TrySequence(lightRune);

@@ -23,10 +23,9 @@ public class PUZZLEMANAGER : MonoBehaviour
     {
         //TP TO SECOND LOCATION
 
-        if (LightRunePuzzleCheck && LightRunePuzzleCheck)
+        if (LightRunePuzzleCheck && AudioPuzzleCheck)
         {
-            NoyauRef.SetBool("Flash", true);
-            OverlayRef.SetBool("Unlock", true);
+            
             StartCoroutine(Teleport());
         }
 
@@ -35,6 +34,9 @@ public class PUZZLEMANAGER : MonoBehaviour
 
     IEnumerator Teleport()
     {
+        yield return new WaitForSeconds(6f);
+        NoyauRef.SetBool("Flash", true);
+        OverlayRef.SetBool("Unlock", true);
         yield return new WaitForSeconds(6f);
         XrRef.transform.position = new Vector3(0,0,20);
         SceneFinalAmbiant.start();
