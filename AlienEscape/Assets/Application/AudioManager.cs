@@ -45,7 +45,7 @@ public class AudioManager : MonoBehaviour
     {
         Ref.GetComponent<Collider>().enabled = true;
         Ref = null;
-        CurrentCassetteID = 0;
+       
 
         if (CurrentCassetteID != 0)
         {
@@ -66,7 +66,12 @@ public class AudioManager : MonoBehaviour
             {
                 Cassette_3.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
                 CurrentCassetteID = 0;
+                FMODUnity.RuntimeManager.StudioSystem.setParameterByName("CassetteReading", 0);
             }
+        }
+        else
+        {
+            CurrentCassetteID = 0;
         }
         
     }

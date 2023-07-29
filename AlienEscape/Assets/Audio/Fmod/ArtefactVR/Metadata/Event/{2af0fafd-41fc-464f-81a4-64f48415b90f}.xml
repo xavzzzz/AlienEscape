@@ -86,7 +86,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{48aff6b9-d097-4ad0-8ad0-8f6bc1dbdda3}">
 		<property name="volume">
-			<value>-10</value>
+			<value>-20</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{4b1daf5e-8c4f-4f56-9c8c-d4d0cfee7ba6}</destination>
@@ -271,7 +271,6 @@
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -280,7 +279,6 @@
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -316,7 +314,6 @@
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
