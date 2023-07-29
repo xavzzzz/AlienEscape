@@ -23,7 +23,7 @@ public class PUZZLEMANAGER : MonoBehaviour
     {
         //TP TO SECOND LOCATION
 
-        if (LightRunePuzzleCheck && LightRunePuzzleCheck)
+        if (LightRunePuzzleCheck && AudioPuzzleCheck)
         {
             NoyauRef.SetBool("Flash", true);
             OverlayRef.SetBool("Unlock", true);
