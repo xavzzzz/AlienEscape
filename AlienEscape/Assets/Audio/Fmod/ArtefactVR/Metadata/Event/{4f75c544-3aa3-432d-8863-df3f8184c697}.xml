@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{4f75c544-3aa3-432d-8863-df3f8184c697}">
 		<property name="color">
-			<value>Red Light 1</value>
+			<value>Green</value>
 		</property>
 		<property name="name">
 			<value>ArtefactCORE_Explosion</value>
@@ -122,6 +122,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{3ce67686-45a0-4e81-bffd-806fe4681b46}">
+		<property name="volume">
+			<value>-9</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{1f99ddec-32b1-4c13-ba6e-af04c8dc2088}</destination>
 		</relationship>
@@ -291,8 +294,8 @@
 		<relationship name="effects">
 			<destination>{d3b65654-d8b3-4958-8900-261b45af65e7}</destination>
 			<destination>{1da633b7-7817-4514-8eba-1d6a7d3f84d3}</destination>
-			<destination>{92587255-d6de-4415-8086-0da1dd9eb6fd}</destination>
 			<destination>{c7461926-52c1-4007-a772-64e84206116b}</destination>
+			<destination>{92587255-d6de-4415-8086-0da1dd9eb6fd}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8a641349-a90e-43bc-898a-84af0ba03d37}" />
@@ -385,7 +388,7 @@
 			<value>-24</value>
 		</property>
 		<property name="ratio">
-			<value>4</value>
+			<value>5</value>
 		</property>
 	</object>
 	<object class="SFXReverbEffect" id="{1da633b7-7817-4514-8eba-1d6a7d3f84d3}">
@@ -405,8 +408,8 @@
 			<value>10</value>
 		</property>
 	</object>
-	<object class="LoudnessMeter" id="{92587255-d6de-4415-8086-0da1dd9eb6fd}" />
 	<object class="MixerBusFader" id="{c7461926-52c1-4007-a772-64e84206116b}" />
+	<object class="LoudnessMeter" id="{92587255-d6de-4415-8086-0da1dd9eb6fd}" />
 	<object class="AutomationPoint" id="{7a6f3b31-ae5f-4be8-80ba-318fe31a0162}">
 		<property name="position">
 			<value>0</value>

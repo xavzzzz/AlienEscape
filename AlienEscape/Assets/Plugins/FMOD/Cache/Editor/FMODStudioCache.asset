@@ -506,6 +506,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 3.4
   Length: 235
+--- !u!114 &-6050856598118707962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Artefact/ArtefactCORE_Flash Explosion
+  m_EditorClassIdentifier: 
+  Path: event:/Artefact/ArtefactCORE_Flash Explosion
+  Guid:
+    Data1: 1195262142
+    Data2: 1160544594
+    Data3: -740508512
+    Data4: -1076049715
+  Banks:
+  - {fileID: 7212438779820523129}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 3
+  Length: 7286
 --- !u!114 &-5935499448754232502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -569,10 +596,10 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638261906381697376
+  lastModified: 638261976513026593
   FileSizes:
   - Name: Desktop
-    Value: 4770
+    Value: 4858
   Exists: 1
 --- !u!114 &-5710655391808532762
 MonoBehaviour:
@@ -1841,6 +1868,8 @@ MonoBehaviour:
   - {fileID: 492024398669054372}
   - {fileID: -1652050431225312409}
   - {fileID: -4846413372767046189}
+  - {fileID: 4814677517758039745}
+  - {fileID: -6050856598118707962}
   EditorParameters:
   - {fileID: 25129070219758688}
   - {fileID: 8919282874739550185}
@@ -1853,7 +1882,7 @@ MonoBehaviour:
   - {fileID: 7212438779820523129}
   StringsBanks:
   - {fileID: -5925986163448373950}
-  cacheTime: 638261906381697376
+  cacheTime: 638261976513026593
   cacheVersion: 131603
 --- !u!114 &25129070219758688
 MonoBehaviour:
@@ -2676,6 +2705,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 3
   Length: 64000
+--- !u!114 &4814677517758039745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Artefact/ArtefactCORE_Flash
+  m_EditorClassIdentifier: 
+  Path: event:/Artefact/ArtefactCORE_Flash
+  Guid:
+    Data1: 1271768083
+    Data2: 1232830384
+    Data3: 2103637162
+    Data4: 1645196434
+  Banks:
+  - {fileID: 7212438779820523129}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 3
+  Length: 5000
 --- !u!114 &4904630622150943183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3009,10 +3065,10 @@ MonoBehaviour:
   Path: Assets/Audio/Fmod/ArtefactVR/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638261906381591277
+  lastModified: 638261976512930689
   FileSizes:
   - Name: Desktop
-    Value: 22148032
+    Value: 22245664
   Exists: 1
 --- !u!114 &7246188565998164943
 MonoBehaviour:
