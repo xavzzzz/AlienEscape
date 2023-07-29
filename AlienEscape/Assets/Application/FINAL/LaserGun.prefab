@@ -316,7 +316,7 @@ Transform:
   m_GameObject: {fileID: 2062626038539218312}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalScale: {x: 65, y: 65, z: 65}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7270158730966990552}
@@ -940,7 +940,7 @@ MonoBehaviour:
   Constructed: 0
   BatteryOn: 0
   EndOn: 0
-  BatteryConstruct: 0
+  BatteryConstruct: 1
   Laser: {fileID: 0}
   laserOrigin: {fileID: 0}
   gunRange: 50
