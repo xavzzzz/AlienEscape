@@ -288,7 +288,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7416c7d2926dc404f8aea5555e4e867a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Runes: []
   MaxSequence: 0
 --- !u!114 &9216890082136746511
 MonoBehaviour:
@@ -529,6 +528,7 @@ GameObject:
   - component: {fileID: 671758083292192257}
   - component: {fileID: 6790772837708401544}
   - component: {fileID: 5141894596983154117}
+  - component: {fileID: 6376674569819727795}
   m_Layer: 0
   m_Name: Back Button
   m_TagString: Untagged
@@ -605,6 +605,18 @@ MonoBehaviour:
       - m_Target: {fileID: 7449548204615928807}
         m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
         m_MethodName: RewindCasette
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6376674569819727795}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -693,6 +705,37 @@ MonoBehaviour:
   m_ApplyIfChildIsTarget: 1
   m_ClampToMaxDistance: 1
   m_MaxDistance: 0.045
+--- !u!114 &6376674569819727795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447900395098870289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1556592709
+      Data2: 1147432734
+      Data3: -1483148884
+      Data4: -1823691777
+    Path: event:/LecteurCassettes/Lecteur_Replay
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 3.4
 --- !u!1 &680225884805990762
 GameObject:
   m_ObjectHideFlags: 0
@@ -1628,6 +1671,7 @@ GameObject:
   - component: {fileID: 7053987604941024271}
   - component: {fileID: 6211420979747924346}
   - component: {fileID: 9153887528609782543}
+  - component: {fileID: 5848780783160604481}
   m_Layer: 0
   m_Name: 'ForwardButton '
   m_TagString: Untagged
@@ -1704,6 +1748,18 @@ MonoBehaviour:
       - m_Target: {fileID: 7449548204615928807}
         m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
         m_MethodName: ForwardCasette
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5848780783160604481}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1792,6 +1848,37 @@ MonoBehaviour:
   m_ApplyIfChildIsTarget: 1
   m_ClampToMaxDistance: 1
   m_MaxDistance: 0.045
+--- !u!114 &5848780783160604481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4618456439023480822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1556592709
+      Data2: 1147432734
+      Data3: -1483148884
+      Data4: -1823691777
+    Path: event:/LecteurCassettes/Lecteur_Replay
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 3.4
 --- !u!1 &4713691450551435998
 GameObject:
   m_ObjectHideFlags: 0
