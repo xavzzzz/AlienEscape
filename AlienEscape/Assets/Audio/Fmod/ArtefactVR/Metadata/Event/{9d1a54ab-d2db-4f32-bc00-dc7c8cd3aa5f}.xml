@@ -1171,9 +1171,6 @@ De 2 min30 a 5 min</value>
 		</property>
 	</object>
 	<object class="ChannelMixEffect" id="{7e2f73e9-9b00-42dd-b008-492cf9df1388}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
 		<property name="gain00">
 			<value>-80</value>
 		</property>
@@ -1308,9 +1305,6 @@ De 2 min30 a 5 min</value>
 		</property>
 	</object>
 	<object class="ChannelMixEffect" id="{b64fc1f1-745e-4382-a207-ff28ac752c14}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
 		<property name="gain00">
 			<value>-80</value>
 		</property>
@@ -1431,9 +1425,6 @@ De 2 min30 a 5 min</value>
 		</property>
 	</object>
 	<object class="ChannelMixEffect" id="{a4409a11-3088-4de9-b4ae-d428a7c1ec51}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
 		<property name="gain00">
 			<value>-80</value>
 		</property>
@@ -1515,9 +1506,6 @@ De 2 min30 a 5 min</value>
 		</property>
 	</object>
 	<object class="ChannelMixEffect" id="{df13ead9-24fc-44ed-b786-fa233a2f85cd}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
 		<property name="gain00">
 			<value>-80</value>
 		</property>
